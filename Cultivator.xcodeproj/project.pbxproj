@@ -15,6 +15,7 @@
 		804D6B711A70496700A0689F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804D6B701A70496700A0689F /* Images.xcassets */; };
 		804D6B741A70496700A0689F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804D6B721A70496700A0689F /* LaunchScreen.xib */; };
 		804D6B801A70496700A0689F /* CultivatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804D6B7F1A70496700A0689F /* CultivatorTests.swift */; };
+		8088F7591A7523CE00229F72 /* Rezepturen.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8088F7581A7523CE00229F72 /* Rezepturen.plist */; };
 		80ADE1411A73CF7E00987E9B /* Colfax-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE1341A73CF0C00987E9B /* Colfax-Black.otf */; };
 		80ADE1421A73CF7E00987E9B /* Colfax-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE1351A73CF0C00987E9B /* Colfax-BlackItalic.otf */; };
 		80ADE1431A73CF7E00987E9B /* Colfax-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE1361A73CF0C00987E9B /* Colfax-Bold.otf */; };
@@ -53,6 +54,7 @@
 		804D6B791A70496700A0689F /* CultivatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CultivatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		804D6B7E1A70496700A0689F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		804D6B7F1A70496700A0689F /* CultivatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CultivatorTests.swift; sourceTree = "<group>"; };
+		8088F7581A7523CE00229F72 /* Rezepturen.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Rezepturen.plist; sourceTree = "<group>"; };
 		80ADE1341A73CF0C00987E9B /* Colfax-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Black.otf"; sourceTree = "<group>"; };
 		80ADE1351A73CF0C00987E9B /* Colfax-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-BlackItalic.otf"; sourceTree = "<group>"; };
 		80ADE1361A73CF0C00987E9B /* Colfax-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Bold.otf"; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 		80ADE1401A73CF1400987E9B /* Colfax */ = {
 			isa = PBXGroup;
 			children = (
+				8088F7581A7523CE00229F72 /* Rezepturen.plist */,
 				80ADE1341A73CF0C00987E9B /* Colfax-Black.otf */,
 				80ADE1351A73CF0C00987E9B /* Colfax-BlackItalic.otf */,
 				80ADE1361A73CF0C00987E9B /* Colfax-Bold.otf */,
@@ -259,6 +262,7 @@
 				80ADE14C1A73CF7E00987E9B /* Colfax-ThinItalic.otf in Resources */,
 				804D6B6F1A70496700A0689F /* Main.storyboard in Resources */,
 				804D6B741A70496700A0689F /* LaunchScreen.xib in Resources */,
+				8088F7591A7523CE00229F72 /* Rezepturen.plist in Resources */,
 				804D6B711A70496700A0689F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

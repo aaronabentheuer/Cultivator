@@ -17,7 +17,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     var addRecipeCollectionViewCell : AddCell?
 
     
-    var testArray = ["Koch1", "Koch2", "Koch3", "Koch4", "Koch5", "KochiKoch"]
+    
+    var recepies : NSArray = NSArray()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,9 +37,11 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         recipeCollectionView!.registerClass(Recipe.self, forCellWithReuseIdentifier: "cell")
         recipeCollectionView!.registerClass(AddCell.self, forCellWithReuseIdentifier: "addCell")
-
         
         self.view.addSubview(recipeCollectionView!)
+        
+        var path = NSBundle.mainBundle().pathForResource("Rezepturen", ofType: "plist")
+        recepies = NSArray(contentsOfFile: path!)!
     }
 
     override func didReceiveMemoryWarning() {
@@ -55,19 +58,19 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return testArray.count + 1
+        return recepies.count
     }
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         
-        if (indexPath == NSIndexPath(forItem: 0, inSection: 0)) {
-            var newString = "KochInfinity"
-            self.testArray.insert(newString, atIndex: 0)
-            
-            UIView.animateWithDuration(0.5, animations: {
-                self.recipeCollectionView!.reloadData()
-            })
-        }
+//        if (indexPath == NSIndexPath(forItem: 0, inSection: 0)) {
+//            var newString = "KochInfinity"
+//            self.testArray.insert(newString, atIndex: 0)
+//            
+//            UIView.animateWithDuration(0.5, animations: {
+//                self.recipeCollectionView!.reloadData()
+//            })
+//        }
     }
     
     var scrollViewDidScrollNotification = NSNotification(name: "scrollViewDidScrollNotification", object: nil)
@@ -84,11 +87,16 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         
+        var dictionary : NSDictionary = recepies[indexPath.row] as NSDictionary
+        
         if (indexPath == NSIndexPath(forItem: 0, inSection: 0)) {
             let cell = collectionView.dequeueReusableCellWithReuseIdentifier("addCell", forIndexPath: indexPath) as AddCell
             return cell
         } else {
             let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as Recipe
+            
+            cell.title.text = dictionary["Title"]! as? String
+            
             return cell
         }
     }
