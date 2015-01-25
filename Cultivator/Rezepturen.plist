@@ -38,7 +38,7 @@
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>Dodo aus der Steinzeit</string>
+		<string>Dodo</string>
 		<key>Creator</key>
 		<string>Cultivator</string>
 		<key>Location</key>
@@ -106,7 +106,7 @@
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>Tyrannosaurus aus der Steinzeit</string>
+		<string>Tyrannosaurus</string>
 		<key>Creator</key>
 		<string>Cultivator</string>
 		<key>Location</key>
@@ -208,13 +208,13 @@
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>roter Kaviar elBulli</string>
+		<string>Roter Kaviar</string>
 		<key>Creator</key>
-		<string>Ferran Adrià i Acosta</string>
+		<string>Ferran Adrià</string>
 		<key>Location</key>
 		<string>Cala Montjoi, Spain</string>
 		<key>Description</key>
-		<string>Kleine Fleischkügelchen, roh zu genießen zu Brot und weißem Wein. </string>
+		<string>Kleine Fleischkügelchen, roh zu genießen zu Brot und weißem Wein. Aus dem Hause elBulli. </string>
 		<key>structure</key>
 		<integer>5</integer>
 		<key>color</key>
@@ -242,13 +242,13 @@
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>weißer Kaviar elBulli</string>
+		<string>Weißer Kaviar</string>
 		<key>Creator</key>
-		<string>Ferran Adrià i Acosta</string>
+		<string>Ferran Adrià</string>
 		<key>Location</key>
 		<string>Cala Montjoi, Spain</string>
 		<key>Description</key>
-		<string>Kleine zarte Fleischkügelchen, roh zu genießen zu Brot. </string>
+		<string>Kleine zarte Fleischkügelchen, roh zu genießen zu Brot. Aus dem Hause elBulli. </string>
 		<key>structure</key>
 		<integer>9</integer>
 		<key>color</key>
@@ -278,7 +278,7 @@
 		<key>Title</key>
 		<string>Haifischhappen</string>
 		<key>Creator</key>
-		<string>Ferran Adrià i Acosta</string>
+		<string>Ferran Adrià</string>
 		<key>Location</key>
 		<string>Cala Montjoi, Spain</string>
 		<key>Description</key>
@@ -412,7 +412,7 @@
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>Truthahn für Tierfreunde und Feinschmecker</string>
+		<string>Truthahn für Tierfreunde</string>
 		<key>Creator</key>
 		<string>Peta</string>
 		<key>Location</key>
@@ -854,7 +854,7 @@
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>Hackfleischvariante. </string>
+		<string>Hackfleischvariante</string>
 		<key>Creator</key>
 		<string>Julia Hoffmann</string>
 		<key>Location</key>
