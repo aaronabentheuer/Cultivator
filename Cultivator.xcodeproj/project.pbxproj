@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8049341A1A73F7BD00DE1AA8 /* AddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804934191A73F7BD00DE1AA8 /* AddCell.swift */; };
+		8049341C1A73FB4800DE1AA8 /* RecipeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8049341B1A73FB4800DE1AA8 /* RecipeLayout.swift */; };
 		804D6B6A1A70496700A0689F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804D6B691A70496700A0689F /* AppDelegate.swift */; };
 		804D6B6C1A70496700A0689F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804D6B6B1A70496700A0689F /* ViewController.swift */; };
 		804D6B6F1A70496700A0689F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804D6B6D1A70496700A0689F /* Main.storyboard */; };
 		804D6B711A70496700A0689F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804D6B701A70496700A0689F /* Images.xcassets */; };
 		804D6B741A70496700A0689F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804D6B721A70496700A0689F /* LaunchScreen.xib */; };
 		804D6B801A70496700A0689F /* CultivatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804D6B7F1A70496700A0689F /* CultivatorTests.swift */; };
+		80ADE1411A73CF7E00987E9B /* Colfax-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE1341A73CF0C00987E9B /* Colfax-Black.otf */; };
+		80ADE1421A73CF7E00987E9B /* Colfax-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE1351A73CF0C00987E9B /* Colfax-BlackItalic.otf */; };
+		80ADE1431A73CF7E00987E9B /* Colfax-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE1361A73CF0C00987E9B /* Colfax-Bold.otf */; };
+		80ADE1441A73CF7E00987E9B /* Colfax-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE1371A73CF0C00987E9B /* Colfax-BoldItalic.otf */; };
+		80ADE1451A73CF7E00987E9B /* Colfax-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE1381A73CF0C00987E9B /* Colfax-Light.otf */; };
+		80ADE1461A73CF7E00987E9B /* Colfax-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE1391A73CF0C00987E9B /* Colfax-LightItalic.otf */; };
+		80ADE1471A73CF7E00987E9B /* Colfax-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE13A1A73CF0C00987E9B /* Colfax-Medium.otf */; };
+		80ADE1481A73CF7E00987E9B /* Colfax-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE13B1A73CF0C00987E9B /* Colfax-MediumItalic.otf */; };
+		80ADE1491A73CF7E00987E9B /* Colfax-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE13C1A73CF0C00987E9B /* Colfax-Regular.otf */; };
+		80ADE14A1A73CF7E00987E9B /* Colfax-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE13D1A73CF0C00987E9B /* Colfax-RegularItalic.otf */; };
+		80ADE14B1A73CF7E00987E9B /* Colfax-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE13E1A73CF0C00987E9B /* Colfax-Thin.otf */; };
+		80ADE14C1A73CF7E00987E9B /* Colfax-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE13F1A73CF0C00987E9B /* Colfax-ThinItalic.otf */; };
+		80ADE1501A73E62000987E9B /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ADE14F1A73E62000987E9B /* Recipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		804934191A73F7BD00DE1AA8 /* AddCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCell.swift; sourceTree = "<group>"; };
+		8049341B1A73FB4800DE1AA8 /* RecipeLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeLayout.swift; sourceTree = "<group>"; };
 		804D6B641A70496700A0689F /* Cultivator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cultivator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		804D6B681A70496700A0689F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		804D6B691A70496700A0689F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +53,19 @@
 		804D6B791A70496700A0689F /* CultivatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CultivatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		804D6B7E1A70496700A0689F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		804D6B7F1A70496700A0689F /* CultivatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CultivatorTests.swift; sourceTree = "<group>"; };
+		80ADE1341A73CF0C00987E9B /* Colfax-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Black.otf"; sourceTree = "<group>"; };
+		80ADE1351A73CF0C00987E9B /* Colfax-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-BlackItalic.otf"; sourceTree = "<group>"; };
+		80ADE1361A73CF0C00987E9B /* Colfax-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Bold.otf"; sourceTree = "<group>"; };
+		80ADE1371A73CF0C00987E9B /* Colfax-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-BoldItalic.otf"; sourceTree = "<group>"; };
+		80ADE1381A73CF0C00987E9B /* Colfax-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Light.otf"; sourceTree = "<group>"; };
+		80ADE1391A73CF0C00987E9B /* Colfax-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-LightItalic.otf"; sourceTree = "<group>"; };
+		80ADE13A1A73CF0C00987E9B /* Colfax-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Medium.otf"; sourceTree = "<group>"; };
+		80ADE13B1A73CF0C00987E9B /* Colfax-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-MediumItalic.otf"; sourceTree = "<group>"; };
+		80ADE13C1A73CF0C00987E9B /* Colfax-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Regular.otf"; sourceTree = "<group>"; };
+		80ADE13D1A73CF0C00987E9B /* Colfax-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-RegularItalic.otf"; sourceTree = "<group>"; };
+		80ADE13E1A73CF0C00987E9B /* Colfax-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Thin.otf"; sourceTree = "<group>"; };
+		80ADE13F1A73CF0C00987E9B /* Colfax-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-ThinItalic.otf"; sourceTree = "<group>"; };
+		80ADE14F1A73E62000987E9B /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +109,9 @@
 			children = (
 				804D6B691A70496700A0689F /* AppDelegate.swift */,
 				804D6B6B1A70496700A0689F /* ViewController.swift */,
+				8049341B1A73FB4800DE1AA8 /* RecipeLayout.swift */,
+				804934191A73F7BD00DE1AA8 /* AddCell.swift */,
+				80ADE14F1A73E62000987E9B /* Recipe.swift */,
 				804D6B6D1A70496700A0689F /* Main.storyboard */,
 				804D6B701A70496700A0689F /* Images.xcassets */,
 				804D6B721A70496700A0689F /* LaunchScreen.xib */,
@@ -90,6 +123,7 @@
 		804D6B671A70496700A0689F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				80ADE1401A73CF1400987E9B /* Colfax */,
 				804D6B681A70496700A0689F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +144,25 @@
 				804D6B7E1A70496700A0689F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80ADE1401A73CF1400987E9B /* Colfax */ = {
+			isa = PBXGroup;
+			children = (
+				80ADE1341A73CF0C00987E9B /* Colfax-Black.otf */,
+				80ADE1351A73CF0C00987E9B /* Colfax-BlackItalic.otf */,
+				80ADE1361A73CF0C00987E9B /* Colfax-Bold.otf */,
+				80ADE1371A73CF0C00987E9B /* Colfax-BoldItalic.otf */,
+				80ADE1381A73CF0C00987E9B /* Colfax-Light.otf */,
+				80ADE1391A73CF0C00987E9B /* Colfax-LightItalic.otf */,
+				80ADE13A1A73CF0C00987E9B /* Colfax-Medium.otf */,
+				80ADE13B1A73CF0C00987E9B /* Colfax-MediumItalic.otf */,
+				80ADE13C1A73CF0C00987E9B /* Colfax-Regular.otf */,
+				80ADE13D1A73CF0C00987E9B /* Colfax-RegularItalic.otf */,
+				80ADE13E1A73CF0C00987E9B /* Colfax-Thin.otf */,
+				80ADE13F1A73CF0C00987E9B /* Colfax-ThinItalic.otf */,
+			);
+			name = Colfax;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +245,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80ADE1411A73CF7E00987E9B /* Colfax-Black.otf in Resources */,
+				80ADE1421A73CF7E00987E9B /* Colfax-BlackItalic.otf in Resources */,
+				80ADE1431A73CF7E00987E9B /* Colfax-Bold.otf in Resources */,
+				80ADE1441A73CF7E00987E9B /* Colfax-BoldItalic.otf in Resources */,
+				80ADE1451A73CF7E00987E9B /* Colfax-Light.otf in Resources */,
+				80ADE1461A73CF7E00987E9B /* Colfax-LightItalic.otf in Resources */,
+				80ADE1471A73CF7E00987E9B /* Colfax-Medium.otf in Resources */,
+				80ADE1481A73CF7E00987E9B /* Colfax-MediumItalic.otf in Resources */,
+				80ADE1491A73CF7E00987E9B /* Colfax-Regular.otf in Resources */,
+				80ADE14A1A73CF7E00987E9B /* Colfax-RegularItalic.otf in Resources */,
+				80ADE14B1A73CF7E00987E9B /* Colfax-Thin.otf in Resources */,
+				80ADE14C1A73CF7E00987E9B /* Colfax-ThinItalic.otf in Resources */,
 				804D6B6F1A70496700A0689F /* Main.storyboard in Resources */,
 				804D6B741A70496700A0689F /* LaunchScreen.xib in Resources */,
 				804D6B711A70496700A0689F /* Images.xcassets in Resources */,
@@ -212,6 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8049341C1A73FB4800DE1AA8 /* RecipeLayout.swift in Sources */,
+				80ADE1501A73E62000987E9B /* Recipe.swift in Sources */,
+				8049341A1A73F7BD00DE1AA8 /* AddCell.swift in Sources */,
 				804D6B6C1A70496700A0689F /* ViewController.swift in Sources */,
 				804D6B6A1A70496700A0689F /* AppDelegate.swift in Sources */,
 			);
@@ -339,6 +407,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Cultivator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -349,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Cultivator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -407,6 +477,7 @@
 				804D6B851A70496700A0689F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		804D6B861A70496700A0689F /* Build configuration list for PBXNativeTarget "CultivatorTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +486,7 @@
 				804D6B881A70496700A0689F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
