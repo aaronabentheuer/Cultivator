@@ -13,19 +13,29 @@
 		<string>Wien, AT</string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>92</integer>
+			<key>calcium</key>
+			<integer>17</integer>
+			<key>iron</key>
+			<real>1.8999999999999999</real>
+			<key>magnesium</key>
+			<integer>23</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>310</integer>
+			<key>calories</key>
+			<integer>300</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
-			<integer>65</integer>
+			<integer>97</integer>
 			<key>fat</key>
-			<integer>127</integer>
+			<integer>210</integer>
 			<key>phosphor</key>
 			<integer>200</integer>
 			<key>protein</key>
-			<integer>92</integer>
+			<integer>250</integer>
 			<key>purin</key>
 			<integer>57</integer>
 		</dict>
@@ -36,8 +46,10 @@
 		<key>Vitamines</key>
 		<dict>
 			<key>b12</key>
-			<integer>12</integer>
+			<real>0.20000000000000001</real>
 			<key>b6</key>
+			<real>0.5</real>
+			<key>niacin</key>
 			<integer>2</integer>
 		</dict>
 		<key>color</key>
@@ -58,19 +70,29 @@
 		<string></string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>217</integer>
+			<key>calcium</key>
+			<integer>13</integer>
+			<key>iron</key>
+			<real>1.2</real>
+			<key>magnesium</key>
+			<integer>19</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>166</integer>
+			<key>calories</key>
+			<integer>330</integer>
 			<key>cholesterol</key>
-			<integer>76</integer>
+			<integer>87</integer>
 			<key>fat</key>
-			<integer>98</integer>
+			<integer>190</integer>
+			<key>natrium</key>
+			<integer>67</integer>
 			<key>phosphor</key>
-			<integer>21</integer>
+			<integer>12</integer>
 			<key>protein</key>
-			<integer>210</integer>
+			<integer>190</integer>
 			<key>purin</key>
 			<integer>23</integer>
 		</dict>
@@ -84,6 +106,8 @@
 			<integer>21</integer>
 			<key>b6</key>
 			<integer>19</integer>
+			<key>niacin</key>
+			<integer>4</integer>
 		</dict>
 		<key>color</key>
 		<real>0.34000000000000002</real>
@@ -103,21 +127,31 @@
 		<string></string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>132</integer>
+			<key>calcium</key>
+			<integer>18</integer>
+			<key>iron</key>
+			<integer>2</integer>
+			<key>magnesium</key>
+			<integer>26</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>310</integer>
+			<key>calories</key>
+			<integer>320</integer>
 			<key>cholesterol</key>
-			<integer>56</integer>
+			<integer>102</integer>
 			<key>fat</key>
-			<integer>95</integer>
-			<key>phosphor</key>
-			<integer>21</integer>
-			<key>protein</key>
-			<integer>148</integer>
-			<key>purin</key>
+			<integer>25</integer>
+			<key>natrium</key>
 			<integer>76</integer>
+			<key>phosphor</key>
+			<integer>12</integer>
+			<key>protein</key>
+			<integer>260</integer>
+			<key>purin</key>
+			<integer>32</integer>
 		</dict>
 		<key>PrintLine</key>
 		<false/>
@@ -129,6 +163,8 @@
 			<integer>34</integer>
 			<key>b6</key>
 			<integer>2</integer>
+			<key>niacin</key>
+			<integer>3</integer>
 		</dict>
 		<key>color</key>
 		<real>0.73199999999999998</real>
@@ -148,21 +184,31 @@
 		<string></string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>29</integer>
+			<key>calcium</key>
+			<integer>12</integer>
+			<key>iron</key>
+			<real>1.3999999999999999</real>
+			<key>magnesium</key>
+			<integer>19</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>166</integer>
+			<key>calories</key>
+			<integer>230</integer>
 			<key>cholesterol</key>
-			<integer>176</integer>
+			<integer>83</integer>
 			<key>fat</key>
-			<integer>128</integer>
-			<key>phosphor</key>
+			<integer>140</integer>
+			<key>natrium</key>
 			<integer>43</integer>
+			<key>phosphor</key>
+			<integer>13</integer>
 			<key>protein</key>
-			<integer>148</integer>
+			<integer>275</integer>
 			<key>purin</key>
-			<integer>32</integer>
+			<integer>12</integer>
 		</dict>
 		<key>PrintLine</key>
 		<false/>
@@ -174,6 +220,8 @@
 			<integer>23</integer>
 			<key>b6</key>
 			<integer>34</integer>
+			<key>niacin</key>
+			<integer>5</integer>
 		</dict>
 		<key>color</key>
 		<real>0.59999999999999998</real>
@@ -193,19 +241,27 @@
 		<string></string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>14</integer>
+			<key>calcium</key>
+			<integer>18</integer>
+			<key>iron</key>
+			<real>2.6000000000000001</real>
+			<key>magnesium</key>
+			<integer>21</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>318</integer>
 			<key>cholesterol</key>
-			<integer>89</integer>
+			<integer>95</integer>
 			<key>fat</key>
-			<integer>76</integer>
+			<integer>150</integer>
+			<key>natrium</key>
+			<integer>65</integer>
 			<key>phosphor</key>
 			<integer>12</integer>
 			<key>protein</key>
-			<integer>87</integer>
+			<integer>260</integer>
 			<key>purin</key>
 			<integer>22</integer>
 		</dict>
@@ -219,6 +275,8 @@
 			<integer>13</integer>
 			<key>b6</key>
 			<integer>1</integer>
+			<key>niacin</key>
+			<integer>2</integer>
 		</dict>
 		<key>color</key>
 		<real>0.66000000000000003</real>
@@ -238,19 +296,29 @@
 		<string></string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>29</integer>
+			<key>calcium</key>
+			<integer>6</integer>
+			<key>iron</key>
+			<integer>2</integer>
+			<key>magnesium</key>
+			<integer>26</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>189</integer>
+			<key>calories</key>
+			<integer>152</integer>
 			<key>cholesterol</key>
-			<integer>76</integer>
+			<integer>80</integer>
 			<key>fat</key>
-			<integer>122</integer>
+			<integer>6</integer>
+			<key>natrium</key>
+			<integer>418</integer>
 			<key>phosphor</key>
 			<integer>23</integer>
 			<key>protein</key>
-			<integer>176</integer>
+			<integer>220</integer>
 			<key>purin</key>
 			<integer>18</integer>
 		</dict>
@@ -261,9 +329,11 @@
 		<key>Vitamines</key>
 		<dict>
 			<key>b12</key>
-			<integer>23</integer>
+			<integer>20</integer>
 			<key>b6</key>
-			<integer>34</integer>
+			<integer>15</integer>
+			<key>niacin</key>
+			<real>2.3999999999999999</real>
 		</dict>
 		<key>color</key>
 		<real>0.34399999999999997</real>
@@ -283,19 +353,29 @@
 		<string>Cala Montjoi, Spain</string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>29</integer>
+			<key>calcium</key>
+			<integer>18</integer>
+			<key>iron</key>
+			<integer>2</integer>
+			<key>magnesium</key>
+			<integer>23</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>320</integer>
 			<key>cholesterol</key>
-			<integer>23</integer>
+			<integer>90</integer>
+			<key>colories</key>
+			<integer>255</integer>
 			<key>fat</key>
-			<integer>35</integer>
+			<integer>130</integer>
+			<key>natrium</key>
+			<integer>70</integer>
 			<key>phosphor</key>
 			<integer>3</integer>
 			<key>protein</key>
-			<integer>86</integer>
+			<integer>260</integer>
 			<key>purin</key>
 			<integer>9</integer>
 		</dict>
@@ -309,6 +389,8 @@
 			<integer>9</integer>
 			<key>b6</key>
 			<integer>12</integer>
+			<key>niacin</key>
+			<integer>0</integer>
 		</dict>
 		<key>color</key>
 		<integer>1</integer>
@@ -328,19 +410,27 @@
 		<string>Cala Montjoi, Spain</string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>29</integer>
+			<key>calcium</key>
+			<integer>18</integer>
+			<key>iron</key>
+			<integer>2</integer>
+			<key>magnesium</key>
+			<integer>21</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>320</integer>
 			<key>cholesterol</key>
-			<integer>32</integer>
+			<integer>86</integer>
 			<key>fat</key>
-			<integer>27</integer>
+			<integer>140</integer>
+			<key>natrium</key>
+			<integer>72</integer>
 			<key>phosphor</key>
 			<integer>8</integer>
 			<key>protein</key>
-			<integer>109</integer>
+			<integer>260</integer>
 			<key>purin</key>
 			<integer>9</integer>
 		</dict>
@@ -354,6 +444,8 @@
 			<integer>23</integer>
 			<key>b6</key>
 			<integer>34</integer>
+			<key>niacin</key>
+			<integer>1</integer>
 		</dict>
 		<key>color</key>
 		<real>0.10000000000000001</real>
@@ -373,19 +465,29 @@
 		<string>Cala Montjoi, Spain</string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
+			<key>calcium</key>
+			<integer>20</integer>
+			<key>iron</key>
+			<integer>5</integer>
+			<key>magnesium</key>
 			<integer>29</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>321</integer>
+			<key>calories</key>
+			<integer>103</integer>
 			<key>cholesterol</key>
-			<integer>176</integer>
+			<integer>46</integer>
 			<key>fat</key>
-			<integer>128</integer>
+			<integer>60</integer>
+			<key>natrium</key>
+			<integer>63</integer>
 			<key>phosphor</key>
 			<integer>43</integer>
 			<key>protein</key>
-			<integer>148</integer>
+			<integer>120</integer>
 			<key>purin</key>
 			<integer>32</integer>
 		</dict>
@@ -399,6 +501,8 @@
 			<integer>23</integer>
 			<key>b6</key>
 			<integer>34</integer>
+			<key>niacin</key>
+			<integer>10</integer>
 		</dict>
 		<key>color</key>
 		<real>0.029000000000000001</real>
@@ -418,19 +522,29 @@
 		<string>Berlin, DE</string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>51</integer>
+			<key>calcium</key>
+			<integer>6</integer>
+			<key>iron</key>
+			<integer>2</integer>
+			<key>magnesium</key>
+			<integer>22</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>210</integer>
+			<key>calories</key>
+			<integer>209</integer>
 			<key>cholesterol</key>
-			<integer>32</integer>
+			<integer>81</integer>
 			<key>fat</key>
-			<integer>47</integer>
+			<integer>110</integer>
+			<key>natrium</key>
+			<integer>72</integer>
 			<key>phosphor</key>
 			<integer>43</integer>
 			<key>protein</key>
-			<integer>231</integer>
+			<integer>270</integer>
 			<key>purin</key>
 			<integer>12</integer>
 		</dict>
@@ -444,6 +558,8 @@
 			<integer>23</integer>
 			<key>b6</key>
 			<integer>43</integer>
+			<key>niacin</key>
+			<integer>8</integer>
 		</dict>
 		<key>color</key>
 		<real>0.35999999999999999</real>
@@ -463,19 +579,29 @@
 		<string>Berlin, DE</string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>43</integer>
+			<key>calcium</key>
+			<integer>17</integer>
+			<key>iron</key>
+			<real>2.8999999999999999</real>
+			<key>magnesium</key>
+			<integer>22</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>270</integer>
+			<key>calories</key>
+			<integer>230</integer>
 			<key>cholesterol</key>
-			<integer>32</integer>
+			<integer>80</integer>
 			<key>fat</key>
-			<integer>76</integer>
+			<integer>140</integer>
+			<key>natrium</key>
+			<integer>67</integer>
 			<key>phosphor</key>
 			<integer>12</integer>
 			<key>protein</key>
-			<integer>209</integer>
+			<integer>240</integer>
 			<key>purin</key>
 			<integer>19</integer>
 		</dict>
@@ -489,6 +615,8 @@
 			<integer>21</integer>
 			<key>b6</key>
 			<integer>10</integer>
+			<key>niacin</key>
+			<integer>4</integer>
 		</dict>
 		<key>color</key>
 		<real>0.68999999999999995</real>
@@ -508,19 +636,29 @@
 		<string></string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>29</integer>
+			<key>calcium</key>
+			<integer>20</integer>
+			<key>iron</key>
+			<integer>4</integer>
+			<key>magnesium</key>
+			<integer>22</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>18</integer>
+			<key>calories</key>
+			<integer>240</integer>
 			<key>cholesterol</key>
-			<integer>78</integer>
+			<integer>56</integer>
 			<key>fat</key>
 			<integer>94</integer>
+			<key>natrium</key>
+			<integer>54</integer>
 			<key>phosphor</key>
 			<integer>8</integer>
 			<key>protein</key>
-			<integer>129</integer>
+			<integer>198</integer>
 			<key>purin</key>
 			<integer>12</integer>
 		</dict>
@@ -534,6 +672,8 @@
 			<integer>23</integer>
 			<key>b6</key>
 			<integer>34</integer>
+			<key>niacin</key>
+			<integer>3</integer>
 		</dict>
 		<key>color</key>
 		<real>0.80000000000000004</real>
@@ -553,15 +693,25 @@
 		<string></string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>31</integer>
+			<key>calcium</key>
+			<integer>17</integer>
+			<key>iron</key>
+			<integer>2</integer>
+			<key>magnesium</key>
+			<integer>22</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>0</integer>
+			<key>calories</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>163</integer>
 			<key>fat</key>
 			<integer>127</integer>
+			<key>natrium</key>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>43</integer>
 			<key>protein</key>
@@ -579,6 +729,8 @@
 			<integer>19</integer>
 			<key>b6</key>
 			<integer>21</integer>
+			<key>niacin</key>
+			<integer>2</integer>
 		</dict>
 		<key>color</key>
 		<real>0.80000000000000004</real>
@@ -598,15 +750,25 @@
 		<string></string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>29</integer>
+			<key>calcium</key>
+			<integer>17</integer>
+			<key>iron</key>
+			<integer>2</integer>
+			<key>magnesium</key>
+			<integer>22</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>76</integer>
 			<key>fat</key>
 			<integer>95</integer>
+			<key>natrium</key>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>12</integer>
 			<key>protein</key>
@@ -624,6 +786,8 @@
 			<integer>25</integer>
 			<key>b6</key>
 			<integer>36</integer>
+			<key>niacin</key>
+			<integer>4</integer>
 		</dict>
 		<key>color</key>
 		<real>0.49237399999999998</real>
@@ -643,15 +807,25 @@
 		<string>Kōbe, Japan</string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>67</integer>
+			<key>calcium</key>
+			<integer>17</integer>
+			<key>iron</key>
+			<integer>2</integer>
+			<key>magnesium</key>
+			<integer>22</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>128</integer>
 			<key>fat</key>
 			<integer>201</integer>
+			<key>natrium</key>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>21</integer>
 			<key>protein</key>
@@ -669,6 +843,8 @@
 			<integer>31</integer>
 			<key>b6</key>
 			<integer>42</integer>
+			<key>niacin</key>
+			<integer>3</integer>
 		</dict>
 		<key>color</key>
 		<integer>7</integer>
@@ -688,15 +864,25 @@
 		<string>Los Angeles, CA</string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>73</integer>
+			<key>calcium</key>
+			<integer>17</integer>
+			<key>iron</key>
+			<integer>2</integer>
+			<key>magnesium</key>
+			<integer>22</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>42</integer>
 			<key>fat</key>
 			<integer>87</integer>
+			<key>natrium</key>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>21</integer>
 			<key>protein</key>
@@ -714,6 +900,8 @@
 			<integer>26</integer>
 			<key>b6</key>
 			<integer>10</integer>
+			<key>niacin</key>
+			<integer>1</integer>
 		</dict>
 		<key>color</key>
 		<real>0.39700000000000002</real>
@@ -733,15 +921,25 @@
 		<string>Tokyo, Japan</string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>29</integer>
+			<key>calcium</key>
+			<integer>17</integer>
+			<key>iron</key>
+			<integer>2</integer>
+			<key>magnesium</key>
+			<integer>22</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>176</integer>
 			<key>fat</key>
 			<integer>128</integer>
+			<key>natrium</key>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>43</integer>
 			<key>protein</key>
@@ -759,6 +957,8 @@
 			<integer>23</integer>
 			<key>b6</key>
 			<integer>34</integer>
+			<key>niacin</key>
+			<integer>5</integer>
 		</dict>
 		<key>color</key>
 		<real>0.12</real>
@@ -778,15 +978,25 @@
 		<string>Los Angeles, CA</string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>78</integer>
+			<key>calcium</key>
+			<integer>17</integer>
+			<key>iron</key>
+			<integer>2</integer>
+			<key>magnesium</key>
+			<integer>22</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>176</integer>
 			<key>fat</key>
 			<integer>128</integer>
+			<key>natrium</key>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>43</integer>
 			<key>protein</key>
@@ -804,6 +1014,8 @@
 			<integer>23</integer>
 			<key>b6</key>
 			<integer>34</integer>
+			<key>niacin</key>
+			<integer>7</integer>
 		</dict>
 		<key>color</key>
 		<real>0.245</real>
@@ -823,15 +1035,25 @@
 		<string>London, GB</string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>29</integer>
+			<key>calcium</key>
+			<integer>17</integer>
+			<key>iron</key>
+			<integer>2</integer>
+			<key>magnesium</key>
+			<integer>22</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>143</integer>
 			<key>fat</key>
 			<integer>143</integer>
+			<key>natrium</key>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>32</integer>
 			<key>protein</key>
@@ -849,6 +1071,8 @@
 			<integer>18</integer>
 			<key>b6</key>
 			<integer>11</integer>
+			<key>niacin</key>
+			<real>0.20000000000000001</real>
 		</dict>
 		<key>cholesterol</key>
 		<integer>204</integer>
@@ -882,15 +1106,25 @@
 		<string>Berlin, DE</string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>29</integer>
+			<key>calcium</key>
+			<integer>17</integer>
+			<key>iron</key>
+			<integer>2</integer>
+			<key>magnesium</key>
+			<integer>22</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>93</integer>
 			<key>fat</key>
 			<integer>98</integer>
+			<key>natrium</key>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>45</integer>
 			<key>protein</key>
@@ -908,6 +1142,8 @@
 			<integer>13</integer>
 			<key>b6</key>
 			<integer>29</integer>
+			<key>niacin</key>
+			<integer>3</integer>
 		</dict>
 		<key>color</key>
 		<real>0.71999999999999997</real>
@@ -927,15 +1163,25 @@
 		<string>London, UK</string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>65</integer>
+			<key>calcium</key>
+			<integer>17</integer>
+			<key>iron</key>
+			<integer>2</integer>
+			<key>magnesium</key>
+			<integer>22</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>105</integer>
 			<key>fat</key>
 			<integer>98</integer>
+			<key>natrium</key>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>54</integer>
 			<key>protein</key>
@@ -953,6 +1199,8 @@
 			<integer>23</integer>
 			<key>b6</key>
 			<integer>34</integer>
+			<key>niacin</key>
+			<integer>0</integer>
 		</dict>
 		<key>color</key>
 		<real>0.79800000000000004</real>
@@ -972,15 +1220,25 @@
 		<string>Berlin, DE</string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>43</integer>
+			<key>calcium</key>
+			<integer>12</integer>
+			<key>iron</key>
+			<integer>2</integer>
+			<key>magnesium</key>
+			<integer>22</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>99</integer>
 			<key>fat</key>
 			<integer>129</integer>
+			<key>natrium</key>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>32</integer>
 			<key>protein</key>
@@ -998,6 +1256,8 @@
 			<integer>12</integer>
 			<key>b6</key>
 			<integer>8</integer>
+			<key>niacin</key>
+			<integer>3</integer>
 		</dict>
 		<key>color</key>
 		<real>0.97999999999999998</real>
@@ -1017,15 +1277,25 @@
 		<string>Schwäbisch Gmünd, DE</string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>49</integer>
+			<key>calcium</key>
+			<integer>16</integer>
+			<key>iron</key>
+			<integer>2</integer>
+			<key>magnesium</key>
+			<integer>20</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>49</integer>
 			<key>fat</key>
 			<integer>76</integer>
+			<key>natrium</key>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>12</integer>
 			<key>protein</key>
@@ -1043,6 +1313,8 @@
 			<integer>42</integer>
 			<key>b6</key>
 			<integer>21</integer>
+			<key>niacin</key>
+			<real>0.10000000000000001</real>
 		</dict>
 		<key>color</key>
 		<real>0.67906</real>
@@ -1062,15 +1334,25 @@
 		<string>Schwäbisch Gmünd, DE</string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>87</integer>
+			<key>calcium</key>
+			<integer>17</integer>
+			<key>iron</key>
+			<integer>2</integer>
+			<key>magnesium</key>
+			<integer>22</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>121</integer>
 			<key>fat</key>
 			<integer>207</integer>
+			<key>natrium</key>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>53</integer>
 			<key>protein</key>
@@ -1088,6 +1370,8 @@
 			<integer>18</integer>
 			<key>b6</key>
 			<integer>4</integer>
+			<key>niacin</key>
+			<real>0.80000000000000004</real>
 		</dict>
 		<key>color</key>
 		<real>0.745</real>
@@ -1107,15 +1391,25 @@
 		<string>Schwäbisch Gmünd, DE</string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>54</integer>
+			<key>calcium</key>
+			<integer>17</integer>
+			<key>iron</key>
+			<integer>2</integer>
+			<key>magnesium</key>
+			<integer>22</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>75</integer>
 			<key>fat</key>
 			<integer>143</integer>
+			<key>natrium</key>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>32</integer>
 			<key>protein</key>
@@ -1133,6 +1427,8 @@
 			<integer>23</integer>
 			<key>b6</key>
 			<integer>12</integer>
+			<key>niacin</key>
+			<integer>3</integer>
 		</dict>
 		<key>color</key>
 		<real>0.63260000000000005</real>
@@ -1152,15 +1448,25 @@
 		<string>Schwäbisch Gmünd, DE</string>
 		<key>Minerals</key>
 		<dict>
-			<key>minerals</key>
-			<integer>45</integer>
+			<key>calcium</key>
+			<integer>11</integer>
+			<key>iron</key>
+			<integer>1</integer>
+			<key>magnesium</key>
+			<integer>18</integer>
 		</dict>
 		<key>Nutritions</key>
 		<dict>
+			<key>calium</key>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>91</integer>
 			<key>fat</key>
 			<integer>123</integer>
+			<key>natrium</key>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>21</integer>
 			<key>protein</key>
@@ -1178,6 +1484,8 @@
 			<integer>12</integer>
 			<key>b6</key>
 			<integer>23</integer>
+			<key>niacin</key>
+			<integer>2</integer>
 		</dict>
 		<key>color</key>
 		<real>0.68999999999999995</real>
