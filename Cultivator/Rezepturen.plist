@@ -3,922 +3,1188 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>Title</key>
-		<string>Wiener Schnitzel</string>
 		<key>Creator</key>
 		<string>Ewald Plachutta</string>
-		<key>Location</key>
-		<string>Wien, AT</string>
 		<key>Description</key>
 		<string>Perfekt zartes, saftiges Fleisch direkt vom Traditionsbetrieb.</string>
-		<key>structure</key>
-		<integer>8</integer>
-		<key>color</key>
-		<integer>6</integer>
-		<key>juiciness</key>
-		<integer>8</integer>
-		<key>cholesterol</key>
-		<integer>65</integer>
-		<key>phosphor</key>
-		<integer>200</integer>
-		<key>fat</key>
-		<integer>17</integer>
-		<key>protein</key>
-		<integer>10</integer>
-		<key>purin</key>
-		<integer>57</integer>
-		<key>minerals</key>
-		<integer>92</integer>
-		<key>vitamines</key>
-		<integer>20</integer>
 		<key>Favorite</key>
 		<true/>
+		<key>Location</key>
+		<string>Wien, AT</string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>92</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>65</integer>
+			<key>fat</key>
+			<integer>127</integer>
+			<key>phosphor</key>
+			<integer>200</integer>
+			<key>protein</key>
+			<integer>92</integer>
+			<key>purin</key>
+			<integer>57</integer>
+		</dict>
 		<key>PrintLine</key>
 		<false/>
+		<key>Title</key>
+		<string>Wiener Schnitzel</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>12</integer>
+			<key>b6</key>
+			<integer>2</integer>
+		</dict>
+		<key>color</key>
+		<real>0.63</real>
+		<key>juiciness</key>
+		<real>0.85999999999999999</real>
+		<key>structure</key>
+		<real>0.79000000000000004</real>
 	</dict>
 	<dict>
-		<key>Title</key>
-		<string>Dodo</string>
 		<key>Creator</key>
 		<string>Cultivator</string>
-		<key>Location</key>
-		<string></string>
 		<key>Description</key>
 		<string> Außergewöhnlich zartes Fleisch aus vergangener Zeit wiederentdecken. </string>
-		<key>structure</key>
-		<integer>7</integer>
-		<key>color</key>
-		<integer>3</integer>
-		<key>juiciness</key>
-		<integer>9</integer>
-		<key>cholesterol</key>
-		<integer>100</integer>
-		<key>phosphor</key>
-		<integer>30</integer>
-		<key>fat</key>
-		<integer>12</integer>
-		<key>protein</key>
-		<integer>23</integer>
-		<key>purin</key>
-		<integer>40</integer>
-		<key>minerals</key>
-		<integer>32</integer>
-		<key>vitamines</key>
-		<integer>21</integer>
 		<key>Favorite</key>
 		<true/>
-		<key>PrintLine</key>
-		<false/>
-	</dict>
-	<dict>
-		<key>Title</key>
-		<string>gesundes Kalb</string>
-		<key>Creator</key>
-		<string>Cultivator</string>
 		<key>Location</key>
 		<string></string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>217</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>76</integer>
+			<key>fat</key>
+			<integer>98</integer>
+			<key>phosphor</key>
+			<integer>21</integer>
+			<key>protein</key>
+			<integer>210</integer>
+			<key>purin</key>
+			<integer>23</integer>
+		</dict>
+		<key>PrintLine</key>
+		<false/>
+		<key>Title</key>
+		<string>Dodo</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>21</integer>
+			<key>b6</key>
+			<integer>19</integer>
+		</dict>
+		<key>color</key>
+		<real>0.34000000000000002</real>
+		<key>juiciness</key>
+		<real>0.87</real>
+		<key>structure</key>
+		<real>0.72999999999999998</real>
+	</dict>
+	<dict>
+		<key>Creator</key>
+		<string>Cultivator</string>
 		<key>Description</key>
 		<string>Dieses zarte Fleisch eignet sich hervorragend für Schnitzel. </string>
-		<key>structure</key>
-		<integer>8</integer>
-		<key>color</key>
-		<integer>7</integer>
-		<key>juiciness</key>
-		<integer>5</integer>
-		<key>cholesterol</key>
-		<integer>95</integer>
-		<key>phosphor</key>
-		<integer>42</integer>
-		<key>fat</key>
-		<integer>39</integer>
-		<key>protein</key>
-		<integer>42</integer>
-		<key>purin</key>
-		<integer>27</integer>
-		<key>minerals</key>
-		<integer>18</integer>
-		<key>vitamines</key>
-		<integer>21</integer>
 		<key>Favorite</key>
 		<false/>
-		<key>PrintLine</key>
-		<false/>
-	</dict>
-	<dict>
-		<key>Title</key>
-		<string>Tyrannosaurus</string>
-		<key>Creator</key>
-		<string>Cultivator</string>
 		<key>Location</key>
 		<string></string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>132</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>56</integer>
+			<key>fat</key>
+			<integer>95</integer>
+			<key>phosphor</key>
+			<integer>21</integer>
+			<key>protein</key>
+			<integer>148</integer>
+			<key>purin</key>
+			<integer>76</integer>
+		</dict>
+		<key>PrintLine</key>
+		<false/>
+		<key>Title</key>
+		<string>gesundes Kalb</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>34</integer>
+			<key>b6</key>
+			<integer>2</integer>
+		</dict>
+		<key>color</key>
+		<real>0.73199999999999998</real>
+		<key>juiciness</key>
+		<real>0.52000000000000002</real>
+		<key>structure</key>
+		<real>0.82999999999999996</real>
+	</dict>
+	<dict>
+		<key>Creator</key>
+		<string>Cultivator</string>
 		<key>Description</key>
 		<string>Der Tyronnosaurus besticht durch ein besonders gesundes Proteinreiches Fleisch. </string>
-		<key>structure</key>
-		<integer>4</integer>
-		<key>color</key>
-		<integer>6</integer>
-		<key>juiciness</key>
-		<integer>3</integer>
-		<key>cholesterol</key>
-		<integer>40</integer>
-		<key>phosphor</key>
-		<integer>34</integer>
-		<key>fat</key>
-		<integer>45</integer>
-		<key>protein</key>
-		<integer>115</integer>
-		<key>purin</key>
-		<integer>32</integer>
-		<key>minerals</key>
-		<integer>80</integer>
-		<key>vitamines</key>
-		<integer>98</integer>
 		<key>Favorite</key>
 		<false/>
-		<key>PrintLine</key>
-		<false/>
-	</dict>
-	<dict>
-		<key>Title</key>
-		<string>Simples Hackfleisch</string>
-		<key>Creator</key>
-		<string>Cultivator</string>
 		<key>Location</key>
 		<string></string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>29</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>176</integer>
+			<key>fat</key>
+			<integer>128</integer>
+			<key>phosphor</key>
+			<integer>43</integer>
+			<key>protein</key>
+			<integer>148</integer>
+			<key>purin</key>
+			<integer>32</integer>
+		</dict>
+		<key>PrintLine</key>
+		<false/>
+		<key>Title</key>
+		<string>Tyrannosaurus</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>23</integer>
+			<key>b6</key>
+			<integer>34</integer>
+		</dict>
+		<key>color</key>
+		<real>0.59999999999999998</real>
+		<key>juiciness</key>
+		<real>0.32300000000000001</real>
+		<key>structure</key>
+		<real>0.44</real>
+	</dict>
+	<dict>
+		<key>Creator</key>
+		<string>Cultivator</string>
 		<key>Description</key>
 		<string>Dieses Fleisch kann hervoragend zu Frikadellen weiterverarbeitet werden. </string>
-		<key>structure</key>
-		<integer>4</integer>
-		<key>color</key>
-		<integer>6</integer>
-		<key>juiciness</key>
-		<integer>3</integer>
-		<key>cholesterol</key>
-		<integer>40</integer>
-		<key>phosphor</key>
-		<integer>34</integer>
-		<key>fat</key>
-		<integer>45</integer>
-		<key>protein</key>
-		<integer>115</integer>
-		<key>purin</key>
-		<integer>32</integer>
-		<key>minerals</key>
-		<integer>80</integer>
-		<key>vitamines</key>
-		<integer>98</integer>
 		<key>Favorite</key>
 		<false/>
+		<key>Location</key>
+		<string></string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>14</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>89</integer>
+			<key>fat</key>
+			<integer>76</integer>
+			<key>phosphor</key>
+			<integer>12</integer>
+			<key>protein</key>
+			<integer>87</integer>
+			<key>purin</key>
+			<integer>22</integer>
+		</dict>
 		<key>PrintLine</key>
 		<false/>
+		<key>Title</key>
+		<string>Simples Hackfleisch</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>13</integer>
+			<key>b6</key>
+			<integer>1</integer>
+		</dict>
+		<key>color</key>
+		<real>0.66000000000000003</real>
+		<key>juiciness</key>
+		<real>0.78300000000000003</real>
+		<key>structure</key>
+		<real>0.40000000000000002</real>
 	</dict>
 	<dict>
-		<key>Title</key>
-		<string>Jakobsmuschel-Steak</string>
 		<key>Creator</key>
 		<string>Cultivator</string>
-		<key>Location</key>
-		<string></string>
 		<key>Description</key>
-		<string>Ein Klassiker der &quot;Surf and Turf&quot; Gerichte neu interpretiert. </string>
-		<key>structure</key>
-		<integer>9</integer>
-		<key>color</key>
-		<integer>4</integer>
-		<key>juiciness</key>
-		<integer>6</integer>
-		<key>cholesterol</key>
-		<integer>102</integer>
-		<key>phosphor</key>
-		<integer>120</integer>
-		<key>fat</key>
-		<integer>24</integer>
-		<key>protein</key>
-		<string>38</string>
-		<key>purin</key>
-		<integer>60</integer>
-		<key>minerals</key>
-		<integer>112</integer>
-		<key>vitamines</key>
-		<integer>31</integer>
+		<string>Ein Klassiker der "Surf and Turf" Gerichte neu interpretiert. </string>
 		<key>Favorite</key>
 		<true/>
+		<key>Location</key>
+		<string></string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>29</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>76</integer>
+			<key>fat</key>
+			<integer>122</integer>
+			<key>phosphor</key>
+			<integer>23</integer>
+			<key>protein</key>
+			<integer>176</integer>
+			<key>purin</key>
+			<integer>18</integer>
+		</dict>
 		<key>PrintLine</key>
 		<false/>
+		<key>Title</key>
+		<string>Jakobsmuschel-Steak</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>23</integer>
+			<key>b6</key>
+			<integer>34</integer>
+		</dict>
+		<key>color</key>
+		<real>0.34399999999999997</real>
+		<key>juiciness</key>
+		<real>0.76000000000000001</real>
+		<key>structure</key>
+		<real>0.83099999999999996</real>
 	</dict>
 	<dict>
-		<key>Title</key>
-		<string>Roter Kaviar</string>
 		<key>Creator</key>
 		<string>Ferran Adrià</string>
-		<key>Location</key>
-		<string>Cala Montjoi, Spain</string>
 		<key>Description</key>
 		<string>Kleine Fleischkügelchen, roh zu genießen zu Brot und weißem Wein. Aus dem Hause elBulli. </string>
-		<key>structure</key>
-		<integer>5</integer>
-		<key>color</key>
-		<integer>10</integer>
-		<key>juiciness</key>
-		<integer>2</integer>
-		<key>cholesterol</key>
-		<integer>32</integer>
-		<key>phosphor</key>
-		<integer>56</integer>
-		<key>fat</key>
-		<integer>25</integer>
-		<key>protein</key>
-		<string>21</string>
-		<key>purin</key>
-		<integer>22</integer>
-		<key>minerals</key>
-		<integer>140</integer>
-		<key>vitamines</key>
-		<integer>31</integer>
 		<key>Favorite</key>
 		<false/>
-		<key>PrintLine</key>
-		<false/>
-	</dict>
-	<dict>
-		<key>Title</key>
-		<string>Weißer Kaviar</string>
-		<key>Creator</key>
-		<string>Ferran Adrià</string>
 		<key>Location</key>
 		<string>Cala Montjoi, Spain</string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>29</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>23</integer>
+			<key>fat</key>
+			<integer>35</integer>
+			<key>phosphor</key>
+			<integer>3</integer>
+			<key>protein</key>
+			<integer>86</integer>
+			<key>purin</key>
+			<integer>9</integer>
+		</dict>
+		<key>PrintLine</key>
+		<false/>
+		<key>Title</key>
+		<string>Roter Kaviar</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>9</integer>
+			<key>b6</key>
+			<integer>12</integer>
+		</dict>
+		<key>color</key>
+		<integer>1</integer>
+		<key>juiciness</key>
+		<real>0.20000000000000001</real>
+		<key>structure</key>
+		<real>0.52000000000000002</real>
+	</dict>
+	<dict>
+		<key>Creator</key>
+		<string>Ferran Adrià</string>
 		<key>Description</key>
 		<string>Kleine zarte Fleischkügelchen, roh zu genießen zu Brot. Aus dem Hause elBulli. </string>
-		<key>structure</key>
-		<integer>9</integer>
-		<key>color</key>
-		<integer>1</integer>
-		<key>juiciness</key>
-		<integer>4</integer>
-		<key>cholesterol</key>
-		<integer>36</integer>
-		<key>phosphor</key>
-		<integer>12</integer>
-		<key>fat</key>
-		<integer>53</integer>
-		<key>protein</key>
-		<string>67</string>
-		<key>purin</key>
-		<integer>8</integer>
-		<key>minerals</key>
-		<integer>156</integer>
-		<key>vitamines</key>
-		<integer>51</integer>
 		<key>Favorite</key>
 		<false/>
-		<key>PrintLine</key>
-		<false/>
-	</dict>
-	<dict>
-		<key>Title</key>
-		<string>Haifischhappen</string>
-		<key>Creator</key>
-		<string>Ferran Adrià</string>
 		<key>Location</key>
 		<string>Cala Montjoi, Spain</string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>29</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>32</integer>
+			<key>fat</key>
+			<integer>27</integer>
+			<key>phosphor</key>
+			<integer>8</integer>
+			<key>protein</key>
+			<integer>109</integer>
+			<key>purin</key>
+			<integer>9</integer>
+		</dict>
+		<key>PrintLine</key>
+		<false/>
+		<key>Title</key>
+		<string>Weißer Kaviar</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>23</integer>
+			<key>b6</key>
+			<integer>34</integer>
+		</dict>
+		<key>color</key>
+		<real>0.10000000000000001</real>
+		<key>juiciness</key>
+		<real>0.47999999999999998</real>
+		<key>structure</key>
+		<real>0.92000000000000004</real>
+	</dict>
+	<dict>
+		<key>Creator</key>
+		<string>Ferran Adrià</string>
 		<key>Description</key>
 		<string>Wenig feste Fleischhappen mit ausgezeichnetem Safthaltevermögen. </string>
-		<key>structure</key>
-		<integer>10</integer>
-		<key>color</key>
-		<integer>0</integer>
-		<key>juiciness</key>
-		<integer>5</integer>
-		<key>cholesterol</key>
-		<integer>52</integer>
-		<key>phosphor</key>
-		<integer>5</integer>
-		<key>fat</key>
-		<integer>3</integer>
-		<key>protein</key>
-		<string>143</string>
-		<key>purin</key>
-		<integer>32</integer>
-		<key>minerals</key>
-		<integer>231</integer>
-		<key>vitamines</key>
-		<integer>102</integer>
 		<key>Favorite</key>
 		<false/>
+		<key>Location</key>
+		<string>Cala Montjoi, Spain</string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>29</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>176</integer>
+			<key>fat</key>
+			<integer>128</integer>
+			<key>phosphor</key>
+			<integer>43</integer>
+			<key>protein</key>
+			<integer>148</integer>
+			<key>purin</key>
+			<integer>32</integer>
+		</dict>
 		<key>PrintLine</key>
 		<false/>
+		<key>Title</key>
+		<string>Haifischhappen</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>23</integer>
+			<key>b6</key>
+			<integer>34</integer>
+		</dict>
+		<key>color</key>
+		<real>0.029000000000000001</real>
+		<key>juiciness</key>
+		<real>0.5</real>
+		<key>structure</key>
+		<real>0.999</real>
 	</dict>
 	<dict>
-		<key>Title</key>
-		<string>gesundes Proteinsteak</string>
 		<key>Creator</key>
 		<string>Attila Hildmann</string>
-		<key>Location</key>
-		<string>Berlin, DE</string>
 		<key>Description</key>
 		<string>Ein gesundes Steak zum satt essen - garantiert vegan ;-) </string>
-		<key>structure</key>
-		<integer>5</integer>
-		<key>color</key>
-		<integer>3</integer>
-		<key>juiciness</key>
-		<integer>6</integer>
-		<key>cholesterol</key>
-		<integer>23</integer>
-		<key>phosphor</key>
-		<integer>10</integer>
-		<key>fat</key>
-		<integer>30</integer>
-		<key>protein</key>
-		<string>102</string>
-		<key>purin</key>
-		<integer>23</integer>
-		<key>minerals</key>
-		<integer>97</integer>
-		<key>vitamines</key>
-		<integer>41</integer>
 		<key>Favorite</key>
 		<true/>
+		<key>Location</key>
+		<string>Berlin, DE</string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>51</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>32</integer>
+			<key>fat</key>
+			<integer>47</integer>
+			<key>phosphor</key>
+			<integer>43</integer>
+			<key>protein</key>
+			<integer>231</integer>
+			<key>purin</key>
+			<integer>12</integer>
+		</dict>
 		<key>PrintLine</key>
 		<false/>
+		<key>Title</key>
+		<string>gesundes Proteinsteak</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>23</integer>
+			<key>b6</key>
+			<integer>43</integer>
+		</dict>
+		<key>color</key>
+		<real>0.35999999999999999</real>
+		<key>juiciness</key>
+		<real>0.68999999999999995</real>
+		<key>structure</key>
+		<real>0.52000000000000002</real>
 	</dict>
 	<dict>
-		<key>Title</key>
-		<string>Hackfleisch für Bolognese</string>
 		<key>Creator</key>
 		<string>Attila Hildmann</string>
-		<key>Location</key>
-		<string>Berlin, DE</string>
 		<key>Description</key>
 		<string>Durch die extreme Strukturveränderung wird hier ohne weiter Nachbearbeitung Hackfleisch hergestellt. Vegan, gesund und lecker! </string>
-		<key>structure</key>
-		<integer>0</integer>
-		<key>color</key>
-		<integer>5</integer>
-		<key>juiciness</key>
-		<integer>3</integer>
-		<key>cholesterol</key>
-		<integer>18</integer>
-		<key>phosphor</key>
-		<integer>12</integer>
-		<key>fat</key>
-		<integer>54</integer>
-		<key>protein</key>
-		<string>264</string>
-		<key>purin</key>
-		<integer>67</integer>
-		<key>minerals</key>
-		<integer>54</integer>
-		<key>vitamines</key>
-		<integer>12</integer>
 		<key>Favorite</key>
 		<false/>
+		<key>Location</key>
+		<string>Berlin, DE</string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>43</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>32</integer>
+			<key>fat</key>
+			<integer>76</integer>
+			<key>phosphor</key>
+			<integer>12</integer>
+			<key>protein</key>
+			<integer>209</integer>
+			<key>purin</key>
+			<integer>19</integer>
+		</dict>
 		<key>PrintLine</key>
 		<false/>
+		<key>Title</key>
+		<string>Hackfleisch für Bolognese</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>21</integer>
+			<key>b6</key>
+			<integer>10</integer>
+		</dict>
+		<key>color</key>
+		<real>0.68999999999999995</real>
+		<key>juiciness</key>
+		<real>0.3453</real>
+		<key>structure</key>
+		<real>0.29999999999999999</real>
 	</dict>
 	<dict>
-		<key>Title</key>
-		<string>Hundefutter für Junghunde</string>
 		<key>Creator</key>
 		<string>Peta</string>
-		<key>Location</key>
-		<string></string>
 		<key>Description</key>
 		<string>Gesunde Nahrung für Junghunde mit all den Nährstoffen, welche sie im Wachstum benötigen. Natürlich roh zu servieren. </string>
-		<key>structure</key>
-		<integer>4</integer>
-		<key>color</key>
-		<integer>8</integer>
-		<key>juiciness</key>
-		<integer>5</integer>
-		<key>cholesterol</key>
-		<integer>40</integer>
-		<key>phosphor</key>
-		<integer>10</integer>
-		<key>fat</key>
-		<integer>20</integer>
-		<key>protein</key>
-		<string>80</string>
-		<key>purin</key>
-		<integer>20</integer>
-		<key>minerals</key>
-		<integer>94</integer>
-		<key>vitamines</key>
-		<integer>37</integer>
 		<key>Favorite</key>
 		<false/>
-		<key>PrintLine</key>
-		<false/>
-	</dict>
-	<dict>
-		<key>Title</key>
-		<string>Truthahn für Tierfreunde</string>
-		<key>Creator</key>
-		<string>Peta</string>
 		<key>Location</key>
 		<string></string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>29</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>78</integer>
+			<key>fat</key>
+			<integer>94</integer>
+			<key>phosphor</key>
+			<integer>8</integer>
+			<key>protein</key>
+			<integer>129</integer>
+			<key>purin</key>
+			<integer>12</integer>
+		</dict>
+		<key>PrintLine</key>
+		<false/>
+		<key>Title</key>
+		<string>Hundefutter für Junghunde</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>23</integer>
+			<key>b6</key>
+			<integer>34</integer>
+		</dict>
+		<key>color</key>
+		<real>0.80000000000000004</real>
+		<key>juiciness</key>
+		<real>0.56000000000000005</real>
+		<key>structure</key>
+		<real>0.46000000000000002</real>
+	</dict>
+	<dict>
+		<key>Creator</key>
+		<string>Peta</string>
 		<key>Description</key>
 		<string>Dieses Fleisch ist für Thanksgiving Feierlichkeiten genau das richtige. </string>
-		<key>structure</key>
-		<integer>8</integer>
-		<key>color</key>
-		<integer>8</integer>
-		<key>juiciness</key>
-		<integer>4</integer>
-		<key>cholesterol</key>
-		<integer>258</integer>
-		<key>phosphor</key>
-		<integer>52</integer>
-		<key>fat</key>
-		<integer>192</integer>
-		<key>protein</key>
-		<string>76</string>
-		<key>purin</key>
-		<integer>53</integer>
-		<key>minerals</key>
-		<integer>32</integer>
-		<key>vitamines</key>
-		<integer>23</integer>
 		<key>Favorite</key>
 		<false/>
-		<key>PrintLine</key>
-		<false/>
-	</dict>
-	<dict>
-		<key>Title</key>
-		<string>Katzenfutter für Senioren</string>
-		<key>Creator</key>
-		<string>Peta</string>
 		<key>Location</key>
 		<string></string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>31</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>163</integer>
+			<key>fat</key>
+			<integer>127</integer>
+			<key>phosphor</key>
+			<integer>43</integer>
+			<key>protein</key>
+			<integer>104</integer>
+			<key>purin</key>
+			<integer>32</integer>
+		</dict>
+		<key>PrintLine</key>
+		<false/>
+		<key>Title</key>
+		<string>Truthahn für Tierfreunde</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>19</integer>
+			<key>b6</key>
+			<integer>21</integer>
+		</dict>
+		<key>color</key>
+		<real>0.80000000000000004</real>
+		<key>juiciness</key>
+		<real>0.45000000000000001</real>
+		<key>structure</key>
+		<real>0.85999999999999999</real>
+	</dict>
+	<dict>
+		<key>Creator</key>
+		<string>Peta</string>
 		<key>Description</key>
 		<string>Gesunde Nahrung für ältere Katzen, stärkt die Knochen. Roh oder leicht angebraten zu servieren. </string>
-		<key>structure</key>
-		<integer>3</integer>
-		<key>color</key>
-		<integer>4</integer>
-		<key>juiciness</key>
-		<integer>9</integer>
-		<key>cholesterol</key>
-		<integer>34</integer>
-		<key>phosphor</key>
-		<integer>14</integer>
-		<key>fat</key>
-		<integer>21</integer>
-		<key>protein</key>
-		<string>90</string>
-		<key>purin</key>
-		<integer>20</integer>
-		<key>minerals</key>
-		<integer>65</integer>
-		<key>vitamines</key>
-		<integer>32</integer>
 		<key>Favorite</key>
 		<false/>
+		<key>Location</key>
+		<string></string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>29</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>76</integer>
+			<key>fat</key>
+			<integer>95</integer>
+			<key>phosphor</key>
+			<integer>12</integer>
+			<key>protein</key>
+			<integer>175</integer>
+			<key>purin</key>
+			<integer>18</integer>
+		</dict>
 		<key>PrintLine</key>
 		<false/>
+		<key>Title</key>
+		<string>Katzenfutter für Senioren</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>25</integer>
+			<key>b6</key>
+			<integer>36</integer>
+		</dict>
+		<key>color</key>
+		<real>0.49237399999999998</real>
+		<key>juiciness</key>
+		<real>0.90000000000000002</real>
+		<key>structure</key>
+		<real>0.34999999999999998</real>
 	</dict>
 	<dict>
-		<key>Title</key>
-		<string>Kobe-Rind</string>
 		<key>Creator</key>
 		<string>Kobechikusan</string>
-		<key>Location</key>
-		<string>Kōbe, Japan</string>
 		<key>Description</key>
 		<string>Das Original Koberindfleisch aus Japan - perfekt marmoriert. </string>
-		<key>structure</key>
-		<integer>10</integer>
+		<key>Favorite</key>
+		<false/>
+		<key>Location</key>
+		<string>Kōbe, Japan</string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>67</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>128</integer>
+			<key>fat</key>
+			<integer>201</integer>
+			<key>phosphor</key>
+			<integer>21</integer>
+			<key>protein</key>
+			<integer>165</integer>
+			<key>purin</key>
+			<integer>17</integer>
+		</dict>
+		<key>PrintLine</key>
+		<false/>
+		<key>Title</key>
+		<string>Kobe-Rind</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>31</integer>
+			<key>b6</key>
+			<integer>42</integer>
+		</dict>
 		<key>color</key>
 		<integer>7</integer>
 		<key>juiciness</key>
 		<integer>8</integer>
-		<key>cholesterol</key>
-		<integer>200</integer>
-		<key>phosphor</key>
-		<integer>12</integer>
-		<key>fat</key>
-		<integer>56</integer>
-		<key>protein</key>
-		<string>123</string>
-		<key>purin</key>
-		<integer>75</integer>
-		<key>minerals</key>
-		<integer>87</integer>
-		<key>vitamines</key>
-		<integer>43</integer>
-		<key>Favorite</key>
-		<false/>
-		<key>PrintLine</key>
-		<false/>
+		<key>structure</key>
+		<integer>10</integer>
 	</dict>
 	<dict>
-		<key>Title</key>
-		<string>weißes Känguru</string>
 		<key>Creator</key>
 		<string>Nancy Silverton</string>
-		<key>Location</key>
-		<string>Los Angeles, CA</string>
 		<key>Description</key>
 		<string>Dieses Fleisch kombiniert das gesunde des hellen Fleisches mit dem eigenen Wildgeschmack des Kängurus. </string>
-		<key>structure</key>
-		<integer>6</integer>
-		<key>color</key>
-		<integer>1</integer>
-		<key>juiciness</key>
-		<integer>4</integer>
-		<key>cholesterol</key>
-		<integer>64</integer>
-		<key>phosphor</key>
-		<integer>50</integer>
-		<key>fat</key>
-		<integer>87</integer>
-		<key>protein</key>
-		<string>102</string>
-		<key>purin</key>
-		<integer>62</integer>
-		<key>minerals</key>
-		<integer>70</integer>
-		<key>vitamines</key>
-		<integer>89</integer>
 		<key>Favorite</key>
 		<false/>
-		<key>PrintLine</key>
-		<false/>
-	</dict>
-	<dict>
-		<key>Title</key>
-		<string>Sushi Tuhnfisch-Krabbe</string>
-		<key>Creator</key>
-		<string>Jiro Ono</string>
-		<key>Location</key>
-		<string>Tokyo, Japan</string>
-		<key>Description</key>
-		<string>Suhsifisch perfekt für Maki. </string>
-		<key>structure</key>
-		<integer>4</integer>
-		<key>color</key>
-		<integer>1</integer>
-		<key>juiciness</key>
-		<integer>10</integer>
-		<key>cholesterol</key>
-		<integer>46</integer>
-		<key>phosphor</key>
-		<integer>32</integer>
-		<key>fat</key>
-		<integer>32</integer>
-		<key>protein</key>
-		<string>98</string>
-		<key>purin</key>
-		<integer>20</integer>
-		<key>minerals</key>
-		<integer>98</integer>
-		<key>vitamines</key>
-		<integer>65</integer>
-		<key>Favorite</key>
-		<false/>
-		<key>PrintLine</key>
-		<false/>
-	</dict>
-	<dict>
-		<key>Title</key>
-		<string>Amerikanischer Hummer</string>
-		<key>Creator</key>
-		<string>Nancy Silverton</string>
 		<key>Location</key>
 		<string>Los Angeles, CA</string>
-		<key>Description</key>
-		<string>Dieses Fleisch erinnert stark an den Geschmack eines Maine-Hummers. </string>
-		<key>structure</key>
-		<integer>8</integer>
-		<key>color</key>
-		<integer>2</integer>
-		<key>juiciness</key>
-		<integer>5</integer>
-		<key>cholesterol</key>
-		<integer>52</integer>
-		<key>phosphor</key>
-		<integer>67</integer>
-		<key>fat</key>
-		<integer>87</integer>
-		<key>protein</key>
-		<string>173</string>
-		<key>purin</key>
-		<integer>76</integer>
-		<key>minerals</key>
-		<integer>120</integer>
-		<key>vitamines</key>
-		<integer>67</integer>
-		<key>Favorite</key>
-		<false/>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>73</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>42</integer>
+			<key>fat</key>
+			<integer>87</integer>
+			<key>phosphor</key>
+			<integer>21</integer>
+			<key>protein</key>
+			<integer>139</integer>
+			<key>purin</key>
+			<integer>32</integer>
+		</dict>
 		<key>PrintLine</key>
 		<false/>
+		<key>Title</key>
+		<string>Weißes Känguru</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>26</integer>
+			<key>b6</key>
+			<integer>10</integer>
+		</dict>
+		<key>color</key>
+		<real>0.39700000000000002</real>
+		<key>juiciness</key>
+		<real>0.42099999999999999</real>
+		<key>structure</key>
+		<real>0.53259999999999996</real>
 	</dict>
 	<dict>
+		<key>Creator</key>
+		<string>Jiro Ono</string>
+		<key>Description</key>
+		<string>Suhsifisch perfekt für Maki. </string>
+		<key>Favorite</key>
+		<false/>
+		<key>Location</key>
+		<string>Tokyo, Japan</string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>29</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>176</integer>
+			<key>fat</key>
+			<integer>128</integer>
+			<key>phosphor</key>
+			<integer>43</integer>
+			<key>protein</key>
+			<integer>148</integer>
+			<key>purin</key>
+			<integer>32</integer>
+		</dict>
+		<key>PrintLine</key>
+		<false/>
 		<key>Title</key>
-		<string>Frühstücksspeck</string>
+		<string>Sushi Tuhnfisch-Krabbe</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>23</integer>
+			<key>b6</key>
+			<integer>34</integer>
+		</dict>
+		<key>color</key>
+		<real>0.12</real>
+		<key>juiciness</key>
+		<real>0.93999999999999995</real>
+		<key>structure</key>
+		<real>0.43099999999999999</real>
+	</dict>
+	<dict>
+		<key>Creator</key>
+		<string>Nancy Silverton</string>
+		<key>Description</key>
+		<string>Dieses Fleisch erinnert stark an den Geschmack eines Maine-Hummers. </string>
+		<key>Favorite</key>
+		<false/>
+		<key>Location</key>
+		<string>Los Angeles, CA</string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>78</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>176</integer>
+			<key>fat</key>
+			<integer>128</integer>
+			<key>phosphor</key>
+			<integer>43</integer>
+			<key>protein</key>
+			<integer>237</integer>
+			<key>purin</key>
+			<integer>32</integer>
+		</dict>
+		<key>PrintLine</key>
+		<false/>
+		<key>Title</key>
+		<string>Amerikanischer Hummer</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>23</integer>
+			<key>b6</key>
+			<integer>34</integer>
+		</dict>
+		<key>color</key>
+		<real>0.245</real>
+		<key>juiciness</key>
+		<real>0.52100000000000002</real>
+		<key>structure</key>
+		<real>0.81899999999999995</real>
+	</dict>
+	<dict>
 		<key>Creator</key>
 		<string>Nigella Lawson</string>
-		<key>Location</key>
-		<string>London, GB</string>
 		<key>Description</key>
 		<string>Für ein amerikanisches Frühstück genau das richtige. </string>
-		<key>structure</key>
-		<integer>2</integer>
-		<key>color</key>
-		<integer>5</integer>
-		<key>juiciness</key>
-		<integer>3</integer>
+		<key>Favorite</key>
+		<false/>
+		<key>Location</key>
+		<string>London, GB</string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>29</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>143</integer>
+			<key>fat</key>
+			<integer>143</integer>
+			<key>phosphor</key>
+			<integer>32</integer>
+			<key>protein</key>
+			<integer>98</integer>
+			<key>purin</key>
+			<integer>12</integer>
+		</dict>
+		<key>PrintLine</key>
+		<false/>
+		<key>Title</key>
+		<string>Frühstücksspeck</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>18</integer>
+			<key>b6</key>
+			<integer>11</integer>
+		</dict>
 		<key>cholesterol</key>
 		<integer>204</integer>
-		<key>phosphor</key>
-		<integer>53</integer>
+		<key>color</key>
+		<integer>5</integer>
 		<key>fat</key>
 		<integer>164</integer>
+		<key>juiciness</key>
+		<integer>3</integer>
+		<key>minerals</key>
+		<integer>31</integer>
+		<key>phosphor</key>
+		<integer>53</integer>
 		<key>protein</key>
 		<string>98</string>
 		<key>purin</key>
 		<integer>43</integer>
-		<key>minerals</key>
-		<integer>31</integer>
-		<key>vitamines</key>
-		<integer>18</integer>
-		<key>Favorite</key>
-		<false/>
-		<key>PrintLine</key>
-		<false/>
-	</dict>
-	<dict>
-		<key>Title</key>
-		<string>Festes Fleisch für Rouladen</string>
-		<key>Creator</key>
-		<string>Sarah Wiener</string>
-		<key>Location</key>
-		<string>Berlin, DE</string>
-		<key>Description</key>
-		<string>Diese Rezeptur erinnert stark an Rind, jedoch um einiges saftiger. </string>
 		<key>structure</key>
 		<integer>2</integer>
-		<key>color</key>
-		<integer>7</integer>
-		<key>juiciness</key>
-		<integer>3</integer>
-		<key>cholesterol</key>
-		<integer>124</integer>
-		<key>phosphor</key>
-		<integer>34</integer>
-		<key>fat</key>
-		<integer>84</integer>
-		<key>protein</key>
-		<string>69</string>
-		<key>purin</key>
-		<integer>21</integer>
-		<key>minerals</key>
-		<integer>32</integer>
 		<key>vitamines</key>
-		<integer>29</integer>
-		<key>Favorite</key>
-		<false/>
-		<key>PrintLine</key>
-		<false/>
+		<integer>18</integer>
 	</dict>
 	<dict>
-		<key>Title</key>
-		<string>Weißes Fleisch für die schnelle Küche</string>
-		<key>Creator</key>
-		<string>Jamie Oliver</string>
-		<key>Location</key>
-		<string>London, UK</string>
-		<key>Description</key>
-		<string>Einfach kurz anbraten und genießen. </string>
-		<key>structure</key>
-		<integer>5</integer>
-		<key>color</key>
-		<integer>4</integer>
-		<key>juiciness</key>
-		<integer>5</integer>
-		<key>cholesterol</key>
-		<integer>45</integer>
-		<key>phosphor</key>
-		<integer>20</integer>
-		<key>fat</key>
-		<integer>47</integer>
-		<key>protein</key>
-		<string>94</string>
-		<key>purin</key>
-		<integer>12</integer>
-		<key>minerals</key>
-		<integer>27</integer>
-		<key>vitamines</key>
-		<integer>14</integer>
-		<key>Favorite</key>
-		<false/>
-		<key>PrintLine</key>
-		<false/>
-	</dict>
-	<dict>
-		<key>Title</key>
-		<string>Grillfleisch</string>
-		<key>Creator</key>
-		<string>Jamie Oliver</string>
-		<key>Location</key>
-		<string>London, UK</string>
-		<key>Description</key>
-		<string>Saftiges rotes Fleisch, perfekt zum Grillen.  </string>
-		<key>structure</key>
-		<integer>4</integer>
-		<key>color</key>
-		<integer>7</integer>
-		<key>juiciness</key>
-		<integer>4</integer>
-		<key>cholesterol</key>
-		<integer>134</integer>
-		<key>phosphor</key>
-		<integer>51</integer>
-		<key>fat</key>
-		<integer>78</integer>
-		<key>protein</key>
-		<string>129</string>
-		<key>purin</key>
-		<integer>43</integer>
-		<key>minerals</key>
-		<integer>28</integer>
-		<key>vitamines</key>
-		<integer>29</integer>
-		<key>Favorite</key>
-		<false/>
-		<key>PrintLine</key>
-		<false/>
-	</dict>
-	<dict>
-		<key>Title</key>
-		<string>Zartes Wild für Gulasch</string>
 		<key>Creator</key>
 		<string>Sarah Wiener</string>
+		<key>Description</key>
+		<string>Diese Rezeptur erinnert stark an Rind, jedoch um einiges saftiger. </string>
+		<key>Favorite</key>
+		<false/>
 		<key>Location</key>
 		<string>Berlin, DE</string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>29</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>93</integer>
+			<key>fat</key>
+			<integer>98</integer>
+			<key>phosphor</key>
+			<integer>45</integer>
+			<key>protein</key>
+			<integer>150</integer>
+			<key>purin</key>
+			<integer>22</integer>
+		</dict>
+		<key>PrintLine</key>
+		<false/>
+		<key>Title</key>
+		<string>Festes Fleisch für Rouladen</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>13</integer>
+			<key>b6</key>
+			<integer>29</integer>
+		</dict>
+		<key>color</key>
+		<real>0.71999999999999997</real>
+		<key>juiciness</key>
+		<real>0.33200000000000002</real>
+		<key>structure</key>
+		<real>0.28999999999999998</real>
+	</dict>
+	<dict>
+		<key>Creator</key>
+		<string>Jamie Oliver</string>
+		<key>Description</key>
+		<string>Saftiges rotes Fleisch, perfekt zum Grillen.  </string>
+		<key>Favorite</key>
+		<false/>
+		<key>Location</key>
+		<string>London, UK</string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>65</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>105</integer>
+			<key>fat</key>
+			<integer>98</integer>
+			<key>phosphor</key>
+			<integer>54</integer>
+			<key>protein</key>
+			<integer>203</integer>
+			<key>purin</key>
+			<integer>59</integer>
+		</dict>
+		<key>PrintLine</key>
+		<false/>
+		<key>Title</key>
+		<string>Grillfleisch</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>23</integer>
+			<key>b6</key>
+			<integer>34</integer>
+		</dict>
+		<key>color</key>
+		<real>0.79800000000000004</real>
+		<key>juiciness</key>
+		<real>0.48999999999999999</real>
+		<key>structure</key>
+		<real>0.44400000000000001</real>
+	</dict>
+	<dict>
+		<key>Creator</key>
+		<string>Sarah Wiener</string>
 		<key>Description</key>
 		<string>Dieses zarte Fleisch eignet sich hervorragend für ein würziges Gulasch. Achtung sehr viel Eigengeschmack. </string>
-		<key>structure</key>
-		<integer>6</integer>
-		<key>color</key>
-		<integer>10</integer>
-		<key>juiciness</key>
-		<integer>4</integer>
-		<key>cholesterol</key>
-		<integer>132</integer>
-		<key>phosphor</key>
-		<integer>63</integer>
-		<key>fat</key>
-		<integer>117</integer>
-		<key>protein</key>
-		<string>87</string>
-		<key>purin</key>
-		<integer>32</integer>
-		<key>minerals</key>
-		<integer>21</integer>
-		<key>vitamines</key>
-		<integer>17</integer>
 		<key>Favorite</key>
 		<false/>
+		<key>Location</key>
+		<string>Berlin, DE</string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>43</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>99</integer>
+			<key>fat</key>
+			<integer>129</integer>
+			<key>phosphor</key>
+			<integer>32</integer>
+			<key>protein</key>
+			<integer>148</integer>
+			<key>purin</key>
+			<integer>21</integer>
+		</dict>
 		<key>PrintLine</key>
 		<false/>
+		<key>Title</key>
+		<string>Zartes Wild für Gulasch</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>12</integer>
+			<key>b6</key>
+			<integer>8</integer>
+		</dict>
+		<key>color</key>
+		<real>0.97999999999999998</real>
+		<key>juiciness</key>
+		<real>0.48999999999999999</real>
+		<key>structure</key>
+		<real>0.66434199999999999</real>
 	</dict>
 	<dict>
-		<key>Title</key>
-		<string>Douggies Lieblingsfutter</string>
 		<key>Creator</key>
 		<string>Julia Hoffmann</string>
-		<key>Location</key>
-		<string>Schwäbisch Gmünd, DE</string>
 		<key>Description</key>
 		<string>Eine Tagesration für einen mittelgroßen Hund.</string>
-		<key>structure</key>
-		<integer>4</integer>
-		<key>color</key>
-		<integer>6</integer>
-		<key>juiciness</key>
-		<integer>3</integer>
-		<key>cholesterol</key>
-		<integer>84</integer>
-		<key>phosphor</key>
-		<integer>21</integer>
-		<key>fat</key>
-		<integer>23</integer>
-		<key>protein</key>
-		<string>45</string>
-		<key>purin</key>
-		<integer>20</integer>
-		<key>minerals</key>
-		<integer>14</integer>
-		<key>vitamines</key>
-		<integer>26</integer>
 		<key>Favorite</key>
 		<false/>
-		<key>PrintLine</key>
-		<false/>
-	</dict>
-	<dict>
-		<key>Title</key>
-		<string>Grillfleisch </string>
-		<key>Creator</key>
-		<string>Julia Hoffmann</string>
 		<key>Location</key>
 		<string>Schwäbisch Gmünd, DE</string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>49</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>49</integer>
+			<key>fat</key>
+			<integer>76</integer>
+			<key>phosphor</key>
+			<integer>12</integer>
+			<key>protein</key>
+			<integer>187</integer>
+			<key>purin</key>
+			<integer>21</integer>
+		</dict>
+		<key>PrintLine</key>
+		<false/>
+		<key>Title</key>
+		<string>Douggies Lieblingsfutter</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>42</integer>
+			<key>b6</key>
+			<integer>21</integer>
+		</dict>
+		<key>color</key>
+		<real>0.67906</real>
+		<key>juiciness</key>
+		<real>0.35399999999999998</real>
+		<key>structure</key>
+		<real>0.43240000000000001</real>
+	</dict>
+	<dict>
+		<key>Creator</key>
+		<string>Julia Hoffmann</string>
 		<key>Description</key>
 		<string>Für den Grillnachmittag am Freitag. </string>
-		<key>structure</key>
-		<integer>8</integer>
-		<key>color</key>
-		<integer>7</integer>
-		<key>juiciness</key>
-		<integer>4</integer>
-		<key>cholesterol</key>
-		<integer>94</integer>
-		<key>phosphor</key>
-		<integer>21</integer>
-		<key>fat</key>
-		<integer>92</integer>
-		<key>protein</key>
-		<string>68</string>
-		<key>purin</key>
-		<integer>34</integer>
-		<key>minerals</key>
-		<integer>32</integer>
-		<key>vitamines</key>
-		<integer>31</integer>
 		<key>Favorite</key>
 		<false/>
+		<key>Location</key>
+		<string>Schwäbisch Gmünd, DE</string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>87</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>121</integer>
+			<key>fat</key>
+			<integer>207</integer>
+			<key>phosphor</key>
+			<integer>53</integer>
+			<key>protein</key>
+			<integer>206</integer>
+			<key>purin</key>
+			<integer>45</integer>
+		</dict>
 		<key>PrintLine</key>
 		<false/>
+		<key>Title</key>
+		<string>Grillfleisch </string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>18</integer>
+			<key>b6</key>
+			<integer>4</integer>
+		</dict>
+		<key>color</key>
+		<real>0.745</real>
+		<key>juiciness</key>
+		<real>0.45300000000000001</real>
+		<key>structure</key>
+		<real>0.86699999999999999</real>
 	</dict>
 	<dict>
-		<key>Title</key>
-		<string>Hackfleischvariante</string>
 		<key>Creator</key>
 		<string>Julia Hoffmann</string>
-		<key>Location</key>
-		<string>Schwäbisch Gmünd, DE</string>
 		<key>Description</key>
 		<string>Gut geeignet für Bolognese. </string>
-		<key>structure</key>
-		<integer>0</integer>
-		<key>color</key>
-		<integer>6</integer>
-		<key>juiciness</key>
-		<integer>5</integer>
-		<key>cholesterol</key>
-		<integer>70</integer>
-		<key>phosphor</key>
-		<integer>13</integer>
-		<key>fat</key>
-		<integer>87</integer>
-		<key>protein</key>
-		<string>56</string>
-		<key>purin</key>
-		<integer>15</integer>
-		<key>minerals</key>
-		<integer>12</integer>
-		<key>vitamines</key>
-		<integer>19</integer>
 		<key>Favorite</key>
 		<false/>
-		<key>PrintLine</key>
-		<false/>
-	</dict>
-	<dict>
-		<key>Title</key>
-		<string>saftiges Steak </string>
-		<key>Creator</key>
-		<string>Frank Hoffmann</string>
 		<key>Location</key>
 		<string>Schwäbisch Gmünd, DE</string>
-		<key>Description</key>
-		<string>Besonders saftige Steaks. </string>
-		<key>structure</key>
-		<integer>4</integer>
-		<key>color</key>
-		<integer>7</integer>
-		<key>juiciness</key>
-		<integer>9</integer>
-		<key>cholesterol</key>
-		<integer>174</integer>
-		<key>phosphor</key>
-		<integer>41</integer>
-		<key>fat</key>
-		<integer>240</integer>
-		<key>protein</key>
-		<string>129</string>
-		<key>purin</key>
-		<integer>42</integer>
-		<key>minerals</key>
-		<integer>46</integer>
-		<key>vitamines</key>
-		<integer>31</integer>
-		<key>Favorite</key>
-		<false/>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>54</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>75</integer>
+			<key>fat</key>
+			<integer>143</integer>
+			<key>phosphor</key>
+			<integer>32</integer>
+			<key>protein</key>
+			<integer>187</integer>
+			<key>purin</key>
+			<integer>38</integer>
+		</dict>
 		<key>PrintLine</key>
 		<false/>
+		<key>Title</key>
+		<string>Hackfleischvariante</string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>23</integer>
+			<key>b6</key>
+			<integer>12</integer>
+		</dict>
+		<key>color</key>
+		<real>0.63260000000000005</real>
+		<key>juiciness</key>
+		<real>0.53000000000000003</real>
+		<key>structure</key>
+		<real>0.43209999999999998</real>
+	</dict>
+	<dict>
+		<key>Creator</key>
+		<string>Frank Hoffmann</string>
+		<key>Description</key>
+		<string>Besonders saftige Steaks. </string>
+		<key>Favorite</key>
+		<false/>
+		<key>Location</key>
+		<string>Schwäbisch Gmünd, DE</string>
+		<key>Minerals</key>
+		<dict>
+			<key>minerals</key>
+			<integer>45</integer>
+		</dict>
+		<key>Nutritions</key>
+		<dict>
+			<key>cholesterol</key>
+			<integer>91</integer>
+			<key>fat</key>
+			<integer>123</integer>
+			<key>phosphor</key>
+			<integer>21</integer>
+			<key>protein</key>
+			<integer>203</integer>
+			<key>purin</key>
+			<integer>15</integer>
+		</dict>
+		<key>PrintLine</key>
+		<false/>
+		<key>Title</key>
+		<string>saftiges Steak </string>
+		<key>Vitamines</key>
+		<dict>
+			<key>b12</key>
+			<integer>12</integer>
+			<key>b6</key>
+			<integer>23</integer>
+		</dict>
+		<key>color</key>
+		<real>0.68999999999999995</real>
+		<key>juiciness</key>
+		<real>0.89900000000000002</real>
+		<key>structure</key>
+		<real>0.48899999999999999</real>
 	</dict>
 </array>
 </plist>
