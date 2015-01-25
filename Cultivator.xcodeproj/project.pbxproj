@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		803A2D491A755FF9003F9B22 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803A2D461A755FA3003F9B22 /* GPUImage.framework */; };
+		803A2D4B1A75608A003F9B22 /* GPUImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 803A2D461A755FA3003F9B22 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8049341A1A73F7BD00DE1AA8 /* AddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804934191A73F7BD00DE1AA8 /* AddCell.swift */; };
 		8049341C1A73FB4800DE1AA8 /* RecipeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8049341B1A73FB4800DE1AA8 /* RecipeLayout.swift */; };
 		804D6B6A1A70496700A0689F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804D6B691A70496700A0689F /* AppDelegate.swift */; };
@@ -16,6 +18,7 @@
 		804D6B741A70496700A0689F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804D6B721A70496700A0689F /* LaunchScreen.xib */; };
 		804D6B801A70496700A0689F /* CultivatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804D6B7F1A70496700A0689F /* CultivatorTests.swift */; };
 		8088F7591A7523CE00229F72 /* Rezepturen.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8088F7581A7523CE00229F72 /* Rezepturen.plist */; };
+		8088F75B1A75333A00229F72 /* EditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088F75A1A75333A00229F72 /* EditingViewController.swift */; };
 		80ADE1411A73CF7E00987E9B /* Colfax-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE1341A73CF0C00987E9B /* Colfax-Black.otf */; };
 		80ADE1421A73CF7E00987E9B /* Colfax-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE1351A73CF0C00987E9B /* Colfax-BlackItalic.otf */; };
 		80ADE1431A73CF7E00987E9B /* Colfax-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE1361A73CF0C00987E9B /* Colfax-Bold.otf */; };
@@ -32,6 +35,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		803A2D431A755FA3003F9B22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 803A2D3D1A755FA3003F9B22 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+		803A2D451A755FA3003F9B22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 803A2D3D1A755FA3003F9B22 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCE209E51943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
+		803A2D471A755FE8003F9B22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 803A2D3D1A755FA3003F9B22 /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE209E41943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
 		804D6B7A1A70496700A0689F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 804D6B5C1A70496700A0689F /* Project object */;
@@ -41,7 +65,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		803A2D4A1A756072003F9B22 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				803A2D4B1A75608A003F9B22 /* GPUImage.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		803A2D3D1A755FA3003F9B22 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = "../../../Downloads/GPUImage-master-2/framework/GPUImage.xcodeproj"; sourceTree = "<group>"; };
 		804934191A73F7BD00DE1AA8 /* AddCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCell.swift; sourceTree = "<group>"; };
 		8049341B1A73FB4800DE1AA8 /* RecipeLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeLayout.swift; sourceTree = "<group>"; };
 		804D6B641A70496700A0689F /* Cultivator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cultivator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +93,7 @@
 		804D6B7E1A70496700A0689F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		804D6B7F1A70496700A0689F /* CultivatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CultivatorTests.swift; sourceTree = "<group>"; };
 		8088F7581A7523CE00229F72 /* Rezepturen.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Rezepturen.plist; sourceTree = "<group>"; };
+		8088F75A1A75333A00229F72 /* EditingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditingViewController.swift; sourceTree = "<group>"; };
 		80ADE1341A73CF0C00987E9B /* Colfax-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Black.otf"; sourceTree = "<group>"; };
 		80ADE1351A73CF0C00987E9B /* Colfax-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-BlackItalic.otf"; sourceTree = "<group>"; };
 		80ADE1361A73CF0C00987E9B /* Colfax-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Bold.otf"; sourceTree = "<group>"; };
@@ -75,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				803A2D491A755FF9003F9B22 /* GPUImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,12 +128,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		803A2D3E1A755FA3003F9B22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				803A2D441A755FA3003F9B22 /* libGPUImage.a */,
+				803A2D461A755FA3003F9B22 /* GPUImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		804D6B5B1A70496700A0689F = {
 			isa = PBXGroup;
 			children = (
 				804D6B661A70496700A0689F /* Cultivator */,
 				804D6B7C1A70496700A0689F /* CultivatorTests */,
 				804D6B651A70496700A0689F /* Products */,
+				803A2D3D1A755FA3003F9B22 /* GPUImage.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +161,7 @@
 			children = (
 				804D6B691A70496700A0689F /* AppDelegate.swift */,
 				804D6B6B1A70496700A0689F /* ViewController.swift */,
+				8088F75A1A75333A00229F72 /* EditingViewController.swift */,
 				8049341B1A73FB4800DE1AA8 /* RecipeLayout.swift */,
 				804934191A73F7BD00DE1AA8 /* AddCell.swift */,
 				80ADE14F1A73E62000987E9B /* Recipe.swift */,
@@ -178,10 +229,12 @@
 				804D6B601A70496700A0689F /* Sources */,
 				804D6B611A70496700A0689F /* Frameworks */,
 				804D6B621A70496700A0689F /* Resources */,
+				803A2D4A1A756072003F9B22 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				803A2D481A755FE8003F9B22 /* PBXTargetDependency */,
 			);
 			name = Cultivator;
 			productName = Cultivator;
@@ -235,6 +288,12 @@
 			mainGroup = 804D6B5B1A70496700A0689F;
 			productRefGroup = 804D6B651A70496700A0689F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 803A2D3E1A755FA3003F9B22 /* Products */;
+					ProjectRef = 803A2D3D1A755FA3003F9B22 /* GPUImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				804D6B631A70496700A0689F /* Cultivator */,
@@ -242,6 +301,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		803A2D441A755FA3003F9B22 /* libGPUImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPUImage.a;
+			remoteRef = 803A2D431A755FA3003F9B22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		803A2D461A755FA3003F9B22 /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = 803A2D451A755FA3003F9B22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		804D6B621A70496700A0689F /* Resources */ = {
@@ -282,6 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8049341C1A73FB4800DE1AA8 /* RecipeLayout.swift in Sources */,
+				8088F75B1A75333A00229F72 /* EditingViewController.swift in Sources */,
 				80ADE1501A73E62000987E9B /* Recipe.swift in Sources */,
 				8049341A1A73F7BD00DE1AA8 /* AddCell.swift in Sources */,
 				804D6B6C1A70496700A0689F /* ViewController.swift in Sources */,
@@ -300,6 +377,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		803A2D481A755FE8003F9B22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImageFramework;
+			targetProxy = 803A2D471A755FE8003F9B22 /* PBXContainerItemProxy */;
+		};
 		804D6B7B1A70496700A0689F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 804D6B631A70496700A0689F /* Cultivator */;

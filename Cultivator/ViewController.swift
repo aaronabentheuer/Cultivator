@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import GPUImage
 
 var notificationCenter : NSNotificationCenter = NSNotificationCenter.defaultCenter()
+
+var editingViewController : EditingViewController = EditingViewController()
 
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
@@ -16,6 +19,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     var recipeCollectionViewCell : Recipe?
     var addRecipeCollectionViewCell : AddCell?
 
+    var videoCamera:GPUImageVideoCamera?
+    var filter:GPUImageMotionDetector?
     
     
     var recepies : NSArray = NSArray()
@@ -42,7 +47,22 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         var path = NSBundle.mainBundle().pathForResource("Rezepturen", ofType: "plist")
         recepies = NSArray(contentsOfFile: path!)!
+        
+        var cameraView : GPUImageView = GPUImageView(frame: CGRectMake(0, 0, 100, 100))
+        self.view.addSubview(cameraView)
+        
+        videoCamera = GPUImageVideoCamera(sessionPreset: AVCaptureSessionPreset640x480, cameraPosition: .Front)
+        videoCamera!.outputImageOrientation = UIInterfaceOrientation.LandscapeLeft;
+        filter = GPUImageMotionDetector()
+        videoCamera?.addTarget(filter)
+        videoCamera?.startCameraCapture()
+
+        filter?.motionDetectionBlock = { (motionCentroid : CGPoint, motionIntensity : CGFloat, frameTime : CMTime) in return
+            println(motionIntensity*100)
+        }
+
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -63,6 +83,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         
+        self.presentViewController(editingViewController, animated: true, completion: nil)
+        
 //        if (indexPath == NSIndexPath(forItem: 0, inSection: 0)) {
 //            var newString = "KochInfinity"
 //            self.testArray.insert(newString, atIndex: 0)
@@ -70,6 +92,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
 //            UIView.animateWithDuration(0.5, animations: {
 //                self.recipeCollectionView!.reloadData()
 //            })
+        
 //        }
     }
     
@@ -96,10 +119,13 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as Recipe
             
             cell.title.text = dictionary["Title"]! as? String
-            
+            cell.comment.text = dictionary["Description"]! as? String
+            cell.creator.text = dictionary["Creator"]! as? String
+
             return cell
         }
     }
+    
     
     override func prefersStatusBarHidden() -> Bool {
         return true
