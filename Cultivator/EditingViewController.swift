@@ -9,11 +9,23 @@
 import UIKit
 
 class EditingViewController: UIViewController {
+    
+    var backgroundView : UIVisualEffectView = UIVisualEffectView(effect: UIBlurEffect(style: UIBlurEffectStyle.Dark))
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor.clearColor()
+        backgroundView.frame = self.view.frame
+        backgroundView.alpha = 0
+        self.view.addSubview(backgroundView)
         
-        self.view.backgroundColor = UIColor.yellowColor()
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        
+        UIView.animateWithDuration(0.3, animations: {
+            self.backgroundView.alpha = 1
+        }, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {

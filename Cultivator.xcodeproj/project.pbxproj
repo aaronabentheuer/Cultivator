@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80014BDA1A758DC3002ECB14 /* MeatScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80014BD91A758DC3002ECB14 /* MeatScene.sks */; };
+		80014BE01A758DEB002ECB14 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 80014BDE1A758DEB002ECB14 /* smoke.png */; };
+		80014BE31A758E70002ECB14 /* MyParticleSystem.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 80014BE11A758E70002ECB14 /* MyParticleSystem.scnp */; };
+		80014BE41A758E70002ECB14 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 80014BE21A758E70002ECB14 /* spark.png */; };
 		803A2D491A755FF9003F9B22 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803A2D461A755FA3003F9B22 /* GPUImage.framework */; };
 		803A2D4B1A75608A003F9B22 /* GPUImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 803A2D461A755FA3003F9B22 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8049341A1A73F7BD00DE1AA8 /* AddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804934191A73F7BD00DE1AA8 /* AddCell.swift */; };
@@ -79,6 +83,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		80014BD91A758DC3002ECB14 /* MeatScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MeatScene.sks; sourceTree = "<group>"; };
+		80014BDE1A758DEB002ECB14 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
+		80014BE11A758E70002ECB14 /* MyParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = MyParticleSystem.scnp; sourceTree = "<group>"; };
+		80014BE21A758E70002ECB14 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		803A2D3D1A755FA3003F9B22 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = "../../../Downloads/GPUImage-master-2/framework/GPUImage.xcodeproj"; sourceTree = "<group>"; };
 		804934191A73F7BD00DE1AA8 /* AddCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCell.swift; sourceTree = "<group>"; };
 		8049341B1A73FB4800DE1AA8 /* RecipeLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeLayout.swift; sourceTree = "<group>"; };
@@ -140,6 +148,8 @@
 		804D6B5B1A70496700A0689F = {
 			isa = PBXGroup;
 			children = (
+				80014BE11A758E70002ECB14 /* MyParticleSystem.scnp */,
+				80014BE21A758E70002ECB14 /* spark.png */,
 				804D6B661A70496700A0689F /* Cultivator */,
 				804D6B7C1A70496700A0689F /* CultivatorTests */,
 				804D6B651A70496700A0689F /* Products */,
@@ -166,6 +176,8 @@
 				804934191A73F7BD00DE1AA8 /* AddCell.swift */,
 				80ADE14F1A73E62000987E9B /* Recipe.swift */,
 				804D6B6D1A70496700A0689F /* Main.storyboard */,
+				80014BD91A758DC3002ECB14 /* MeatScene.sks */,
+				80014BDE1A758DEB002ECB14 /* smoke.png */,
 				804D6B701A70496700A0689F /* Images.xcassets */,
 				804D6B721A70496700A0689F /* LaunchScreen.xib */,
 				804D6B671A70496700A0689F /* Supporting Files */,
@@ -329,10 +341,14 @@
 				80ADE1431A73CF7E00987E9B /* Colfax-Bold.otf in Resources */,
 				80ADE1441A73CF7E00987E9B /* Colfax-BoldItalic.otf in Resources */,
 				80ADE1451A73CF7E00987E9B /* Colfax-Light.otf in Resources */,
+				80014BE41A758E70002ECB14 /* spark.png in Resources */,
 				80ADE1461A73CF7E00987E9B /* Colfax-LightItalic.otf in Resources */,
+				80014BE01A758DEB002ECB14 /* smoke.png in Resources */,
 				80ADE1471A73CF7E00987E9B /* Colfax-Medium.otf in Resources */,
+				80014BDA1A758DC3002ECB14 /* MeatScene.sks in Resources */,
 				80ADE1481A73CF7E00987E9B /* Colfax-MediumItalic.otf in Resources */,
 				80ADE1491A73CF7E00987E9B /* Colfax-Regular.otf in Resources */,
+				80014BE31A758E70002ECB14 /* MyParticleSystem.scnp in Resources */,
 				80ADE14A1A73CF7E00987E9B /* Colfax-RegularItalic.otf in Resources */,
 				80ADE14B1A73CF7E00987E9B /* Colfax-Thin.otf in Resources */,
 				80ADE14C1A73CF7E00987E9B /* Colfax-ThinItalic.otf in Resources */,

@@ -12,10 +12,10 @@ import GPUImage
 var notificationCenter : NSNotificationCenter = NSNotificationCenter.defaultCenter()
 
 var editingViewController : EditingViewController = EditingViewController()
+var recipeCollectionView : UICollectionView?
 
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
-    var recipeCollectionView : UICollectionView?
     var recipeCollectionViewCell : Recipe?
     var addRecipeCollectionViewCell : AddCell?
 
@@ -51,14 +51,16 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         var cameraView : GPUImageView = GPUImageView(frame: CGRectMake(0, 0, 100, 100))
         self.view.addSubview(cameraView)
         
+        
         videoCamera = GPUImageVideoCamera(sessionPreset: AVCaptureSessionPreset640x480, cameraPosition: .Front)
         videoCamera!.outputImageOrientation = UIInterfaceOrientation.LandscapeLeft;
         filter = GPUImageMotionDetector()
         videoCamera?.addTarget(filter)
+//        filter?.addTarget(cameraView as GPUImageView)
         videoCamera?.startCameraCapture()
 
         filter?.motionDetectionBlock = { (motionCentroid : CGPoint, motionIntensity : CGFloat, frameTime : CMTime) in return
-            println(motionIntensity*100)
+            println(Int(floor(motionIntensity*100)))
         }
 
     }
@@ -81,9 +83,40 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         return recepies.count
     }
     
+    var snapshot : UIView? = nil
+    
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         
-        self.presentViewController(editingViewController, animated: true, completion: nil)
+        var cell : Recipe = recipeCollectionView!.cellForItemAtIndexPath(indexPath) as Recipe
+        
+        self.snapshot = self.customSnapshotFromView(cell)
+        var center : CGPoint = cell.center
+        println(center)
+        
+        
+        var attributes : UICollectionViewLayoutAttributes = recipeCollectionView!.layoutAttributesForItemAtIndexPath(indexPath)!
+        
+        var cellRect = attributes.frame
+        var cellFrameInSuperView : CGRect = recipeCollectionView!.convertRect(cellRect, toView: recipeCollectionView!.superview)
+        
+        self.snapshot?.center = CGPointMake(cellFrameInSuperView.midX, cellFrameInSuperView.midY)
+        self.snapshot?.alpha = 1
+        self.view.addSubview(self.snapshot!)
+        cell.alpha = 0
+        
+        UIView.animateWithDuration(NSTimeInterval(0.5), animations: {
+            self.snapshot?.center.y = self.view.center.y
+            self.snapshot?.center.x = self.view.center.x-300
+            
+            self.snapshot?.alpha = 1
+            
+            self.snapshot?.layer.shouldRasterize = true
+            self.snapshot?.layer.rasterizationScale = UIScreen.mainScreen().scale
+            
+            }, completion: { (value: Bool) in
+                editingViewController.modalPresentationStyle = UIModalPresentationStyle.OverCurrentContext
+                self.presentViewController(editingViewController, animated: false, completion: nil)
+        })
         
 //        if (indexPath == NSIndexPath(forItem: 0, inSection: 0)) {
 //            var newString = "KochInfinity"
@@ -94,6 +127,22 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
 //            })
         
 //        }
+    }
+    
+    func customSnapshotFromView (inputView : UIView) -> UIView {
+        UIGraphicsBeginImageContextWithOptions(inputView.bounds.size, false, 0)
+        inputView.layer.renderInContext(UIGraphicsGetCurrentContext())
+        var image : UIImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        var snapshot : UIView = UIImageView(image: image)
+        snapshot.layer.masksToBounds = false
+        snapshot.layer.cornerRadius = 0
+        snapshot.layer.shadowOffset = CGSizeMake(0.0, 0.0);
+        snapshot.layer.shadowRadius = 2.0;
+        snapshot.layer.shadowOpacity = 0.4;
+        
+        return snapshot
     }
     
     var scrollViewDidScrollNotification = NSNotification(name: "scrollViewDidScrollNotification", object: nil)
