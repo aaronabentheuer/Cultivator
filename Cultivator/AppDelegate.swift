@@ -16,7 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIGestureRecognizerDelega
 
     var videoCamera:GPUImageVideoCamera?
     var filter:GPUImageMotionDetector?
-
+    
+    var userInteractionTimer : NSTimer?
+    var userInteractionTimerActivated : Bool = false
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
@@ -26,28 +28,64 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIGestureRecognizerDelega
         videoCamera?.addTarget(filter)
         videoCamera?.startCameraCapture()
         
+        userInteractionTimer = NSTimer(timeInterval: 3, target: self, selector: Selector("handleIdleUser:"), userInfo: nil, repeats: false)
+        
         var userInteractionDetectedNotification = NSNotification(name: "userInteractionDetectedNotification", object: self)
         var userIdleDetectedNotification = NSNotification(name: "userIdleDetectedNotification", object: self)
         
         
         filter?.motionDetectionBlock = { (motionCentroid : CGPoint, motionIntensity : CGFloat, frameTime : CMTime) in
+            
+            if (motionIntensity == 0.0) {
+                if (self.userInteractionTimerActivated == false) {
+                    self.setupTimer()
+                }
+            } else {
+                if (self.userInteractionTimer != nil) {
+                    if (self.userInteractionTimer!.valid) {
+//                        self.userInteractionTimer!.invalidate()
+                        self.userInteractionTimerActivated = false
+                    }
+                }
+            }
+            
+//            println(self.userInteractionTimer!.valid)
+            
             return
         }
         
-        var interactionRecognizer : UIGestureRecognizer = UIGestureRecognizer(target: self, action: Selector("userInteractionRecognized:"))
+        var interactionRecognizer : UIGestureRecognizer = UIGestureRecognizer(target: self, action: nil)
         interactionRecognizer.delegate = self
         self.window!.addGestureRecognizer(interactionRecognizer)
         
         return true
     }
     
-    func userInteractionRecognized (recognizer : UIGestureRecognizer) {
-        println("interaction")
+    func setupTimer () {
+        println("setup")
+        
+        var vc : ViewController = ViewController()
+        
+        if (viewIsReady) {
+            println("ready")
+            NSRunLoop.currentRunLoop().addTimer(userInteractionTimer!, forMode: NSRunLoopCommonModes)
+            self.userInteractionTimerActivated = true
+        }
+        
+        println(userInteractionTimer!.valid)
+    }
+    
+    func handleIdleUser (timer : NSTimer) {
+        println("handled")
     }
     
     func gestureRecognizer(gestureRecognizer: UIGestureRecognizer, shouldReceiveTouch touch: UITouch) -> Bool {
-        
-        println("userInteraction")
+        if (userInteractionTimer != nil) {
+            if (userInteractionTimer!.valid) {
+//                userInteractionTimer!.invalidate()
+                userInteractionTimerActivated = false
+            }
+        }
         
         return false
     }

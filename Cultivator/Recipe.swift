@@ -13,7 +13,7 @@ class Recipe: UICollectionViewCell, UITableViewDelegate, UITableViewDataSource {
     var title : UILabel = UILabel()
     var creator : UILabel = UILabel()
     var comment : UILabel = UILabel()
-    var blendingView : UIVisualEffectView = UIVisualEffectView(effect: UIBlurEffect(style: UIBlurEffectStyle.Dark))
+    var blendingView : UIView = UIView()
     
     var healthyWizard : UIView = UIView()
     var nutritionalTableView : UITableView = UITableView()
@@ -80,7 +80,7 @@ class Recipe: UICollectionViewCell, UITableViewDelegate, UITableViewDataSource {
         
         
         blendingView.frame = CGRect(x: 0, y: 0, width: self.frame.width, height: self.frame.height)
-        blendingView.backgroundColor = UIColor.clearColor()
+        blendingView.backgroundColor = UIColor.blackColor()
         blendingView.layer.opacity = 0
         self.addSubview(blendingView)
         
@@ -117,7 +117,7 @@ class Recipe: UICollectionViewCell, UITableViewDelegate, UITableViewDataSource {
     func handleScrollViewDidScroll (notification : NSNotification) {
                 
         UIView.animateWithDuration(0.2, animations: {
-//            self.blendingView.layer.opacity = 1
+            self.blendingView.layer.opacity = 0.95
             self.title.textAlignment = .Center
             self.title.font = UIFont(name: "Colfax-Regular", size: 20)
             self.title.numberOfLines = 2
@@ -152,7 +152,7 @@ class Recipe: UICollectionViewCell, UITableViewDelegate, UITableViewDataSource {
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         var header = IngredientsTableViewHeaderView(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: 30))
-        header.sectionTitle.text = "Ingredients"
+        header.sectionTitle.text = "Nährwerte"
         return header
     }
     

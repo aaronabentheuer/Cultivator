@@ -16,6 +16,7 @@ var recipeCollectionView : UICollectionView?
 var backgroundView : UIVisualEffectView = UIVisualEffectView(effect: UIBlurEffect(style: UIBlurEffectStyle.Dark))
 
 var snapshot : UIView? = nil
+var viewIsReady : Bool = false
 
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UIGestureRecognizerDelegate {
 
@@ -63,6 +64,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     override func viewDidAppear(animated: Bool) {
         changeEnergySoundTimer = NSTimer.scheduledTimerWithTimeInterval(3, target: self, selector: Selector("changeEnergySource"), userInfo: nil, repeats: true)
         changeEnergySoundTimer!.fire()
+        
+        viewIsReady = true
     }
     
     //MARK: RECIPE-COLLECTIONVIEW RELATED METHODS.
