@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		80014BDA1A758DC3002ECB14 /* MeatScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80014BD91A758DC3002ECB14 /* MeatScene.sks */; };
-		80014BE01A758DEB002ECB14 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 80014BDE1A758DEB002ECB14 /* smoke.png */; };
-		80014BE31A758E70002ECB14 /* MyParticleSystem.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 80014BE11A758E70002ECB14 /* MyParticleSystem.scnp */; };
-		80014BE41A758E70002ECB14 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 80014BE21A758E70002ECB14 /* spark.png */; };
 		803A2D491A755FF9003F9B22 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803A2D461A755FA3003F9B22 /* GPUImage.framework */; };
 		803A2D4B1A75608A003F9B22 /* GPUImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 803A2D461A755FA3003F9B22 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8049341A1A73F7BD00DE1AA8 /* AddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804934191A73F7BD00DE1AA8 /* AddCell.swift */; };
@@ -21,8 +17,11 @@
 		804D6B711A70496700A0689F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804D6B701A70496700A0689F /* Images.xcassets */; };
 		804D6B741A70496700A0689F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804D6B721A70496700A0689F /* LaunchScreen.xib */; };
 		804D6B801A70496700A0689F /* CultivatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804D6B7F1A70496700A0689F /* CultivatorTests.swift */; };
+		8055DCBE1A77AB4900F9D000 /* IdleModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8055DCBD1A77AB4900F9D000 /* IdleModeViewController.swift */; };
 		8088F7591A7523CE00229F72 /* Rezepturen.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8088F7581A7523CE00229F72 /* Rezepturen.plist */; };
 		8088F75B1A75333A00229F72 /* EditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088F75A1A75333A00229F72 /* EditingViewController.swift */; };
+		809598051A78219A007632C7 /* Firm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 809598041A78219A007632C7 /* Firm.mp3 */; };
+		809598081A782723007632C7 /* 100Percent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 809598071A782723007632C7 /* 100Percent.mp3 */; };
 		80ADE1411A73CF7E00987E9B /* Colfax-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE1341A73CF0C00987E9B /* Colfax-Black.otf */; };
 		80ADE1421A73CF7E00987E9B /* Colfax-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE1351A73CF0C00987E9B /* Colfax-BlackItalic.otf */; };
 		80ADE1431A73CF7E00987E9B /* Colfax-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE1361A73CF0C00987E9B /* Colfax-Bold.otf */; };
@@ -36,6 +35,7 @@
 		80ADE14B1A73CF7E00987E9B /* Colfax-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE13E1A73CF0C00987E9B /* Colfax-Thin.otf */; };
 		80ADE14C1A73CF7E00987E9B /* Colfax-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE13F1A73CF0C00987E9B /* Colfax-ThinItalic.otf */; };
 		80ADE1501A73E62000987E9B /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ADE14F1A73E62000987E9B /* Recipe.swift */; };
+		D06EE0C4CF651C5CAF37A798 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6322BC8F7A5802C7E7740350 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,10 +83,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		80014BD91A758DC3002ECB14 /* MeatScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MeatScene.sks; sourceTree = "<group>"; };
-		80014BDE1A758DEB002ECB14 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
-		80014BE11A758E70002ECB14 /* MyParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = MyParticleSystem.scnp; sourceTree = "<group>"; };
-		80014BE21A758E70002ECB14 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		6322BC8F7A5802C7E7740350 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		803A2D3D1A755FA3003F9B22 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = "../../../Downloads/GPUImage-master-2/framework/GPUImage.xcodeproj"; sourceTree = "<group>"; };
 		804934191A73F7BD00DE1AA8 /* AddCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCell.swift; sourceTree = "<group>"; };
 		8049341B1A73FB4800DE1AA8 /* RecipeLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeLayout.swift; sourceTree = "<group>"; };
@@ -100,8 +97,11 @@
 		804D6B791A70496700A0689F /* CultivatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CultivatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		804D6B7E1A70496700A0689F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		804D6B7F1A70496700A0689F /* CultivatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CultivatorTests.swift; sourceTree = "<group>"; };
+		8055DCBD1A77AB4900F9D000 /* IdleModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdleModeViewController.swift; sourceTree = "<group>"; };
 		8088F7581A7523CE00229F72 /* Rezepturen.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Rezepturen.plist; sourceTree = "<group>"; };
 		8088F75A1A75333A00229F72 /* EditingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditingViewController.swift; sourceTree = "<group>"; };
+		809598041A78219A007632C7 /* Firm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Firm.mp3; sourceTree = "<group>"; };
+		809598071A782723007632C7 /* 100Percent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 100Percent.mp3; sourceTree = "<group>"; };
 		80ADE1341A73CF0C00987E9B /* Colfax-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Black.otf"; sourceTree = "<group>"; };
 		80ADE1351A73CF0C00987E9B /* Colfax-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-BlackItalic.otf"; sourceTree = "<group>"; };
 		80ADE1361A73CF0C00987E9B /* Colfax-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Bold.otf"; sourceTree = "<group>"; };
@@ -115,6 +115,8 @@
 		80ADE13E1A73CF0C00987E9B /* Colfax-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Thin.otf"; sourceTree = "<group>"; };
 		80ADE13F1A73CF0C00987E9B /* Colfax-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-ThinItalic.otf"; sourceTree = "<group>"; };
 		80ADE14F1A73E62000987E9B /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		B842EE050B8BE74E6C372B97 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CFDF484C65D881C33858D935 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				803A2D491A755FF9003F9B22 /* GPUImage.framework in Frameworks */,
+				D06EE0C4CF651C5CAF37A798 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,12 +151,12 @@
 		804D6B5B1A70496700A0689F = {
 			isa = PBXGroup;
 			children = (
-				80014BE11A758E70002ECB14 /* MyParticleSystem.scnp */,
-				80014BE21A758E70002ECB14 /* spark.png */,
 				804D6B661A70496700A0689F /* Cultivator */,
 				804D6B7C1A70496700A0689F /* CultivatorTests */,
 				804D6B651A70496700A0689F /* Products */,
 				803A2D3D1A755FA3003F9B22 /* GPUImage.xcodeproj */,
+				F21856973033A962B4D61A45 /* Pods */,
+				F85390CFF60D7665FB9C7135 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -171,13 +174,12 @@
 			children = (
 				804D6B691A70496700A0689F /* AppDelegate.swift */,
 				804D6B6B1A70496700A0689F /* ViewController.swift */,
+				8055DCBD1A77AB4900F9D000 /* IdleModeViewController.swift */,
 				8088F75A1A75333A00229F72 /* EditingViewController.swift */,
 				8049341B1A73FB4800DE1AA8 /* RecipeLayout.swift */,
 				804934191A73F7BD00DE1AA8 /* AddCell.swift */,
 				80ADE14F1A73E62000987E9B /* Recipe.swift */,
 				804D6B6D1A70496700A0689F /* Main.storyboard */,
-				80014BD91A758DC3002ECB14 /* MeatScene.sks */,
-				80014BDE1A758DEB002ECB14 /* smoke.png */,
 				804D6B701A70496700A0689F /* Images.xcassets */,
 				804D6B721A70496700A0689F /* LaunchScreen.xib */,
 				804D6B671A70496700A0689F /* Supporting Files */,
@@ -188,6 +190,7 @@
 		804D6B671A70496700A0689F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				809598061A78219E007632C7 /* Sounds */,
 				80ADE1401A73CF1400987E9B /* Colfax */,
 				804D6B681A70496700A0689F /* Info.plist */,
 			);
@@ -211,6 +214,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		809598061A78219E007632C7 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				809598041A78219A007632C7 /* Firm.mp3 */,
+				809598071A782723007632C7 /* 100Percent.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		80ADE1401A73CF1400987E9B /* Colfax */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,6 +243,23 @@
 			name = Colfax;
 			sourceTree = "<group>";
 		};
+		F21856973033A962B4D61A45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFDF484C65D881C33858D935 /* Pods.debug.xcconfig */,
+				B842EE050B8BE74E6C372B97 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F85390CFF60D7665FB9C7135 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6322BC8F7A5802C7E7740350 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -238,10 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 804D6B831A70496700A0689F /* Build configuration list for PBXNativeTarget "Cultivator" */;
 			buildPhases = (
+				F2131721B45815B40B69CC37 /* Check Pods Manifest.lock */,
 				804D6B601A70496700A0689F /* Sources */,
 				804D6B611A70496700A0689F /* Frameworks */,
 				804D6B621A70496700A0689F /* Resources */,
 				803A2D4A1A756072003F9B22 /* CopyFiles */,
+				D8729584123B93F4CEB0222E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -336,19 +367,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				809598051A78219A007632C7 /* Firm.mp3 in Resources */,
 				80ADE1411A73CF7E00987E9B /* Colfax-Black.otf in Resources */,
 				80ADE1421A73CF7E00987E9B /* Colfax-BlackItalic.otf in Resources */,
 				80ADE1431A73CF7E00987E9B /* Colfax-Bold.otf in Resources */,
 				80ADE1441A73CF7E00987E9B /* Colfax-BoldItalic.otf in Resources */,
 				80ADE1451A73CF7E00987E9B /* Colfax-Light.otf in Resources */,
-				80014BE41A758E70002ECB14 /* spark.png in Resources */,
 				80ADE1461A73CF7E00987E9B /* Colfax-LightItalic.otf in Resources */,
-				80014BE01A758DEB002ECB14 /* smoke.png in Resources */,
+				809598081A782723007632C7 /* 100Percent.mp3 in Resources */,
 				80ADE1471A73CF7E00987E9B /* Colfax-Medium.otf in Resources */,
-				80014BDA1A758DC3002ECB14 /* MeatScene.sks in Resources */,
 				80ADE1481A73CF7E00987E9B /* Colfax-MediumItalic.otf in Resources */,
 				80ADE1491A73CF7E00987E9B /* Colfax-Regular.otf in Resources */,
-				80014BE31A758E70002ECB14 /* MyParticleSystem.scnp in Resources */,
 				80ADE14A1A73CF7E00987E9B /* Colfax-RegularItalic.otf in Resources */,
 				80ADE14B1A73CF7E00987E9B /* Colfax-Thin.otf in Resources */,
 				80ADE14C1A73CF7E00987E9B /* Colfax-ThinItalic.otf in Resources */,
@@ -368,12 +397,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D8729584123B93F4CEB0222E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2131721B45815B40B69CC37 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		804D6B601A70496700A0689F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8049341C1A73FB4800DE1AA8 /* RecipeLayout.swift in Sources */,
+				8055DCBE1A77AB4900F9D000 /* IdleModeViewController.swift in Sources */,
 				8088F75B1A75333A00229F72 /* EditingViewController.swift in Sources */,
 				80ADE1501A73E62000987E9B /* Recipe.swift in Sources */,
 				8049341A1A73F7BD00DE1AA8 /* AddCell.swift in Sources */,
@@ -506,23 +569,27 @@
 		};
 		804D6B841A70496700A0689F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFDF484C65D881C33858D935 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Cultivator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ObjC_BridgingHeader.h;
 			};
 			name = Debug;
 		};
 		804D6B851A70496700A0689F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B842EE050B8BE74E6C372B97 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Cultivator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ObjC_BridgingHeader.h;
 			};
 			name = Release;
 		};

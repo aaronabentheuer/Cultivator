@@ -13,7 +13,7 @@ class Recipe: UICollectionViewCell, UITableViewDelegate, UITableViewDataSource {
     var title : UILabel = UILabel()
     var creator : UILabel = UILabel()
     var comment : UILabel = UILabel()
-    var blendingView : UIView = UIView()
+    var blendingView : UIVisualEffectView = UIVisualEffectView(effect: UIBlurEffect(style: UIBlurEffectStyle.Dark))
     
     var healthyWizard : UIView = UIView()
     var nutritionalTableView : UITableView = UITableView()
@@ -80,7 +80,7 @@ class Recipe: UICollectionViewCell, UITableViewDelegate, UITableViewDataSource {
         
         
         blendingView.frame = CGRect(x: 0, y: 0, width: self.frame.width, height: self.frame.height)
-        blendingView.backgroundColor = UIColor.whiteColor()
+        blendingView.backgroundColor = UIColor.clearColor()
         blendingView.layer.opacity = 0
         self.addSubview(blendingView)
         
@@ -117,13 +117,21 @@ class Recipe: UICollectionViewCell, UITableViewDelegate, UITableViewDataSource {
     func handleScrollViewDidScroll (notification : NSNotification) {
                 
         UIView.animateWithDuration(0.2, animations: {
-            self.blendingView.layer.opacity = 0.5
+//            self.blendingView.layer.opacity = 1
+            self.title.textAlignment = .Center
+            self.title.font = UIFont(name: "Colfax-Regular", size: 20)
+            self.title.numberOfLines = 2
+            self.title.frame = CGRect(x: 12, y: self.frame.height/2-20, width: self.frame.width-16, height: 40)
         })
     }
     
     func handleScrollViewWillBeginDecelerating (notification : NSNotification) {
         UIView.animateWithDuration(0.2, animations: {
             self.blendingView.layer.opacity = 0
+            self.title.textAlignment = .Left
+            self.title.numberOfLines = 1
+            self.title.font = UIFont(name: "Colfax-Light", size: 24)
+            self.title.frame = CGRect(x: 12, y: 16, width: self.frame.width-16, height: 40)
         })
     }
     
@@ -185,7 +193,7 @@ class IngredientsTableViewCell: UITableViewCell {
 //        ingredientLabel.layer.anchorPoint = CGPointMake(0, 1)
 //        ingredientValue.center = CGPointMake(12, frame.height)
         ingredientLabel.textAlignment = .Left
-        ingredientLabel.font = UIFont(name: "Colfax-Medium", size: 16)
+        ingredientLabel.font = UIFont(name: "Colfax-Medium", size: 20)
         self.addSubview(ingredientLabel)
         
         ingredientValue.frame = CGRect(x: 12, y: 0, width: frame.width-62, height: frame.height)

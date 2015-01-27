@@ -8,24 +8,69 @@
 
 import UIKit
 
-class EditingViewController: UIViewController {
+var displayedDictionary : NSDictionary = NSDictionary()
+
+class EditingViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
-    var backgroundView : UIVisualEffectView = UIVisualEffectView(effect: UIBlurEffect(style: UIBlurEffectStyle.Dark))
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.clearColor()
-        backgroundView.frame = self.view.frame
-        backgroundView.alpha = 0
-        self.view.addSubview(backgroundView)
+        
+        var recipeCollectionViewLayout = RecipeLayout()
+        recipeCollectionViewLayout.scrollDirection = UICollectionViewScrollDirection.Horizontal
+        recipeCollectionViewLayout.itemSize = CGSize(width: 280, height: 620)
+        recipeCollectionViewLayout.minimumLineSpacing = 50
+        recipeCollectionViewLayout.sectionInset = UIEdgeInsets(top: 0, left: 50, bottom: 0, right: 50)
+        
+        
+        recipeCollectionView = UICollectionView(frame: self.view.bounds, collectionViewLayout: recipeCollectionViewLayout)
+        recipeCollectionView!.delegate = self
+        recipeCollectionView!.backgroundColor = UIColor.clearColor()
+        recipeCollectionView!.dataSource = self
+        
+        var tapGestureRecognizer : UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: Selector("handleTapInBackground:"))
+        
+        recipeCollectionView!.addGestureRecognizer(tapGestureRecognizer)
+        
+        recipeCollectionView!.registerClass(Recipe.self, forCellWithReuseIdentifier: "cell")
+        recipeCollectionView!.registerClass(AddCell.self, forCellWithReuseIdentifier: "addCell")
+        
+        self.view.addSubview(recipeCollectionView!)
         
     }
     
-    override func viewDidAppear(animated: Bool) {
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         
-        UIView.animateWithDuration(0.3, animations: {
-            self.backgroundView.alpha = 1
-        }, completion: nil)
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as Recipe
+        
+        cell.title.text = displayedDictionary["Title"]! as? String
+        cell.comment.text = displayedDictionary["Description"]! as? String
+        cell.creator.text = displayedDictionary["Creator"]! as? String
+        
+        return cell
+    }
+
+    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+        return 1
+    }
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAtIndex section: Int) -> CGFloat {
+        return 200
+    }
+    
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func handleTapInBackground (recognizer : UITapGestureRecognizer) {
+        var vc = ViewController()
+        vc.animateOutBlurView()
+        self.presentingViewController!.dismissViewControllerAnimated(false, completion: nil)
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        snapshot?.removeFromSuperview()
     }
 
     override func didReceiveMemoryWarning() {

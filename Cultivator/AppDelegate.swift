@@ -7,16 +7,49 @@
 //
 
 import UIKit
+import GPUImage
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UIGestureRecognizerDelegate {
 
     var window: UIWindow?
 
+    var videoCamera:GPUImageVideoCamera?
+    var filter:GPUImageMotionDetector?
 
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        videoCamera = GPUImageVideoCamera(sessionPreset: AVCaptureSessionPreset640x480, cameraPosition: .Front)
+        videoCamera!.outputImageOrientation = UIInterfaceOrientation.LandscapeLeft;
+        filter = GPUImageMotionDetector()
+        videoCamera?.addTarget(filter)
+        videoCamera?.startCameraCapture()
+        
+        var userInteractionDetectedNotification = NSNotification(name: "userInteractionDetectedNotification", object: self)
+        var userIdleDetectedNotification = NSNotification(name: "userIdleDetectedNotification", object: self)
+        
+        
+        filter?.motionDetectionBlock = { (motionCentroid : CGPoint, motionIntensity : CGFloat, frameTime : CMTime) in
+            return
+        }
+        
+        var interactionRecognizer : UIGestureRecognizer = UIGestureRecognizer(target: self, action: Selector("userInteractionRecognized:"))
+        interactionRecognizer.delegate = self
+        self.window!.addGestureRecognizer(interactionRecognizer)
+        
         return true
+    }
+    
+    func userInteractionRecognized (recognizer : UIGestureRecognizer) {
+        println("interaction")
+    }
+    
+    func gestureRecognizer(gestureRecognizer: UIGestureRecognizer, shouldReceiveTouch touch: UITouch) -> Bool {
+        
+        println("userInteraction")
+        
+        return false
     }
 
     func applicationWillResignActive(application: UIApplication) {
@@ -29,9 +62,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
     }
 
-    func applicationWillEnterForeground(application: UIApplication) {
-        // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
-    }
 
     func applicationDidBecomeActive(application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
