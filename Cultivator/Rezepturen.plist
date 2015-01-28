@@ -26,12 +26,12 @@
 			<integer>310</integer>
 			<key>calories</key>
 			<integer>300</integer>
-			<key>carbs</key>
-			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>97</integer>
 			<key>fat</key>
 			<integer>210</integer>
+			<key>natrium</key>
+			<integer>2</integer>
 			<key>phosphor</key>
 			<integer>200</integer>
 			<key>protein</key>
