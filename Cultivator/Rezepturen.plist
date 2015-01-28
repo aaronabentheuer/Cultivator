@@ -16,7 +16,7 @@
 			<key>calcium</key>
 			<integer>17</integer>
 			<key>iron</key>
-			<real>1.9</real>
+			<real>1.8999999999999999</real>
 			<key>magnesium</key>
 			<integer>23</integer>
 		</dict>
@@ -46,7 +46,7 @@
 		<key>Vitamines</key>
 		<dict>
 			<key>b12</key>
-			<real>0.2</real>
+			<real>0.20000000000000001</real>
 			<key>b6</key>
 			<real>0.5</real>
 			<key>niacin</key>
@@ -55,9 +55,9 @@
 		<key>color</key>
 		<real>0.63</real>
 		<key>juiciness</key>
-		<real>0.86</real>
+		<real>0.85999999999999999</real>
 		<key>structure</key>
-		<real>0.79</real>
+		<real>0.79000000000000004</real>
 	</dict>
 	<dict>
 		<key>Creator</key>
@@ -110,11 +110,11 @@
 			<integer>4</integer>
 		</dict>
 		<key>color</key>
-		<real>0.34</real>
+		<real>0.34000000000000002</real>
 		<key>juiciness</key>
 		<real>0.87</real>
 		<key>structure</key>
-		<real>0.73</real>
+		<real>0.72999999999999998</real>
 	</dict>
 	<dict>
 		<key>Creator</key>
@@ -167,11 +167,11 @@
 			<integer>3</integer>
 		</dict>
 		<key>color</key>
-		<real>0.732</real>
+		<real>0.73199999999999998</real>
 		<key>juiciness</key>
-		<real>0.52</real>
+		<real>0.52000000000000002</real>
 		<key>structure</key>
-		<real>0.83</real>
+		<real>0.82999999999999996</real>
 	</dict>
 	<dict>
 		<key>Creator</key>
@@ -187,7 +187,7 @@
 			<key>calcium</key>
 			<integer>12</integer>
 			<key>iron</key>
-			<real>1.4</real>
+			<real>1.3999999999999999</real>
 			<key>magnesium</key>
 			<integer>19</integer>
 		</dict>
@@ -224,9 +224,9 @@
 			<integer>5</integer>
 		</dict>
 		<key>color</key>
-		<real>0.6</real>
+		<real>0.59999999999999998</real>
 		<key>juiciness</key>
-		<real>0.323</real>
+		<real>0.32300000000000001</real>
 		<key>structure</key>
 		<real>0.44</real>
 	</dict>
@@ -244,7 +244,7 @@
 			<key>calcium</key>
 			<integer>18</integer>
 			<key>iron</key>
-			<real>2.6</real>
+			<real>2.6000000000000001</real>
 			<key>magnesium</key>
 			<integer>21</integer>
 		</dict>
@@ -279,17 +279,17 @@
 			<integer>2</integer>
 		</dict>
 		<key>color</key>
-		<real>0.66</real>
+		<real>0.66000000000000003</real>
 		<key>juiciness</key>
-		<real>0.783</real>
+		<real>0.78300000000000003</real>
 		<key>structure</key>
-		<real>0.4</real>
+		<real>0.40000000000000002</real>
 	</dict>
 	<dict>
 		<key>Creator</key>
 		<string>Cultivator</string>
 		<key>Description</key>
-		<string>Ein Klassiker der &quot;Surf and Turf&quot; Gerichte neu interpretiert. </string>
+		<string>Ein Klassiker der "Surf and Turf" Gerichte neu interpretiert. </string>
 		<key>Favorite</key>
 		<true/>
 		<key>Location</key>
@@ -333,14 +333,14 @@
 			<key>b6</key>
 			<integer>15</integer>
 			<key>niacin</key>
-			<real>2.4</real>
+			<real>2.3999999999999999</real>
 		</dict>
 		<key>color</key>
-		<real>0.344</real>
+		<real>0.34399999999999997</real>
 		<key>juiciness</key>
-		<real>0.76</real>
+		<real>0.76000000000000001</real>
 		<key>structure</key>
-		<real>0.831</real>
+		<real>0.83099999999999996</real>
 	</dict>
 	<dict>
 		<key>Creator</key>
@@ -395,9 +395,9 @@
 		<key>color</key>
 		<integer>1</integer>
 		<key>juiciness</key>
-		<real>0.2</real>
+		<real>0.20000000000000001</real>
 		<key>structure</key>
-		<real>0.52</real>
+		<real>0.52000000000000002</real>
 	</dict>
 	<dict>
 		<key>Creator</key>
@@ -448,11 +448,11 @@
 			<integer>1</integer>
 		</dict>
 		<key>color</key>
-		<real>0.1</real>
+		<real>0.10000000000000001</real>
 		<key>juiciness</key>
-		<real>0.48</real>
+		<real>0.47999999999999998</real>
 		<key>structure</key>
-		<real>0.92</real>
+		<real>0.92000000000000004</real>
 	</dict>
 	<dict>
 		<key>Creator</key>
@@ -505,7 +505,7 @@
 			<integer>10</integer>
 		</dict>
 		<key>color</key>
-		<real>0.029</real>
+		<real>0.029000000000000001</real>
 		<key>juiciness</key>
 		<real>0.5</real>
 		<key>structure</key>
@@ -562,11 +562,11 @@
 			<integer>8</integer>
 		</dict>
 		<key>color</key>
-		<real>0.36</real>
+		<real>0.35999999999999999</real>
 		<key>juiciness</key>
-		<real>0.6899999999999999</real>
+		<real>0.68999999999999995</real>
 		<key>structure</key>
-		<real>0.52</real>
+		<real>0.52000000000000002</real>
 	</dict>
 	<dict>
 		<key>Creator</key>
@@ -582,7 +582,7 @@
 			<key>calcium</key>
 			<integer>17</integer>
 			<key>iron</key>
-			<real>2.9</real>
+			<real>2.8999999999999999</real>
 			<key>magnesium</key>
 			<integer>22</integer>
 		</dict>
@@ -619,11 +619,11 @@
 			<integer>4</integer>
 		</dict>
 		<key>color</key>
-		<real>0.6899999999999999</real>
+		<real>0.68999999999999995</real>
 		<key>juiciness</key>
 		<real>0.3453</real>
 		<key>structure</key>
-		<real>0.3</real>
+		<real>0.29999999999999999</real>
 	</dict>
 	<dict>
 		<key>Creator</key>
@@ -676,11 +676,11 @@
 			<integer>3</integer>
 		</dict>
 		<key>color</key>
-		<real>0.8</real>
+		<real>0.80000000000000004</real>
 		<key>juiciness</key>
-		<real>0.5600000000000001</real>
+		<real>0.56000000000000005</real>
 		<key>structure</key>
-		<real>0.46</real>
+		<real>0.46000000000000002</real>
 	</dict>
 	<dict>
 		<key>Creator</key>
@@ -703,9 +703,9 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>0</integer>
+			<integer>23</integer>
 			<key>calories</key>
-			<integer>0</integer>
+			<integer>143</integer>
 			<key>cholesterol</key>
 			<integer>163</integer>
 			<key>fat</key>
@@ -733,11 +733,11 @@
 			<integer>2</integer>
 		</dict>
 		<key>color</key>
-		<real>0.8</real>
+		<real>0.80000000000000004</real>
 		<key>juiciness</key>
-		<real>0.45</real>
+		<real>0.45000000000000001</real>
 		<key>structure</key>
-		<real>0.86</real>
+		<real>0.85999999999999999</real>
 	</dict>
 	<dict>
 		<key>Creator</key>
@@ -760,15 +760,15 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>0</integer>
-			<key>carbs</key>
-			<integer>0</integer>
+			<integer>56</integer>
+			<key>calories</key>
+			<integer>210</integer>
 			<key>cholesterol</key>
 			<integer>76</integer>
 			<key>fat</key>
 			<integer>95</integer>
 			<key>natrium</key>
-			<integer>0</integer>
+			<integer>16</integer>
 			<key>phosphor</key>
 			<integer>12</integer>
 			<key>protein</key>
@@ -790,11 +790,11 @@
 			<integer>4</integer>
 		</dict>
 		<key>color</key>
-		<real>0.492374</real>
+		<real>0.49237399999999998</real>
 		<key>juiciness</key>
-		<real>0.9</real>
+		<real>0.90000000000000002</real>
 		<key>structure</key>
-		<real>0.35</real>
+		<real>0.34999999999999998</real>
 	</dict>
 	<dict>
 		<key>Creator</key>
@@ -818,8 +818,8 @@
 		<dict>
 			<key>calium</key>
 			<integer>0</integer>
-			<key>carbs</key>
-			<integer>0</integer>
+			<key>calories</key>
+			<integer>150</integer>
 			<key>cholesterol</key>
 			<integer>128</integer>
 			<key>fat</key>
@@ -874,17 +874,17 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>0</integer>
-			<key>carbs</key>
-			<integer>0</integer>
+			<integer>76</integer>
+			<key>calories</key>
+			<integer>120</integer>
 			<key>cholesterol</key>
 			<integer>42</integer>
 			<key>fat</key>
 			<integer>87</integer>
 			<key>natrium</key>
-			<integer>0</integer>
+			<integer>32</integer>
 			<key>phosphor</key>
-			<integer>21</integer>
+			<integer>24</integer>
 			<key>protein</key>
 			<integer>139</integer>
 			<key>purin</key>
@@ -904,11 +904,11 @@
 			<integer>1</integer>
 		</dict>
 		<key>color</key>
-		<real>0.397</real>
+		<real>0.39700000000000002</real>
 		<key>juiciness</key>
-		<real>0.421</real>
+		<real>0.42099999999999999</real>
 		<key>structure</key>
-		<real>0.5326</real>
+		<real>0.53259999999999996</real>
 	</dict>
 	<dict>
 		<key>Creator</key>
@@ -931,15 +931,15 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>0</integer>
-			<key>carbs</key>
-			<integer>0</integer>
+			<integer>87</integer>
+			<key>calories</key>
+			<integer>123</integer>
 			<key>cholesterol</key>
 			<integer>176</integer>
 			<key>fat</key>
 			<integer>128</integer>
 			<key>natrium</key>
-			<integer>0</integer>
+			<integer>12</integer>
 			<key>phosphor</key>
 			<integer>43</integer>
 			<key>protein</key>
@@ -963,9 +963,9 @@
 		<key>color</key>
 		<real>0.12</real>
 		<key>juiciness</key>
-		<real>0.9399999999999999</real>
+		<real>0.93999999999999995</real>
 		<key>structure</key>
-		<real>0.431</real>
+		<real>0.43099999999999999</real>
 	</dict>
 	<dict>
 		<key>Creator</key>
@@ -988,15 +988,15 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>0</integer>
-			<key>carbs</key>
-			<integer>0</integer>
+			<integer>23</integer>
+			<key>calories</key>
+			<integer>123</integer>
 			<key>cholesterol</key>
 			<integer>176</integer>
 			<key>fat</key>
 			<integer>128</integer>
 			<key>natrium</key>
-			<integer>0</integer>
+			<integer>19</integer>
 			<key>phosphor</key>
 			<integer>43</integer>
 			<key>protein</key>
@@ -1020,9 +1020,9 @@
 		<key>color</key>
 		<real>0.245</real>
 		<key>juiciness</key>
-		<real>0.521</real>
+		<real>0.52100000000000002</real>
 		<key>structure</key>
-		<real>0.819</real>
+		<real>0.81899999999999995</real>
 	</dict>
 	<dict>
 		<key>Creator</key>
@@ -1045,15 +1045,15 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>0</integer>
-			<key>carbs</key>
-			<integer>0</integer>
+			<integer>95</integer>
+			<key>calories</key>
+			<integer>312</integer>
 			<key>cholesterol</key>
 			<integer>143</integer>
 			<key>fat</key>
 			<integer>143</integer>
 			<key>natrium</key>
-			<integer>0</integer>
+			<integer>56</integer>
 			<key>phosphor</key>
 			<integer>32</integer>
 			<key>protein</key>
@@ -1072,28 +1072,14 @@
 			<key>b6</key>
 			<integer>11</integer>
 			<key>niacin</key>
-			<real>0.2</real>
+			<real>0.20000000000000001</real>
 		</dict>
-		<key>cholesterol</key>
-		<integer>204</integer>
 		<key>color</key>
 		<integer>5</integer>
-		<key>fat</key>
-		<integer>164</integer>
 		<key>juiciness</key>
 		<integer>3</integer>
-		<key>minerals</key>
-		<integer>31</integer>
-		<key>phosphor</key>
-		<integer>53</integer>
-		<key>protein</key>
-		<string>98</string>
-		<key>purin</key>
-		<integer>43</integer>
 		<key>structure</key>
 		<integer>2</integer>
-		<key>vitamines</key>
-		<integer>18</integer>
 	</dict>
 	<dict>
 		<key>Creator</key>
@@ -1116,15 +1102,15 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>0</integer>
-			<key>carbs</key>
-			<integer>0</integer>
+			<integer>43</integer>
+			<key>calories</key>
+			<integer>165</integer>
 			<key>cholesterol</key>
 			<integer>93</integer>
 			<key>fat</key>
 			<integer>98</integer>
 			<key>natrium</key>
-			<integer>0</integer>
+			<integer>14</integer>
 			<key>phosphor</key>
 			<integer>45</integer>
 			<key>protein</key>
@@ -1146,11 +1132,11 @@
 			<integer>3</integer>
 		</dict>
 		<key>color</key>
-		<real>0.72</real>
+		<real>0.71999999999999997</real>
 		<key>juiciness</key>
-		<real>0.332</real>
+		<real>0.33200000000000002</real>
 		<key>structure</key>
-		<real>0.29</real>
+		<real>0.28999999999999998</real>
 	</dict>
 	<dict>
 		<key>Creator</key>
@@ -1173,15 +1159,15 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>0</integer>
-			<key>carbs</key>
-			<integer>0</integer>
+			<integer>32</integer>
+			<key>calories</key>
+			<integer>231</integer>
 			<key>cholesterol</key>
-			<integer>105</integer>
+			<integer>123</integer>
 			<key>fat</key>
 			<integer>98</integer>
 			<key>natrium</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>phosphor</key>
 			<integer>54</integer>
 			<key>protein</key>
@@ -1203,11 +1189,11 @@
 			<integer>0</integer>
 		</dict>
 		<key>color</key>
-		<real>0.798</real>
+		<real>0.79800000000000004</real>
 		<key>juiciness</key>
-		<real>0.49</real>
+		<real>0.48999999999999999</real>
 		<key>structure</key>
-		<real>0.444</real>
+		<real>0.44400000000000001</real>
 	</dict>
 	<dict>
 		<key>Creator</key>
@@ -1260,11 +1246,11 @@
 			<integer>3</integer>
 		</dict>
 		<key>color</key>
-		<real>0.98</real>
+		<real>0.97999999999999998</real>
 		<key>juiciness</key>
-		<real>0.49</real>
+		<real>0.48999999999999999</real>
 		<key>structure</key>
-		<real>0.664342</real>
+		<real>0.66434199999999999</real>
 	</dict>
 	<dict>
 		<key>Creator</key>
@@ -1287,15 +1273,15 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>0</integer>
-			<key>carbs</key>
-			<integer>0</integer>
+			<integer>20</integer>
+			<key>calories</key>
+			<integer>150</integer>
 			<key>cholesterol</key>
 			<integer>49</integer>
 			<key>fat</key>
 			<integer>76</integer>
 			<key>natrium</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>phosphor</key>
 			<integer>12</integer>
 			<key>protein</key>
@@ -1314,14 +1300,14 @@
 			<key>b6</key>
 			<integer>21</integer>
 			<key>niacin</key>
-			<real>0.1</real>
+			<real>0.10000000000000001</real>
 		</dict>
 		<key>color</key>
 		<real>0.67906</real>
 		<key>juiciness</key>
-		<real>0.354</real>
+		<real>0.35399999999999998</real>
 		<key>structure</key>
-		<real>0.4324</real>
+		<real>0.43240000000000001</real>
 	</dict>
 	<dict>
 		<key>Creator</key>
@@ -1344,15 +1330,15 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>0</integer>
-			<key>carbs</key>
-			<integer>0</integer>
+			<integer>43</integer>
+			<key>calories</key>
+			<integer>231</integer>
 			<key>cholesterol</key>
 			<integer>121</integer>
 			<key>fat</key>
 			<integer>207</integer>
 			<key>natrium</key>
-			<integer>0</integer>
+			<integer>32</integer>
 			<key>phosphor</key>
 			<integer>53</integer>
 			<key>protein</key>
@@ -1371,14 +1357,14 @@
 			<key>b6</key>
 			<integer>4</integer>
 			<key>niacin</key>
-			<real>0.8</real>
+			<real>0.80000000000000004</real>
 		</dict>
 		<key>color</key>
 		<real>0.745</real>
 		<key>juiciness</key>
-		<real>0.453</real>
+		<real>0.45300000000000001</real>
 		<key>structure</key>
-		<real>0.867</real>
+		<real>0.86699999999999999</real>
 	</dict>
 	<dict>
 		<key>Creator</key>
@@ -1401,15 +1387,15 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>0</integer>
-			<key>carbs</key>
-			<integer>0</integer>
+			<integer>21</integer>
+			<key>calories</key>
+			<integer>183</integer>
 			<key>cholesterol</key>
 			<integer>75</integer>
 			<key>fat</key>
 			<integer>143</integer>
 			<key>natrium</key>
-			<integer>0</integer>
+			<integer>9</integer>
 			<key>phosphor</key>
 			<integer>32</integer>
 			<key>protein</key>
@@ -1431,11 +1417,11 @@
 			<integer>3</integer>
 		</dict>
 		<key>color</key>
-		<real>0.6326000000000001</real>
+		<real>0.63260000000000005</real>
 		<key>juiciness</key>
-		<real>0.53</real>
+		<real>0.53000000000000003</real>
 		<key>structure</key>
-		<real>0.4321</real>
+		<real>0.43209999999999998</real>
 	</dict>
 	<dict>
 		<key>Creator</key>
@@ -1458,15 +1444,15 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>0</integer>
-			<key>carbs</key>
-			<integer>0</integer>
+			<integer>3</integer>
+			<key>calories</key>
+			<integer>201</integer>
 			<key>cholesterol</key>
 			<integer>91</integer>
 			<key>fat</key>
 			<integer>123</integer>
 			<key>natrium</key>
-			<integer>0</integer>
+			<integer>3</integer>
 			<key>phosphor</key>
 			<integer>21</integer>
 			<key>protein</key>
@@ -1488,11 +1474,11 @@
 			<integer>2</integer>
 		</dict>
 		<key>color</key>
-		<real>0.6899999999999999</real>
+		<real>0.68999999999999995</real>
 		<key>juiciness</key>
-		<real>0.899</real>
+		<real>0.89900000000000002</real>
 		<key>structure</key>
-		<real>0.489</real>
+		<real>0.48899999999999999</real>
 	</dict>
 </array>
 </plist>
