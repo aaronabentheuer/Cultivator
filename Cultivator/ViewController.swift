@@ -85,12 +85,10 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        println(indexPath)
         let cell : Recipe = recipeCollectionView!.cellForItemAtIndexPath(indexPath) as Recipe
         
         snapshot = self.customSnapshotFromView(cell)
         var center : CGPoint = cell.center
-        println(center)
         
         
         var attributes : UICollectionViewLayoutAttributes = recipeCollectionView!.layoutAttributesForItemAtIndexPath(indexPath)!
@@ -119,16 +117,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
                 editingViewController.modalPresentationStyle = UIModalPresentationStyle.OverCurrentContext
                 self.presentViewController(editingViewController, animated: false, completion: nil)
         })
-        
-//        if (indexPath == NSIndexPath(forItem: 0, inSection: 0)) {
-//            var newString = "KochInfinity"
-//            self.testArray.insert(newString, atIndex: 0)
-//            
-//            UIView.animateWithDuration(0.5, animations: {
-//                self.recipeCollectionView!.reloadData()
-//            })
-        
-//        }
     }
     
     func customSnapshotFromView (inputView : UIView) -> UIView {

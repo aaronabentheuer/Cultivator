@@ -12,12 +12,19 @@ class IdleModeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.view.backgroundColor = UIColor.yellowColor()
-        self.view.alpha = 0.5
+        
+        notificationCenter.addObserver(self, selector: "userInteractionDetected", name: "userInteractionDetectedNotification", object: nil)
 
     }
-
+    
+    func userInteractionDetected () {
+        println("dismiss")
+        if (self.isFirstResponder()) {
+            self.presentingViewController!.dismissViewControllerAnimated(false, completion: nil)
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }

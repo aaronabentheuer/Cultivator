@@ -35,7 +35,10 @@
 		80ADE14B1A73CF7E00987E9B /* Colfax-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE13E1A73CF0C00987E9B /* Colfax-Thin.otf */; };
 		80ADE14C1A73CF7E00987E9B /* Colfax-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE13F1A73CF0C00987E9B /* Colfax-ThinItalic.otf */; };
 		80ADE1501A73E62000987E9B /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ADE14F1A73E62000987E9B /* Recipe.swift */; };
+		80C489EB1A78711C0067139D /* Noise.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 80C489EA1A78711C0067139D /* Noise.aiff */; };
 		80DD4FE91A784E54001F3DE1 /* Meat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DD4FE81A784E54001F3DE1 /* Meat.swift */; };
+		80F951511A7878FF004AB3F5 /* PrimitivesScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F951501A7878FF004AB3F5 /* PrimitivesScene.swift */; };
+		80F951551A787967004AB3F5 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F951541A787967004AB3F5 /* SceneKit.framework */; };
 		D06EE0C4CF651C5CAF37A798 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6322BC8F7A5802C7E7740350 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -116,7 +119,10 @@
 		80ADE13E1A73CF0C00987E9B /* Colfax-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Thin.otf"; sourceTree = "<group>"; };
 		80ADE13F1A73CF0C00987E9B /* Colfax-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-ThinItalic.otf"; sourceTree = "<group>"; };
 		80ADE14F1A73E62000987E9B /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		80C489EA1A78711C0067139D /* Noise.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Noise.aiff; sourceTree = "<group>"; };
 		80DD4FE81A784E54001F3DE1 /* Meat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meat.swift; sourceTree = "<group>"; };
+		80F951501A7878FF004AB3F5 /* PrimitivesScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimitivesScene.swift; sourceTree = "<group>"; };
+		80F951541A787967004AB3F5 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
 		B842EE050B8BE74E6C372B97 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CFDF484C65D881C33858D935 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80F951551A787967004AB3F5 /* SceneKit.framework in Frameworks */,
 				803A2D491A755FF9003F9B22 /* GPUImage.framework in Frameworks */,
 				D06EE0C4CF651C5CAF37A798 /* libPods.a in Frameworks */,
 			);
@@ -175,13 +182,14 @@
 			isa = PBXGroup;
 			children = (
 				804D6B691A70496700A0689F /* AppDelegate.swift */,
-				80DD4FE81A784E54001F3DE1 /* Meat.swift */,
 				804D6B6B1A70496700A0689F /* ViewController.swift */,
 				8055DCBD1A77AB4900F9D000 /* IdleModeViewController.swift */,
 				8088F75A1A75333A00229F72 /* EditingViewController.swift */,
 				8049341B1A73FB4800DE1AA8 /* RecipeLayout.swift */,
+				80F951501A7878FF004AB3F5 /* PrimitivesScene.swift */,
 				804934191A73F7BD00DE1AA8 /* AddCell.swift */,
 				80ADE14F1A73E62000987E9B /* Recipe.swift */,
+				80DD4FE81A784E54001F3DE1 /* Meat.swift */,
 				804D6B6D1A70496700A0689F /* Main.storyboard */,
 				804D6B701A70496700A0689F /* Images.xcassets */,
 				804D6B721A70496700A0689F /* LaunchScreen.xib */,
@@ -221,6 +229,7 @@
 		809598061A78219E007632C7 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				80C489EA1A78711C0067139D /* Noise.aiff */,
 				809598041A78219A007632C7 /* Firm.mp3 */,
 				809598071A782723007632C7 /* 100Percent.mp3 */,
 			);
@@ -258,6 +267,7 @@
 		F85390CFF60D7665FB9C7135 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				80F951541A787967004AB3F5 /* SceneKit.framework */,
 				6322BC8F7A5802C7E7740350 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -374,6 +384,7 @@
 				80ADE1411A73CF7E00987E9B /* Colfax-Black.otf in Resources */,
 				80ADE1421A73CF7E00987E9B /* Colfax-BlackItalic.otf in Resources */,
 				80ADE1431A73CF7E00987E9B /* Colfax-Bold.otf in Resources */,
+				80C489EB1A78711C0067139D /* Noise.aiff in Resources */,
 				80ADE1441A73CF7E00987E9B /* Colfax-BoldItalic.otf in Resources */,
 				80ADE1451A73CF7E00987E9B /* Colfax-Light.otf in Resources */,
 				80ADE1461A73CF7E00987E9B /* Colfax-LightItalic.otf in Resources */,
@@ -446,6 +457,7 @@
 				8049341A1A73F7BD00DE1AA8 /* AddCell.swift in Sources */,
 				804D6B6C1A70496700A0689F /* ViewController.swift in Sources */,
 				804D6B6A1A70496700A0689F /* AppDelegate.swift in Sources */,
+				80F951511A7878FF004AB3F5 /* PrimitivesScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

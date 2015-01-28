@@ -8,8 +8,12 @@
 
 import UIKit
 import GPUImage
+import AVFoundation
+
+var meatArray : [Meat] = []
 
 @UIApplicationMain
+
 class AppDelegate: UIResponder, UIApplicationDelegate, UIGestureRecognizerDelegate {
 
     var window: UIWindow?
@@ -22,34 +26,38 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIGestureRecognizerDelega
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
+        var path = NSBundle.mainBundle().pathForResource("Rezepturen", ofType: "plist")
+        var recepies = NSArray(contentsOfFile: path!)!
+        
+        for recepie in recepies {
+            meatArray.append(Meat(ingredients: recepie as NSDictionary))
+        }
+        
         videoCamera = GPUImageVideoCamera(sessionPreset: AVCaptureSessionPreset640x480, cameraPosition: .Front)
         videoCamera!.outputImageOrientation = UIInterfaceOrientation.LandscapeLeft;
         filter = GPUImageMotionDetector()
         videoCamera?.addTarget(filter)
         videoCamera?.startCameraCapture()
         
-        userInteractionTimer = NSTimer(timeInterval: 3, target: self, selector: Selector("handleIdleUser:"), userInfo: nil, repeats: false)
-        
-        var userInteractionDetectedNotification = NSNotification(name: "userInteractionDetectedNotification", object: self)
-        var userIdleDetectedNotification = NSNotification(name: "userIdleDetectedNotification", object: self)
-        
+        userInteractionTimer = NSTimer.scheduledTimerWithTimeInterval(3, target: self, selector: Selector("handleIdleUser:"), userInfo: nil, repeats: false)
         
         filter?.motionDetectionBlock = { (motionCentroid : CGPoint, motionIntensity : CGFloat, frameTime : CMTime) in
             
-            if (motionIntensity == 0.0) {
+            var normalizedIntensity : Int = Int(roundf(Float(motionIntensity))*100)
+                        
+            if (normalizedIntensity == 0) {
                 if (self.userInteractionTimerActivated == false) {
                     self.setupTimer()
                 }
             } else {
-                if (self.userInteractionTimer != nil) {
-                    if (self.userInteractionTimer!.valid) {
-//                        self.userInteractionTimer!.invalidate()
+                if (self.userInteractionTimerActivated == true) {
+                        self.userInteractionTimer!.invalidate()
                         self.userInteractionTimerActivated = false
-                    }
                 }
+                
+                var userInteractionDetectedNotification = NSNotification(name: "userInteractionDetectedNotification", object: nil)
+                notificationCenter.postNotification(userInteractionDetectedNotification)
             }
-            
-//            println(self.userInteractionTimer!.valid)
             
             return
         }
@@ -62,53 +70,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIGestureRecognizerDelega
     }
     
     func setupTimer () {
-        println("setup")
+        self.userInteractionTimer = nil
         
-        var vc : ViewController = ViewController()
+        dispatch_async(dispatch_get_main_queue(), {
+            self.userInteractionTimer = NSTimer.scheduledTimerWithTimeInterval(3, target: self, selector: Selector("handleIdleUser:"), userInfo: nil, repeats: false)
+        })
         
-        if (viewIsReady) {
-            println("ready")
-            NSRunLoop.currentRunLoop().addTimer(userInteractionTimer!, forMode: NSRunLoopCommonModes)
-            self.userInteractionTimerActivated = true
-        }
-        
-        println(userInteractionTimer!.valid)
+        self.userInteractionTimerActivated = true
     }
     
+    var idleModeViewController : IdleModeViewController = IdleModeViewController()
+    
     func handleIdleUser (timer : NSTimer) {
-        println("handled")
+        idleModeViewController.modalTransitionStyle = UIModalTransitionStyle.CrossDissolve
+        idleModeViewController.modalPresentationStyle = UIModalPresentationStyle.OverCurrentContext
     }
     
     func gestureRecognizer(gestureRecognizer: UIGestureRecognizer, shouldReceiveTouch touch: UITouch) -> Bool {
-        if (userInteractionTimer != nil) {
-            if (userInteractionTimer!.valid) {
-//                userInteractionTimer!.invalidate()
-                userInteractionTimerActivated = false
-            }
+        
+        if (self.userInteractionTimerActivated == true) {
+            self.userInteractionTimer!.invalidate()
+            self.userInteractionTimerActivated = false
         }
         
         return false
     }
-
-    func applicationWillResignActive(application: UIApplication) {
-        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-        // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
-    }
-
-    func applicationDidEnterBackground(application: UIApplication) {
-        // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-        // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-    }
-
-
-    func applicationDidBecomeActive(application: UIApplication) {
-        // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    }
-
-    func applicationWillTerminate(application: UIApplication) {
-        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-    }
-
-
 }
 

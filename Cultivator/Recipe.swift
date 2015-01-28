@@ -151,9 +151,25 @@ class Recipe: UICollectionViewCell, UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        var header = IngredientsTableViewHeaderView(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: 30))
-        header.sectionTitle.text = "Nährwerte"
-        return header
+        if (section == 1) {
+            var header = IngredientsTableViewHeaderView(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: 30))
+            header.sectionTitle.text = "Vitamine"
+            return header
+        } else if (section == 2) {
+            var header = IngredientsTableViewHeaderView(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: 30))
+            header.sectionTitle.text = "Mineralien"
+            return header
+        } else {
+            var header = IngredientsTableViewHeaderView(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: 30))
+            header.sectionTitle.text = "Nährwerte"
+            return header
+        }
+    }
+    
+    var contentOffset : CGFloat = 0
+    
+    func scrollViewDidScroll(scrollView: UIScrollView) {
+        println("fired")
     }
     
     func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
@@ -165,7 +181,7 @@ class Recipe: UICollectionViewCell, UITableViewDelegate, UITableViewDataSource {
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 1
+        return 3
     }
 
     required init(coder aDecoder: NSCoder) {

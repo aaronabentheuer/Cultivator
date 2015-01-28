@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SceneKit
 
 var displayedDictionary : NSDictionary = NSDictionary()
 
@@ -37,7 +38,6 @@ class EditingViewController: UIViewController, UICollectionViewDelegate, UIColle
         recipeCollectionView!.registerClass(AddCell.self, forCellWithReuseIdentifier: "addCell")
         
         self.view.addSubview(recipeCollectionView!)
-        
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
