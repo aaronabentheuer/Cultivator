@@ -169,7 +169,6 @@ class Recipe: UICollectionViewCell, UITableViewDelegate, UITableViewDataSource {
     var contentOffset : CGFloat = 0
     
     func scrollViewDidScroll(scrollView: UIScrollView) {
-        println("fired")
     }
     
     func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {

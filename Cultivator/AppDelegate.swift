@@ -39,11 +39,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIGestureRecognizerDelega
         videoCamera?.addTarget(filter)
         videoCamera?.startCameraCapture()
         
-        userInteractionTimer = NSTimer.scheduledTimerWithTimeInterval(3, target: self, selector: Selector("handleIdleUser:"), userInfo: nil, repeats: false)
+        userInteractionTimer = NSTimer.scheduledTimerWithTimeInterval(4, target: self, selector: Selector("handleIdleUser:"), userInfo: nil, repeats: false)
         
         filter?.motionDetectionBlock = { (motionCentroid : CGPoint, motionIntensity : CGFloat, frameTime : CMTime) in
             
-            var normalizedIntensity : Int = Int(roundf(Float(motionIntensity))*100)
+            var normalizedIntensity = motionIntensity*100
                         
             if (normalizedIntensity == 0) {
                 if (self.userInteractionTimerActivated == false) {
@@ -51,13 +51,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIGestureRecognizerDelega
                 }
             } else {
                 if (self.userInteractionTimerActivated == true) {
+                    if (self.userInteractionTimer != nil) {
                         self.userInteractionTimer!.invalidate()
                         self.userInteractionTimerActivated = false
+                        self.handleAwakeUser()
+                    }
                 }
-                
-                var userInteractionDetectedNotification = NSNotification(name: "userInteractionDetectedNotification", object: nil)
-                notificationCenter.postNotification(userInteractionDetectedNotification)
-            }
+        }
             
             return
         }
@@ -71,9 +71,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIGestureRecognizerDelega
     
     func setupTimer () {
         self.userInteractionTimer = nil
-        
+                
         dispatch_async(dispatch_get_main_queue(), {
-            self.userInteractionTimer = NSTimer.scheduledTimerWithTimeInterval(3, target: self, selector: Selector("handleIdleUser:"), userInfo: nil, repeats: false)
+            self.userInteractionTimer = NSTimer.scheduledTimerWithTimeInterval(4, target: self, selector: Selector("handleIdleUser:"), userInfo: nil, repeats: false)
         })
         
         self.userInteractionTimerActivated = true
@@ -81,9 +81,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIGestureRecognizerDelega
     
     var idleModeViewController : IdleModeViewController = IdleModeViewController()
     
+    var userIsIdleNotification = NSNotification(name: "userIsIdleNotification", object: nil)
+    var userIsAwakeNotification = NSNotification(name: "userIsAwakeNotification", object: nil)
+    
     func handleIdleUser (timer : NSTimer) {
-        idleModeViewController.modalTransitionStyle = UIModalTransitionStyle.CrossDissolve
-        idleModeViewController.modalPresentationStyle = UIModalPresentationStyle.OverCurrentContext
+        notificationCenter.postNotification(userIsIdleNotification)
+    }
+    
+    func handleAwakeUser () {
+        notificationCenter.postNotification(userIsAwakeNotification)
     }
     
     func gestureRecognizer(gestureRecognizer: UIGestureRecognizer, shouldReceiveTouch touch: UITouch) -> Bool {
@@ -91,6 +97,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIGestureRecognizerDelega
         if (self.userInteractionTimerActivated == true) {
             self.userInteractionTimer!.invalidate()
             self.userInteractionTimerActivated = false
+            self.handleAwakeUser()
         }
         
         return false

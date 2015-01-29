@@ -18,6 +18,9 @@ var backgroundView : UIVisualEffectView = UIVisualEffectView(effect: UIBlurEffec
 var snapshot : UIView? = nil
 var viewIsReady : Bool = false
 
+var energySourceIndicator : UIImageView = UIImageView (frame: CGRectMake(0, 0, 48, 40))
+
+
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UIGestureRecognizerDelegate {
 
     var recipeCollectionViewCell : Recipe?
@@ -55,10 +58,37 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         var cameraView : GPUImageView = GPUImageView(frame: CGRectMake(0, 0, 100, 100))
         self.view.addSubview(cameraView)
         
+        notificationCenter.addObserver(self, selector: "handleAwakeUser", name: "userIsAwakeNotification", object: nil)
+        notificationCenter.addObserver(self, selector: "handleIdleUser", name: "userIsIdleNotification", object: nil)
+
         backgroundView.frame = self.view.frame
         backgroundView.alpha = 0
         self.view.addSubview(backgroundView)
         
+    }
+    
+    var idleModeViewController = IdleModeViewController()
+    var idleModeViewControllerIsCurrentlyPresented = false
+    
+    func handleAwakeUser () {
+        
+        if (idleModeViewControllerIsCurrentlyPresented) {
+            self.dismissViewControllerAnimated(true, completion: nil)
+            idleModeViewControllerIsCurrentlyPresented = false
+        }
+    }
+    
+    func handleIdleUser () {
+        idleModeViewController.modalTransitionStyle = UIModalTransitionStyle.CrossDissolve
+        idleModeViewController.modalPresentationStyle = UIModalPresentationStyle.OverCurrentContext
+        if (idleModeViewControllerIsCurrentlyPresented == false) {
+            self.presentViewController(idleModeViewController, animated: false, completion: nil)
+            idleModeViewControllerIsCurrentlyPresented = true
+            
+            UIView.animateWithDuration(0.25, animations: {
+                energySourceIndicator.center = CGPointMake(UIScreen.mainScreen().bounds.midX, UIScreen.mainScreen().bounds.midY)
+            })
+        }
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -187,7 +217,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     var selfSufficiency = UIImage(named: "SelfSufficient")
     var energyAutarchy = UIImage(named: "Autarchy")
     var energyDependancy = UIImage(named: "Dependant")
-    var energySourceIndicator : UIImageView = UIImageView (frame: CGRectMake(0, 0, 48, 40))
     var energySourceChangedAudioPlayer : AVAudioPlayer?
     var energySourceIndicatorTooltip : UILabel = UILabel(frame: UIScreen.mainScreen().bounds)
     var energySourceIndicatorTooltipPanGestureRecognizer : UIPanGestureRecognizer?
@@ -206,7 +235,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         energySourceIndicator.addGestureRecognizer(energySourceIndicatorTooltipTapGestureRecognizer!)
         
         if (energySourceIndicator.superview == nil) {
-            self.energySourceIndicator.center = CGPoint(x: UIScreen.mainScreen().bounds.midX, y: UIScreen.mainScreen().bounds.maxY-30)
+            energySourceIndicator.center = CGPoint(x: UIScreen.mainScreen().bounds.midX, y: UIScreen.mainScreen().bounds.maxY-30)
             UIApplication.sharedApplication().delegate!.window!!.addSubview(energySourceIndicator)
             
             energySourceIndicatorTooltip.font = UIFont(name: "Colfax-Regular", size: 16)
@@ -270,8 +299,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         energySourceChangedAudioPlayer!.prepareToPlay()
         energySourceChangedAudioPlayer!.play()
         
-        var minRandomEnergySourceChangeTimeInterval : UInt32 = 60
-        var maxRandomEnergySourceChangeTimeInterval : UInt32 = 100
+        var minRandomEnergySourceChangeTimeInterval : UInt32 = 10
+        var maxRandomEnergySourceChangeTimeInterval : UInt32 = 20
         
         changeEnergySoundTimer!.invalidate()
         changeEnergySoundTimer! = NSTimer.scheduledTimerWithTimeInterval(NSTimeInterval(Int(arc4random_uniform(minRandomEnergySourceChangeTimeInterval))+minRandomEnergySourceChangeTimeInterval), target: self, selector: Selector("changeEnergySource"), userInfo: nil, repeats: true)
