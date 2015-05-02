@@ -26,12 +26,12 @@
 			<integer>310</integer>
 			<key>calories</key>
 			<integer>300</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>97</integer>
 			<key>fat</key>
 			<integer>210</integer>
-			<key>natrium</key>
-			<integer>2</integer>
 			<key>phosphor</key>
 			<integer>200</integer>
 			<key>protein</key>
@@ -344,7 +344,7 @@
 	</dict>
 	<dict>
 		<key>Creator</key>
-		<string>Ferran Adria</string>
+		<string>Ferran Adrià</string>
 		<key>Description</key>
 		<string>Kleine Fleischkügelchen, roh zu genießen zu Brot und weißem Wein. Aus dem Hause elBulli. </string>
 		<key>Favorite</key>
@@ -401,7 +401,7 @@
 	</dict>
 	<dict>
 		<key>Creator</key>
-		<string>Ferran Adria</string>
+		<string>Ferran Adrià</string>
 		<key>Description</key>
 		<string>Kleine zarte Fleischkügelchen, roh zu genießen zu Brot. Aus dem Hause elBulli. </string>
 		<key>Favorite</key>
@@ -456,7 +456,7 @@
 	</dict>
 	<dict>
 		<key>Creator</key>
-		<string>Ferran Adria</string>
+		<string>Ferran Adrià</string>
 		<key>Description</key>
 		<string>Wenig feste Fleischhappen mit ausgezeichnetem Safthaltevermögen. </string>
 		<key>Favorite</key>
@@ -703,9 +703,9 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>23</integer>
+			<integer>0</integer>
 			<key>calories</key>
-			<integer>143</integer>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>163</integer>
 			<key>fat</key>
@@ -760,15 +760,15 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>56</integer>
-			<key>calories</key>
-			<integer>210</integer>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>76</integer>
 			<key>fat</key>
 			<integer>95</integer>
 			<key>natrium</key>
-			<integer>16</integer>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>12</integer>
 			<key>protein</key>
@@ -818,8 +818,8 @@
 		<dict>
 			<key>calium</key>
 			<integer>0</integer>
-			<key>calories</key>
-			<integer>150</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>128</integer>
 			<key>fat</key>
@@ -874,17 +874,17 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>76</integer>
-			<key>calories</key>
-			<integer>120</integer>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>42</integer>
 			<key>fat</key>
 			<integer>87</integer>
 			<key>natrium</key>
-			<integer>32</integer>
+			<integer>0</integer>
 			<key>phosphor</key>
-			<integer>24</integer>
+			<integer>21</integer>
 			<key>protein</key>
 			<integer>139</integer>
 			<key>purin</key>
@@ -931,15 +931,15 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>87</integer>
-			<key>calories</key>
-			<integer>123</integer>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>176</integer>
 			<key>fat</key>
 			<integer>128</integer>
 			<key>natrium</key>
-			<integer>12</integer>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>43</integer>
 			<key>protein</key>
@@ -988,15 +988,15 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>23</integer>
-			<key>calories</key>
-			<integer>123</integer>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>176</integer>
 			<key>fat</key>
 			<integer>128</integer>
 			<key>natrium</key>
-			<integer>19</integer>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>43</integer>
 			<key>protein</key>
@@ -1045,15 +1045,15 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>95</integer>
-			<key>calories</key>
-			<integer>312</integer>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>143</integer>
 			<key>fat</key>
 			<integer>143</integer>
 			<key>natrium</key>
-			<integer>56</integer>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>32</integer>
 			<key>protein</key>
@@ -1074,12 +1074,26 @@
 			<key>niacin</key>
 			<real>0.2</real>
 		</dict>
+		<key>cholesterol</key>
+		<integer>204</integer>
 		<key>color</key>
 		<integer>5</integer>
+		<key>fat</key>
+		<integer>164</integer>
 		<key>juiciness</key>
 		<integer>3</integer>
+		<key>minerals</key>
+		<integer>31</integer>
+		<key>phosphor</key>
+		<integer>53</integer>
+		<key>protein</key>
+		<string>98</string>
+		<key>purin</key>
+		<integer>43</integer>
 		<key>structure</key>
 		<integer>2</integer>
+		<key>vitamines</key>
+		<integer>18</integer>
 	</dict>
 	<dict>
 		<key>Creator</key>
@@ -1102,15 +1116,15 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>43</integer>
-			<key>calories</key>
-			<integer>165</integer>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>93</integer>
 			<key>fat</key>
 			<integer>98</integer>
 			<key>natrium</key>
-			<integer>14</integer>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>45</integer>
 			<key>protein</key>
@@ -1159,15 +1173,15 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>32</integer>
-			<key>calories</key>
-			<integer>231</integer>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
-			<integer>123</integer>
+			<integer>105</integer>
 			<key>fat</key>
 			<integer>98</integer>
 			<key>natrium</key>
-			<integer>2</integer>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>54</integer>
 			<key>protein</key>
@@ -1273,15 +1287,15 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>20</integer>
-			<key>calories</key>
-			<integer>150</integer>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>49</integer>
 			<key>fat</key>
 			<integer>76</integer>
 			<key>natrium</key>
-			<integer>2</integer>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>12</integer>
 			<key>protein</key>
@@ -1330,15 +1344,15 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>43</integer>
-			<key>calories</key>
-			<integer>231</integer>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>121</integer>
 			<key>fat</key>
 			<integer>207</integer>
 			<key>natrium</key>
-			<integer>32</integer>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>53</integer>
 			<key>protein</key>
@@ -1387,15 +1401,15 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>21</integer>
-			<key>calories</key>
-			<integer>183</integer>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>75</integer>
 			<key>fat</key>
 			<integer>143</integer>
 			<key>natrium</key>
-			<integer>9</integer>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>32</integer>
 			<key>protein</key>
@@ -1444,15 +1458,15 @@
 		<key>Nutritions</key>
 		<dict>
 			<key>calium</key>
-			<integer>3</integer>
-			<key>calories</key>
-			<integer>201</integer>
+			<integer>0</integer>
+			<key>carbs</key>
+			<integer>0</integer>
 			<key>cholesterol</key>
 			<integer>91</integer>
 			<key>fat</key>
 			<integer>123</integer>
 			<key>natrium</key>
-			<integer>3</integer>
+			<integer>0</integer>
 			<key>phosphor</key>
 			<integer>21</integer>
 			<key>protein</key>

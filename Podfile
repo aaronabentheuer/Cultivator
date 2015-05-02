@@ -1,3 +1,1 @@
-pod 'pop'
-pod 'MarqueeLabel'
-pod 'Shimmer'
+pod 'pop', '~> 1.0'

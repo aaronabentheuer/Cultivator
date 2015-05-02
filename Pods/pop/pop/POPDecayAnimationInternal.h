@@ -58,7 +58,7 @@ struct _POPDecayAnimationState : _POPPropertyAnimationState
     CGFloat f = dynamicsThreshold * kPOPAnimationDecayMinimalVelocityFactor;
     const CGFloat *velocityValues = vec_data(velocityVec);
     for (NSUInteger idx = 0; idx < valueCount; idx++) {
-      if (fabs(velocityValues[idx]) >= f)
+      if (fabsf(velocityValues[idx]) >= f)
         return false;
     }
     return true;
