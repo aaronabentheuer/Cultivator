@@ -12,6 +12,8 @@ class IdleModeViewController: UIViewController {
     
     var cleaningLabel : UILabel = UILabel()
     var smudgesView : UIView = UIView()
+    var fadeInOutAnimation : CABasicAnimation = CABasicAnimation(keyPath: "opacity")
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -68,7 +70,6 @@ class IdleModeViewController: UIViewController {
 //        cleaningLabel.center = CGPointMake(UIScreen.mainScreen().bounds.midX, UIScreen.mainScreen().bounds.midY/2)
 //        self.view.addSubview(cleaningLabel)
 //        
-//        var fadeInOutAnimation : CABasicAnimation = CABasicAnimation(keyPath: "opacity")
 //        fadeInOutAnimation.fromValue = 1
 //        fadeInOutAnimation.toValue = 0
 //        fadeInOutAnimation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
@@ -77,7 +78,7 @@ class IdleModeViewController: UIViewController {
 //        fadeInOutAnimation.repeatCount = HUGE
 //        fadeInOutAnimation.removedOnCompletion = true
 //        fadeInOutAnimation.fillMode = kCAFillModeBoth
-        
+//        
 //        notificationCenter.addObserver(self, selector: "handleAwakeUser", name: "userIsAwakeNotification", object: nil)
     }
     

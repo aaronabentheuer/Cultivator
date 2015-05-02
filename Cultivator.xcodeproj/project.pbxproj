@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		801622AB1AF57FDE00A735DF /* GPUImage.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 802EF5F11AF5797A0029325E /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		802EF5F41AF579F90029325E /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802EF5F11AF5797A0029325E /* GPUImage.framework */; };
 		8049341A1A73F7BD00DE1AA8 /* AddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804934191A73F7BD00DE1AA8 /* AddCell.swift */; };
 		8049341C1A73FB4800DE1AA8 /* RecipeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8049341B1A73FB4800DE1AA8 /* RecipeLayout.swift */; };
 		804D6B6A1A70496700A0689F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804D6B691A70496700A0689F /* AppDelegate.swift */; };
 		804D6B6C1A70496700A0689F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804D6B6B1A70496700A0689F /* ViewController.swift */; };
 		804D6B6F1A70496700A0689F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804D6B6D1A70496700A0689F /* Main.storyboard */; };
-		804D6B711A70496700A0689F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804D6B701A70496700A0689F /* Images.xcassets */; };
+		804D6B711A70496700A0689F /* InterfaceIcons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804D6B701A70496700A0689F /* InterfaceIcons.xcassets */; };
 		804D6B741A70496700A0689F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804D6B721A70496700A0689F /* LaunchScreen.xib */; };
 		804D6B801A70496700A0689F /* CultivatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804D6B7F1A70496700A0689F /* CultivatorTests.swift */; };
 		8055DCBE1A77AB4900F9D000 /* IdleModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8055DCBD1A77AB4900F9D000 /* IdleModeViewController.swift */; };
@@ -38,7 +39,7 @@
 		80C489EB1A78711C0067139D /* Noise.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 80C489EA1A78711C0067139D /* Noise.aiff */; };
 		80DD4FE91A784E54001F3DE1 /* Meat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DD4FE81A784E54001F3DE1 /* Meat.swift */; };
 		80E0EF341A79B3910076B04A /* TLSpringFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E0EF331A79B3910076B04A /* TLSpringFlowLayout.m */; };
-		80E0EF381A79D3360076B04A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E0EF371A79D3360076B04A /* Media.xcassets */; };
+		80E0EF381A79D3360076B04A /* ProfilePics.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E0EF371A79D3360076B04A /* ProfilePics.xcassets */; };
 		80E0EF3A1A79D91C0076B04A /* FamilyMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E0EF391A79D91C0076B04A /* FamilyMember.swift */; };
 		80E0EF3C1A79E3E70076B04A /* FamilyHoffmann.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80E0EF3B1A79E3E70076B04A /* FamilyHoffmann.plist */; };
 		80F951511A7878FF004AB3F5 /* PrimitivesScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F951501A7878FF004AB3F5 /* PrimitivesScene.swift */; };
@@ -78,13 +79,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		803A2D4A1A756072003F9B22 /* CopyFiles */ = {
+		803A2D4A1A756072003F9B22 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				801622AB1AF57FDE00A735DF /* GPUImage.framework in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -99,7 +102,7 @@
 		804D6B691A70496700A0689F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		804D6B6B1A70496700A0689F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		804D6B6E1A70496700A0689F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		804D6B701A70496700A0689F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		804D6B701A70496700A0689F /* InterfaceIcons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = InterfaceIcons.xcassets; sourceTree = "<group>"; };
 		804D6B731A70496700A0689F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		804D6B791A70496700A0689F /* CultivatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CultivatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		804D6B7E1A70496700A0689F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -127,7 +130,7 @@
 		80DD4FE81A784E54001F3DE1 /* Meat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meat.swift; sourceTree = "<group>"; };
 		80E0EF321A79B3910076B04A /* TLSpringFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLSpringFlowLayout.h; sourceTree = "<group>"; };
 		80E0EF331A79B3910076B04A /* TLSpringFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLSpringFlowLayout.m; sourceTree = "<group>"; };
-		80E0EF371A79D3360076B04A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = SOURCE_ROOT; };
+		80E0EF371A79D3360076B04A /* ProfilePics.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ProfilePics.xcassets; sourceTree = SOURCE_ROOT; };
 		80E0EF391A79D91C0076B04A /* FamilyMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyMember.swift; sourceTree = "<group>"; };
 		80E0EF3B1A79E3E70076B04A /* FamilyHoffmann.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FamilyHoffmann.plist; sourceTree = SOURCE_ROOT; };
 		80F951501A7878FF004AB3F5 /* PrimitivesScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimitivesScene.swift; sourceTree = "<group>"; };
@@ -203,8 +206,8 @@
 				80E0EF3B1A79E3E70076B04A /* FamilyHoffmann.plist */,
 				80E0EF331A79B3910076B04A /* TLSpringFlowLayout.m */,
 				804D6B6D1A70496700A0689F /* Main.storyboard */,
-				804D6B701A70496700A0689F /* Images.xcassets */,
-				80E0EF371A79D3360076B04A /* Media.xcassets */,
+				804D6B701A70496700A0689F /* InterfaceIcons.xcassets */,
+				80E0EF371A79D3360076B04A /* ProfilePics.xcassets */,
 				804D6B721A70496700A0689F /* LaunchScreen.xib */,
 				802EF5E81AF5797A0029325E /* GPUImage.xcodeproj */,
 				804D6B671A70496700A0689F /* Supporting Files */,
@@ -299,7 +302,7 @@
 				804D6B601A70496700A0689F /* Sources */,
 				804D6B611A70496700A0689F /* Frameworks */,
 				804D6B621A70496700A0689F /* Resources */,
-				803A2D4A1A756072003F9B22 /* CopyFiles */,
+				803A2D4A1A756072003F9B22 /* Copy Files */,
 				D8729584123B93F4CEB0222E /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -407,7 +410,7 @@
 				809598081A782723007632C7 /* 100Percent.mp3 in Resources */,
 				80E0EF3C1A79E3E70076B04A /* FamilyHoffmann.plist in Resources */,
 				80ADE1471A73CF7E00987E9B /* Colfax-Medium.otf in Resources */,
-				80E0EF381A79D3360076B04A /* Media.xcassets in Resources */,
+				80E0EF381A79D3360076B04A /* ProfilePics.xcassets in Resources */,
 				80ADE1481A73CF7E00987E9B /* Colfax-MediumItalic.otf in Resources */,
 				80ADE1491A73CF7E00987E9B /* Colfax-Regular.otf in Resources */,
 				80ADE14A1A73CF7E00987E9B /* Colfax-RegularItalic.otf in Resources */,
@@ -416,7 +419,7 @@
 				804D6B6F1A70496700A0689F /* Main.storyboard in Resources */,
 				804D6B741A70496700A0689F /* LaunchScreen.xib in Resources */,
 				8088F7591A7523CE00229F72 /* Rezepturen.plist in Resources */,
-				804D6B711A70496700A0689F /* Images.xcassets in Resources */,
+				804D6B711A70496700A0689F /* InterfaceIcons.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
