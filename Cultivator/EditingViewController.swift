@@ -9,22 +9,18 @@
 import UIKit
 import SceneKit
 
-var meatToBeEdited : [Meat] = []
+var displayedDictionary : NSDictionary = NSDictionary()
 
 class EditingViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
-    var thisMeat : Meat?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.clearColor()
         
-        println("reached")
-        
-        
         var recipeCollectionViewLayout = RecipeLayout()
         recipeCollectionViewLayout.scrollDirection = UICollectionViewScrollDirection.Horizontal
-        recipeCollectionViewLayout.itemSize = CGSize(width: 280, height: 580)
+        recipeCollectionViewLayout.itemSize = CGSize(width: 280, height: 620)
         recipeCollectionViewLayout.minimumLineSpacing = 50
         recipeCollectionViewLayout.sectionInset = UIEdgeInsets(top: 0, left: 50, bottom: 0, right: 50)
         
@@ -46,80 +42,11 @@ class EditingViewController: UIViewController, UICollectionViewDelegate, UIColle
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as! Recipe
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as Recipe
         
-        cell.myMeat = meatToBeEdited[0]
-        
-        var paragraphStyle = NSMutableParagraphStyle()
-        paragraphStyle.lineSpacing = 6
-        paragraphStyle.lineBreakMode = NSLineBreakMode.ByWordWrapping
-        
-        var attrString = NSMutableAttributedString(string: meatToBeEdited[0].comment)
-        attrString.addAttribute(NSParagraphStyleAttributeName, value:paragraphStyle, range:NSMakeRange(0, attrString.length))
-        
-        cell.comment.attributedText = attrString
-        
-        var jucinessdescription : String?
-        var structuredescription : String?
-        var colordescription: String?
-        
-        
-        if (cell.myMeat!.juiciness < 0.4) {
-            jucinessdescription = "trocken"
-        } else {
-            jucinessdescription = "saftig"
-        }
-        
-        if (cell.myMeat!.structure < 0.4) {
-            structuredescription = "herb"
-        } else {
-            structuredescription = "sanft"
-        }
-        
-        if (cell.myMeat!.meatColor < 0.5) {
-            colordescription = "hell"
-        } else {
-            colordescription = "dunkel"
-        }
-        
-        
-        cell.myRandomValue = Int(arc4random_uniform(20)+5)
-        
-        
-        cell.title.text = meatToBeEdited[0].title
-        
-        cell.avatar.image = UIImage(named: meatToBeEdited[0].creator)
-        cell.commentText.text = "\(meatToBeEdited[0].creator) empfiehlt"
-        
-        if (cell.myMeat!.unhealthy) {
-            cell.makeHealthyButton!.backgroundColor = myRedWithAlpha
-            cell.makeHealthyButtonLabel!.text = "Nährwerte personalisieren"
-            cell.myMeat!.unhealthy = true
-            
-        } else if (cell.myMeat!.notinqueue) {
-            cell.makeHealthyButton!.backgroundColor = UIColor(white: 1, alpha: 0.35)
-            cell.makeHealthyButtonLabel!.text = "Zur Warteschlange hinzufügen"
-            cell.myMeat!.notinqueue = true
-            
-        } else if (cell.myMeat!.inqueue) {
-            cell.makeHealthyButton!.backgroundColor = UIColor(white: 1, alpha: 0.35)
-            cell.makeHealthyButtonLabel!.text = "Dauer wird berechnet."
-            
-            var fadeInOutAnimation : CABasicAnimation = CABasicAnimation(keyPath: "opacity")
-            fadeInOutAnimation.fromValue = 1
-            fadeInOutAnimation.toValue = 0.25
-            fadeInOutAnimation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
-            fadeInOutAnimation.duration = 1
-            fadeInOutAnimation.autoreverses = true
-            fadeInOutAnimation.repeatCount = HUGE
-            fadeInOutAnimation.removedOnCompletion = true
-            fadeInOutAnimation.fillMode = kCAFillModeBoth
-            
-            cell.makeHealthyButton!.layer.addAnimation(fadeInOutAnimation, forKey: "opacity")
-        }
-        
-        
-        cell.creator.text = meatToBeEdited[0].creator
+        cell.title.text = displayedDictionary["Title"]! as? String
+        cell.comment.text = displayedDictionary["Description"]! as? String
+        cell.creator.text = displayedDictionary["Creator"]! as? String
         
         return cell
     }
@@ -138,7 +65,8 @@ class EditingViewController: UIViewController, UICollectionViewDelegate, UIColle
     
     func handleTapInBackground (recognizer : UITapGestureRecognizer) {
         var vc = ViewController()
-        self.presentingViewController!.dismissViewControllerAnimated(true, completion: nil)
+        vc.animateOutBlurView()
+        self.presentingViewController!.dismissViewControllerAnimated(false, completion: nil)
     }
     
     override func viewDidAppear(animated: Bool) {
