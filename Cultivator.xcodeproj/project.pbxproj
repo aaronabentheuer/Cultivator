@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		803A2D491A755FF9003F9B22 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803A2D461A755FA3003F9B22 /* GPUImage.framework */; };
-		803A2D4B1A75608A003F9B22 /* GPUImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 803A2D461A755FA3003F9B22 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		802EF5F41AF579F90029325E /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802EF5F11AF5797A0029325E /* GPUImage.framework */; };
 		8049341A1A73F7BD00DE1AA8 /* AddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804934191A73F7BD00DE1AA8 /* AddCell.swift */; };
 		8049341C1A73FB4800DE1AA8 /* RecipeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8049341B1A73FB4800DE1AA8 /* RecipeLayout.swift */; };
 		804D6B6A1A70496700A0689F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804D6B691A70496700A0689F /* AppDelegate.swift */; };
@@ -20,6 +19,7 @@
 		8055DCBE1A77AB4900F9D000 /* IdleModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8055DCBD1A77AB4900F9D000 /* IdleModeViewController.swift */; };
 		8088F7591A7523CE00229F72 /* Rezepturen.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8088F7581A7523CE00229F72 /* Rezepturen.plist */; };
 		8088F75B1A75333A00229F72 /* EditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088F75A1A75333A00229F72 /* EditingViewController.swift */; };
+		808E191C1A82DE07001F8F73 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808E191B1A82DE07001F8F73 /* UIColorExtensions.swift */; };
 		809598051A78219A007632C7 /* Firm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 809598041A78219A007632C7 /* Firm.mp3 */; };
 		809598081A782723007632C7 /* 100Percent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 809598071A782723007632C7 /* 100Percent.mp3 */; };
 		80ADE1411A73CF7E00987E9B /* Colfax-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80ADE1341A73CF0C00987E9B /* Colfax-Black.otf */; };
@@ -37,29 +37,33 @@
 		80ADE1501A73E62000987E9B /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ADE14F1A73E62000987E9B /* Recipe.swift */; };
 		80C489EB1A78711C0067139D /* Noise.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 80C489EA1A78711C0067139D /* Noise.aiff */; };
 		80DD4FE91A784E54001F3DE1 /* Meat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DD4FE81A784E54001F3DE1 /* Meat.swift */; };
+		80E0EF341A79B3910076B04A /* TLSpringFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E0EF331A79B3910076B04A /* TLSpringFlowLayout.m */; };
+		80E0EF381A79D3360076B04A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E0EF371A79D3360076B04A /* Media.xcassets */; };
+		80E0EF3A1A79D91C0076B04A /* FamilyMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E0EF391A79D91C0076B04A /* FamilyMember.swift */; };
+		80E0EF3C1A79E3E70076B04A /* FamilyHoffmann.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80E0EF3B1A79E3E70076B04A /* FamilyHoffmann.plist */; };
 		80F951511A7878FF004AB3F5 /* PrimitivesScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F951501A7878FF004AB3F5 /* PrimitivesScene.swift */; };
 		80F951551A787967004AB3F5 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F951541A787967004AB3F5 /* SceneKit.framework */; };
 		D06EE0C4CF651C5CAF37A798 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6322BC8F7A5802C7E7740350 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		803A2D431A755FA3003F9B22 /* PBXContainerItemProxy */ = {
+		802EF5EE1AF5797A0029325E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 803A2D3D1A755FA3003F9B22 /* GPUImage.xcodeproj */;
+			containerPortal = 802EF5E81AF5797A0029325E /* GPUImage.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
 			remoteInfo = GPUImage;
 		};
-		803A2D451A755FA3003F9B22 /* PBXContainerItemProxy */ = {
+		802EF5F01AF5797A0029325E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 803A2D3D1A755FA3003F9B22 /* GPUImage.xcodeproj */;
+			containerPortal = 802EF5E81AF5797A0029325E /* GPUImage.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = BCE209E51943F20C002FEED8;
 			remoteInfo = GPUImageFramework;
 		};
-		803A2D471A755FE8003F9B22 /* PBXContainerItemProxy */ = {
+		802EF5F21AF579E90029325E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 803A2D3D1A755FA3003F9B22 /* GPUImage.xcodeproj */;
+			containerPortal = 802EF5E81AF5797A0029325E /* GPUImage.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = BCE209E41943F20C002FEED8;
 			remoteInfo = GPUImageFramework;
@@ -80,7 +84,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				803A2D4B1A75608A003F9B22 /* GPUImage.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +91,7 @@
 
 /* Begin PBXFileReference section */
 		6322BC8F7A5802C7E7740350 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		803A2D3D1A755FA3003F9B22 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = "../../../Downloads/GPUImage-master-2/framework/GPUImage.xcodeproj"; sourceTree = "<group>"; };
+		802EF5E81AF5797A0029325E /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = "../../../../Downloads/GPUImage-master-4/framework/GPUImage.xcodeproj"; sourceTree = "<group>"; };
 		804934191A73F7BD00DE1AA8 /* AddCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCell.swift; sourceTree = "<group>"; };
 		8049341B1A73FB4800DE1AA8 /* RecipeLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeLayout.swift; sourceTree = "<group>"; };
 		804D6B641A70496700A0689F /* Cultivator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cultivator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +107,7 @@
 		8055DCBD1A77AB4900F9D000 /* IdleModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdleModeViewController.swift; sourceTree = "<group>"; };
 		8088F7581A7523CE00229F72 /* Rezepturen.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Rezepturen.plist; sourceTree = "<group>"; };
 		8088F75A1A75333A00229F72 /* EditingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditingViewController.swift; sourceTree = "<group>"; };
+		808E191B1A82DE07001F8F73 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		809598041A78219A007632C7 /* Firm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Firm.mp3; sourceTree = "<group>"; };
 		809598071A782723007632C7 /* 100Percent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 100Percent.mp3; sourceTree = "<group>"; };
 		80ADE1341A73CF0C00987E9B /* Colfax-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Black.otf"; sourceTree = "<group>"; };
@@ -121,6 +125,11 @@
 		80ADE14F1A73E62000987E9B /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		80C489EA1A78711C0067139D /* Noise.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Noise.aiff; sourceTree = "<group>"; };
 		80DD4FE81A784E54001F3DE1 /* Meat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meat.swift; sourceTree = "<group>"; };
+		80E0EF321A79B3910076B04A /* TLSpringFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLSpringFlowLayout.h; sourceTree = "<group>"; };
+		80E0EF331A79B3910076B04A /* TLSpringFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLSpringFlowLayout.m; sourceTree = "<group>"; };
+		80E0EF371A79D3360076B04A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = SOURCE_ROOT; };
+		80E0EF391A79D91C0076B04A /* FamilyMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyMember.swift; sourceTree = "<group>"; };
+		80E0EF3B1A79E3E70076B04A /* FamilyHoffmann.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FamilyHoffmann.plist; sourceTree = SOURCE_ROOT; };
 		80F951501A7878FF004AB3F5 /* PrimitivesScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimitivesScene.swift; sourceTree = "<group>"; };
 		80F951541A787967004AB3F5 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
 		B842EE050B8BE74E6C372B97 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,8 +141,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				802EF5F41AF579F90029325E /* GPUImage.framework in Frameworks */,
 				80F951551A787967004AB3F5 /* SceneKit.framework in Frameworks */,
-				803A2D491A755FF9003F9B22 /* GPUImage.framework in Frameworks */,
 				D06EE0C4CF651C5CAF37A798 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,11 +157,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		803A2D3E1A755FA3003F9B22 /* Products */ = {
+		802EF5E91AF5797A0029325E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				803A2D441A755FA3003F9B22 /* libGPUImage.a */,
-				803A2D461A755FA3003F9B22 /* GPUImage.framework */,
+				802EF5EF1AF5797A0029325E /* libGPUImage.a */,
+				802EF5F11AF5797A0029325E /* GPUImage.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,7 +172,6 @@
 				804D6B661A70496700A0689F /* Cultivator */,
 				804D6B7C1A70496700A0689F /* CultivatorTests */,
 				804D6B651A70496700A0689F /* Products */,
-				803A2D3D1A755FA3003F9B22 /* GPUImage.xcodeproj */,
 				F21856973033A962B4D61A45 /* Pods */,
 				F85390CFF60D7665FB9C7135 /* Frameworks */,
 			);
@@ -183,6 +191,7 @@
 			children = (
 				804D6B691A70496700A0689F /* AppDelegate.swift */,
 				804D6B6B1A70496700A0689F /* ViewController.swift */,
+				80E0EF391A79D91C0076B04A /* FamilyMember.swift */,
 				8055DCBD1A77AB4900F9D000 /* IdleModeViewController.swift */,
 				8088F75A1A75333A00229F72 /* EditingViewController.swift */,
 				8049341B1A73FB4800DE1AA8 /* RecipeLayout.swift */,
@@ -190,9 +199,14 @@
 				804934191A73F7BD00DE1AA8 /* AddCell.swift */,
 				80ADE14F1A73E62000987E9B /* Recipe.swift */,
 				80DD4FE81A784E54001F3DE1 /* Meat.swift */,
+				80E0EF321A79B3910076B04A /* TLSpringFlowLayout.h */,
+				80E0EF3B1A79E3E70076B04A /* FamilyHoffmann.plist */,
+				80E0EF331A79B3910076B04A /* TLSpringFlowLayout.m */,
 				804D6B6D1A70496700A0689F /* Main.storyboard */,
 				804D6B701A70496700A0689F /* Images.xcassets */,
+				80E0EF371A79D3360076B04A /* Media.xcassets */,
 				804D6B721A70496700A0689F /* LaunchScreen.xib */,
+				802EF5E81AF5797A0029325E /* GPUImage.xcodeproj */,
 				804D6B671A70496700A0689F /* Supporting Files */,
 			);
 			path = Cultivator;
@@ -202,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				8088F7581A7523CE00229F72 /* Rezepturen.plist */,
+				808E191B1A82DE07001F8F73 /* UIColorExtensions.swift */,
 				809598061A78219E007632C7 /* Sounds */,
 				80ADE1401A73CF1400987E9B /* Colfax */,
 				804D6B681A70496700A0689F /* Info.plist */,
@@ -290,7 +305,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				803A2D481A755FE8003F9B22 /* PBXTargetDependency */,
+				802EF5F31AF579E90029325E /* PBXTargetDependency */,
 			);
 			name = Cultivator;
 			productName = Cultivator;
@@ -326,6 +341,7 @@
 				TargetAttributes = {
 					804D6B631A70496700A0689F = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 6NDKXMMXT5;
 					};
 					804D6B781A70496700A0689F = {
 						CreatedOnToolsVersion = 6.2;
@@ -346,8 +362,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 803A2D3E1A755FA3003F9B22 /* Products */;
-					ProjectRef = 803A2D3D1A755FA3003F9B22 /* GPUImage.xcodeproj */;
+					ProductGroup = 802EF5E91AF5797A0029325E /* Products */;
+					ProjectRef = 802EF5E81AF5797A0029325E /* GPUImage.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -359,18 +375,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		803A2D441A755FA3003F9B22 /* libGPUImage.a */ = {
+		802EF5EF1AF5797A0029325E /* libGPUImage.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libGPUImage.a;
-			remoteRef = 803A2D431A755FA3003F9B22 /* PBXContainerItemProxy */;
+			remoteRef = 802EF5EE1AF5797A0029325E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		803A2D461A755FA3003F9B22 /* GPUImage.framework */ = {
+		802EF5F11AF5797A0029325E /* GPUImage.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = GPUImage.framework;
-			remoteRef = 803A2D451A755FA3003F9B22 /* PBXContainerItemProxy */;
+			remoteRef = 802EF5F01AF5797A0029325E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -389,7 +405,9 @@
 				80ADE1451A73CF7E00987E9B /* Colfax-Light.otf in Resources */,
 				80ADE1461A73CF7E00987E9B /* Colfax-LightItalic.otf in Resources */,
 				809598081A782723007632C7 /* 100Percent.mp3 in Resources */,
+				80E0EF3C1A79E3E70076B04A /* FamilyHoffmann.plist in Resources */,
 				80ADE1471A73CF7E00987E9B /* Colfax-Medium.otf in Resources */,
+				80E0EF381A79D3360076B04A /* Media.xcassets in Resources */,
 				80ADE1481A73CF7E00987E9B /* Colfax-MediumItalic.otf in Resources */,
 				80ADE1491A73CF7E00987E9B /* Colfax-Regular.otf in Resources */,
 				80ADE14A1A73CF7E00987E9B /* Colfax-RegularItalic.otf in Resources */,
@@ -452,11 +470,14 @@
 				8049341C1A73FB4800DE1AA8 /* RecipeLayout.swift in Sources */,
 				8055DCBE1A77AB4900F9D000 /* IdleModeViewController.swift in Sources */,
 				8088F75B1A75333A00229F72 /* EditingViewController.swift in Sources */,
+				808E191C1A82DE07001F8F73 /* UIColorExtensions.swift in Sources */,
 				80ADE1501A73E62000987E9B /* Recipe.swift in Sources */,
 				80DD4FE91A784E54001F3DE1 /* Meat.swift in Sources */,
 				8049341A1A73F7BD00DE1AA8 /* AddCell.swift in Sources */,
 				804D6B6C1A70496700A0689F /* ViewController.swift in Sources */,
 				804D6B6A1A70496700A0689F /* AppDelegate.swift in Sources */,
+				80E0EF3A1A79D91C0076B04A /* FamilyMember.swift in Sources */,
+				80E0EF341A79B3910076B04A /* TLSpringFlowLayout.m in Sources */,
 				80F951511A7878FF004AB3F5 /* PrimitivesScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,10 +493,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		803A2D481A755FE8003F9B22 /* PBXTargetDependency */ = {
+		802EF5F31AF579E90029325E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GPUImageFramework;
-			targetProxy = 803A2D471A755FE8003F9B22 /* PBXContainerItemProxy */;
+			targetProxy = 802EF5F21AF579E90029325E /* PBXContainerItemProxy */;
 		};
 		804D6B7B1A70496700A0689F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -588,10 +609,13 @@
 			baseConfigurationReference = CFDF484C65D881C33858D935 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Cultivator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = ObjC_BridgingHeader.h;
 			};
 			name = Debug;
@@ -601,10 +625,13 @@
 			baseConfigurationReference = B842EE050B8BE74E6C372B97 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Cultivator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = ObjC_BridgingHeader.h;
 			};
 			name = Release;

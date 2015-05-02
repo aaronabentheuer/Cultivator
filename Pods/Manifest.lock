@@ -1,10 +1,16 @@
 PODS:
+  - MarqueeLabel (2.2.3)
   - pop (1.0.7)
+  - Shimmer (1.0.2)
 
 DEPENDENCIES:
-  - pop (~> 1.0)
+  - MarqueeLabel
+  - pop
+  - Shimmer
 
 SPEC CHECKSUMS:
-  pop: 2f14a1ea61339767af9e66741b418c831b3844df
+  MarqueeLabel: f03d12e3a1572893f78ecb22aa5dd774099c7208
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
 
 COCOAPODS: 0.34.2
