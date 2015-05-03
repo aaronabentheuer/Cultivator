@@ -8,3 +8,4 @@ It became clear to us that to really get the message across the way we wanted to
 
 ![screencast](https://github.com/aaronabentheuer/Cultivator/blob/master/Images/screencast.gif)
 
+This prototype includes several interesting bits and pieces that marked the first time using several features of UIKit for us, which was an interesting experience. We experimented with UICollectionView and came up with a user-presence detection using [GPUImage by Brad Larson](https://github.com/BradLarson/GPUImage), which works very realiably in detecting a user’s intent in interacting with the device. We originally tried to make the detection even more reliable by using face-detection, which resulted in [AAFaceDetection](https://github.com/aaronabentheuer/AAFaceDetection).
