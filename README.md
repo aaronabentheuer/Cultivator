@@ -23,3 +23,13 @@ Cultivator was built (without any initial knowledge about the processes) in abou
 
 The white body of Cultivator is deep-drawn expandable polysterene, which gives you a nice matte plastic finish. The model used to deep-draw the shell is still in the prototype to give it the weight it needs to feel like a real thing. We used a material called “Ureol”, which is a synthetical very similar to wood in the way it can be treated, to build the model. Make sure to make it very robust since the deep-drawing process can be quite impactful at that size.
 Everything else is just laser-cut acrylic glass in either black (for the top) or white (for the compartments, etc.) and a very simple rubber mount inside to hold the iPad in place.
+
+##License
+Released under the **MIT License**.
+Copyright © 2015 [Aaron Abentheuer](http://www.aaronabentheuer.com).
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
