@@ -10,13 +10,15 @@ We were inspired by the [“The state of food and agriculture.”](http://www.fa
 
 Through these studies it became clear to us that (especially considering trends like [Entomophagy](http://en.wikipedia.org/wiki/Entomophagy) consumption of meat will be more of a luxury product than it already is in the future and that it will be consumed in smaller doses. Therefore we decided that this should be a product that people have at their homes.
 
-### Software-Design
+### User Interface Design
+
+### Hardware Design
 
 
 ##Prototype
 To really get the message across we wanted to build a prototype that is close enough to a kitchen-appliance so that people can focus on discussing the topic of bioprinting meat without getting distracted by ostentatious design.
 ###Software
-We realized we had to get the best performance possible out of our prototype or it would ruin the illusion and that’s why we chose Swift. The entire software-part of the prototype was done in under a week but still is very performant even on an old iPad.
+We realized we had to get the best performance possible out of our prototype or it would ruin the illusion and that’s why we chose Swift. The entire software-part of the prototype was done in under a week but still is very performant.
 
 ![screencast](https://github.com/aaronabentheuer/Cultivator/blob/master/Images/screencast.gif)
 
