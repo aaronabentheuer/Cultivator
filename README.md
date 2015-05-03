@@ -23,6 +23,7 @@ From the beginning it was clear that we wanted to create the illusion of the int
 
 ### Hardware Design
 ![cultivatorFront](https://github.com/aaronabentheuer/Cultivator/blob/master/Images/CultivatorFront.jpg)
+The industrial design of Cultivator was strongly inspired by today’s modern kitchen-appliances. Especially the black top of the device was a conscious decision since a lot of (easy to) clean surfaces in the kitchen are glossy black (for example glass-ceramic cooktop panels). Another reason for that decision was the idea of implementing a solar-panel into the device itself since kitchens are getting brighter and flooded with sunlight. The effect of blending the iPad in the prototype with the acrylic-glass worked much better in black than i.e. in white.
 
 ##Prototype
 To really get the message across we wanted to build a prototype that is close enough to a kitchen-appliance so that people can focus on discussing the topic of bioprinting meat without getting distracted by ostentatious design.
