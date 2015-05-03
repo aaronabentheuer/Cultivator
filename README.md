@@ -13,4 +13,4 @@ This prototype includes several interesting bits and pieces that marked the firs
 *In the prototype we had to replace the originally used font [“Colfax” by Process Type Foundry](https://processtypefoundry.com/fonts/colfax/) with Avenir due to licensing problems. Feel free to replace it again if you got a proper license for the original font.*
 
 ##Prototype Hardware
-
+![technicalDraft](https://github.com/aaronabentheuer/Cultivator/blob/master/Images/Technical%20Draft.png)
