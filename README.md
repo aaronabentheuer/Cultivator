@@ -11,6 +11,7 @@ We were inspired by the [“The state of food and agriculture.”](http://www.fa
 Through these studies it became clear to us that (especially considering trends like [Entomophagy](http://en.wikipedia.org/wiki/Entomophagy) consumption of meat will be more of a luxury product than it already is in the future and that it will be consumed in smaller doses. Therefore we decided that this should be a product that people have at their homes.
 
 ### User Interface Design
+![screencast](https://github.com/aaronabentheuer/Cultivator/blob/master/Images/screencast.gif)
 The user interface was done under the consideration of getting out of the way of the discussion about the topic of bioprinting as much as possible but still being provocative and forward-thinking enough so it could act as a conversation-starter. After going through several iterations we ended up with something very simple.
 From the beginning it was clear that we wanted to create the illusion of the interface being part of the hardware by using a black background that could blend in with the hardware. At the same time the interface should act more like a physical tool without a complicated menu-structure. That’s how we ended up with a horizontally scrolling menu of so-called “compositions” that can be printed with a simple touch of a button. 
 * **Compositions** are a simple summary of all there is to know about the meat. Its creator (either the user or someone out of their network) a short summary and its ingredients and their impact related to the current user’s health. 
