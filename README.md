@@ -11,6 +11,10 @@ We were inspired by the [“The state of food and agriculture.”](http://www.fa
 Through these studies it became clear to us that (especially considering trends like [Entomophagy](http://en.wikipedia.org/wiki/Entomophagy) consumption of meat will be more of a luxury product than it already is in the future and that it will be consumed in smaller doses. Therefore we decided that this should be a product that people have at their homes.
 
 ### User Interface Design
+The user interface was done under the consideration of getting out of the way of the discussion about the topic of bioprinting as much as possible but still being provocative and forward-thinking enough so it could act as a conversation-starter. After going through several iterations we ended up with something very simple.
+From the beginning it was clear that we wanted to create the illusion of the interface being part of the hardware by using a black background that could blend in with the hardware. At the same time the interface should act more like a physical tool without a complicated menu-structure. That’s how we ended up with a horizontally scrolling menu of so-called “compositions” that can be printed with a simple touch of a button. I want to quickly highlight two things:
+* **Glancability** was one of our most important issues because it is a kitchen appliance. While the basic “compositions” are very detailed, the moment you start scrolling everything collapses and animates into a very simple view with an image of the creator of the composition, which makes selection incredibly easy.
+* The **Health-Magic-Wand Tool** is a reference to traditional photo-editing software which usese this tool to “simply make a photo better” (in most cases). That’s exactly what we wanted since it doesn’t make sense to let the user decide exactly about the chemical substances in the meat. Cultivator can, related to the user’s health simply enhance the meat while trying to keep the meat’s character.
 
 ### Hardware Design
 
