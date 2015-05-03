@@ -17,7 +17,7 @@ Presenting the software without the hardware wouldn’t work at all of course. T
 
 ![technicalDraft](https://github.com/aaronabentheuer/Cultivator/blob/master/Images/Technical%20Draft.png)
 
-Cultivator was built (without any initial knowledge about the processes) in about two weeks but could be built with a little experience much faster. If you want to build Cultivator on your own or use it as a reference feel free to do so and don’t hesitate contacting us with any questions.
+Cultivator was built (without any initial knowledge about the processes) in about two weeks but could be built much faster with a little experience. If you want to build Cultivator on your own or use it as a reference feel free to do so and don’t hesitate contacting us with any questions.
 
 ![workshop](https://github.com/aaronabentheuer/Cultivator/blob/master/Images/workshop.jpg)
 
