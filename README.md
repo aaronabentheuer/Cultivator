@@ -1,6 +1,6 @@
 # Cultivator
 Speculative design project about bioprinting of meat and how it could end up in the kitchen of tomorrow.
-You can read an in-depth description about the project (in German) on the [HfG Schwäbisch Gmünd — IG Portfolio](http://ig.hfg-gmuend.de/Members/aaron_abentheuer/meine-projekte/cultivator).
+An in-depth description about the project is available (in German) on the [HfG Schwäbisch Gmünd — IG Portfolio](http://ig.hfg-gmuend.de/Members/aaron_abentheuer/meine-projekte/cultivator).
 
 ![cultivatorPerspective](https://github.com/aaronabentheuer/Cultivator/blob/master/Images/CultivatorPerspective.jpg)
 
