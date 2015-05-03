@@ -13,7 +13,8 @@ Through these studies it became clear to us that (especially considering trends 
 ### Software-Design
 
 
-##Prototype Software
+##Prototype
+###Software
 It became clear to us that to really get the message across the way we wanted to at the exhibition we had to get the best performance possible out of our prototype or it would ruin the illusion, that’s why we chose Swift. The entire software-part of the prototype was done in under a week but still very performant even on an old iPad.
 
 ![screencast](https://github.com/aaronabentheuer/Cultivator/blob/master/Images/screencast.gif)
@@ -22,7 +23,7 @@ This prototype includes several interesting bits and pieces that marked the firs
 
 *In the prototype we had to replace the originally used font [“Colfax” by Process Type Foundry](https://processtypefoundry.com/fonts/colfax/) with Avenir due to licensing problems. Feel free to replace it again if you got a proper license for the original font.*
 
-##Prototype Hardware
+###Hardware
 Presenting the software without the hardware wouldn’t work at all of course. That’s why we came up with a rather timeless hardware-design that we think could fit in the kitchen of tomorrow at a size smaller than a microwave.
 
 ![technicalDraft](https://github.com/aaronabentheuer/Cultivator/blob/master/Images/Technical%20Draft.png)
