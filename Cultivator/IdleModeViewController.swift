@@ -115,10 +115,6 @@ class IdleModeViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         
-        println("called")
-        println(smudgeArray.count)
-
-        
         cleaningInstruction.frame = self.view.bounds
         cleaningInstruction.font = UIFont(name: "Colfax-Light", size: 24)
         cleaningInstruction.text = "Bildschirm wird gereinigt!"

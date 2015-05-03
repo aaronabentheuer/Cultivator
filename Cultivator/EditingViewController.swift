@@ -19,9 +19,6 @@ class EditingViewController: UIViewController, UICollectionViewDelegate, UIColle
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.clearColor()
         
-        println("reached")
-        
-        
         var recipeCollectionViewLayout = RecipeLayout()
         recipeCollectionViewLayout.scrollDirection = UICollectionViewScrollDirection.Horizontal
         recipeCollectionViewLayout.itemSize = CGSize(width: 280, height: 580)

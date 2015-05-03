@@ -40,8 +40,6 @@ class FamilyMember: UIButton {
     
     func wasTapped () {
         
-        println("tapped")
-        
         if (activated == false) {
             
             UIView.animateWithDuration(0.3, animations: {
@@ -51,8 +49,6 @@ class FamilyMember: UIButton {
             
             activated = true
             
-            println(activated)
-
         } else if (activated == true) {
             
             UIView.animateWithDuration(0.3, animations: {

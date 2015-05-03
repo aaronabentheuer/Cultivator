@@ -156,7 +156,6 @@ class Meat: NSObject {
     
     func makeHealthy () {
         if (tooMuchFat) {
-            println("Called")
             fat = 80
             tooMuchFat = false
             unhealthy = false
