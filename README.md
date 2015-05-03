@@ -4,7 +4,9 @@ An in-depth description about the project is available (in German) on the [HfG S
 
 ![cultivatorPerspective](https://github.com/aaronabentheuer/Cultivator/blob/master/Images/CultivatorPerspective.jpg)
 
+The general goal of the project was to build a prototype for an exhibition that stimulates a **discussion about the future of meat-consumption** and its implications in terms of energy-consumption and development of society. The aesthetics of food now and in the future was another topic that we wanted to tackle with our prototype.
 
+We were inspired by the [“The state of food and agriculture.”](http://www.fao.org/docrep/018/i3300e/i3300e.pdf) study by the UN, [2063 Dining](http://www.londondesignfestival.com/news/2063-dining) by Trendstop for Miele and [The future of kitchens.](http://www.ikea.com/ms/en_GB/about_ikea/press/PR_FILES/Future_kitchens_report_FINAL.pdf) by IKEA on a conceptual level and by Otl Aicher’s “The Kitchen is for Cooking” (1982) and Ettore Sottsass’ “About Kitchens” (1992) in terms of how the kitchen has developed in the past and how it might develop in the future.
 
 ##Prototype Software
 It became clear to us that to really get the message across the way we wanted to at the exhibition we had to get the best performance possible out of our prototype or it would ruin the illusion, that’s why we chose Swift. The entire software-part of the prototype was done in under a week but still very performant even on an old iPad.
