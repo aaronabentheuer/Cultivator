@@ -63,14 +63,14 @@ class Recipe: UICollectionViewCell, UITableViewDelegate, UITableViewDataSource {
         self.comment.frame = CGRect(x: 12, y: 68, width: frame.width-32, height: 56)
         self.comment.textColor = UIColor.blackColor()
         self.comment.numberOfLines = 2
-        self.comment.font = UIFont(name: "Colfax-Regular", size: 16)
+        self.comment.font = UIFont(name: "Avenir", size: 16)
         self.comment.textColor = UIColor.blackColor()
         self.addSubview(comment)
                 
         self.creator.frame = CGRect(x: 12, y: 140, width: frame.width-16, height: 24)
         self.creator.text = "Ewald Plachutta · Wien, Österreich"
         self.creator.textColor = UIColor.whiteColor()
-        self.creator.font = UIFont(name: "Colfax-Regular", size: 16)
+        self.creator.font = UIFont(name: "Avenir", size: 16)
         self.addSubview(creator)
         
         var seperatorLine : UIView = UIView(frame: CGRect(x: 0, y: 180, width: self.frame.width, height: 0.5))
@@ -102,7 +102,7 @@ class Recipe: UICollectionViewCell, UITableViewDelegate, UITableViewDataSource {
         self.addSubview(makeHealthyButton!)
         
         makeHealthyButtonLabel = UILabel(frame: makeHealthyButton!.bounds)
-        makeHealthyButtonLabel!.font = UIFont(name: "Colfax-Regular", size: 16)
+        makeHealthyButtonLabel!.font = UIFont(name: "Avenir", size: 16)
         makeHealthyButtonLabel!.textColor = UIColor.whiteColor()
         makeHealthyButtonLabel!.textAlignment = .Center
         makeHealthyButton!.addSubview(makeHealthyButtonLabel!)
@@ -115,7 +115,7 @@ class Recipe: UICollectionViewCell, UITableViewDelegate, UITableViewDataSource {
         self.title.text = "Wiener Schnitzel"
         
         self.title.textColor = UIColor.whiteColor()
-        self.title.font = UIFont(name: "Colfax-Light", size: 24)
+        self.title.font = UIFont(name: "Avenir", size: 24)
         self.addSubview(title)
         
         var cornerWidth : CGFloat = 10
@@ -157,7 +157,7 @@ class Recipe: UICollectionViewCell, UITableViewDelegate, UITableViewDataSource {
         self.blendingView.addSubview(avatar)
         
         commentText.frame = CGRect(x: 12, y: self.frame.height/2+10, width: self.frame.width-16, height: 40)
-        commentText.font = UIFont(name: "Colfax-Bold", size: 16)
+        commentText.font = UIFont(name: "AvenirNext-Demibold", size: 16)
         commentText.textAlignment = .Center
         commentText.textColor = UIColor.whiteColor()
         commentText.alpha = 0.5
@@ -166,7 +166,7 @@ class Recipe: UICollectionViewCell, UITableViewDelegate, UITableViewDataSource {
         UIView.animateWithDuration(0.2, animations: {
             self.blendingView.layer.opacity = 0.95
             self.title.textAlignment = .Center
-            self.title.font = UIFont(name: "Colfax-Regular", size: 20)
+            self.title.font = UIFont(name: "Avenir", size: 20)
             self.title.numberOfLines = 2
             self.title.frame = CGRect(x: 12, y: self.frame.height/2+36, width: self.frame.width-16, height: 40)
             self.makeHealthyButton!.frame = CGRect(x: 0, y: self.frame.height-50, width: 38, height: 38)
@@ -183,7 +183,7 @@ class Recipe: UICollectionViewCell, UITableViewDelegate, UITableViewDataSource {
             
             self.title.textAlignment = .Left
             self.title.numberOfLines = 1
-            self.title.font = UIFont(name: "Colfax-Light", size: 24)
+            self.title.font = UIFont(name: "Avenir-Light", size: 24)
             self.title.frame = CGRect(x: 12, y: 16, width: self.frame.width-16, height: 40)
             self.makeHealthyButton!.frame = CGRect(x: 0, y: self.frame.height-50, width: self.frame.width, height: 38)
             self.makeHealthyButtonLabel!.textColor = UIColor(white: 1, alpha: 1)
@@ -340,7 +340,7 @@ class IngredientsTableViewCell: UITableViewCell {
 //        ingredientLabel.layer.anchorPoint = CGPointMake(0, 1)
 //        ingredientValue.center = CGPointMake(12, frame.height)
         ingredientLabel.textAlignment = .Left
-        ingredientLabel.font = UIFont(name: "Colfax-Medium", size: 20)
+        ingredientLabel.font = UIFont(name: "AvenirNext-Demibold", size: 20)
         self.addSubview(ingredientLabel)
         
         ingredientValue.frame = CGRect(x: 12, y: 0, width: frame.width-62, height: frame.height)
@@ -350,7 +350,7 @@ class IngredientsTableViewCell: UITableViewCell {
 //        ingredientValue.layer.anchorPoint = CGPointMake(1, 1)
 //        ingredientValue.center = CGPointMake(frame.width-12, frame.height)
         ingredientValue.textAlignment = .Right
-        ingredientValue.font = UIFont(name: "Colfax-Light", size: 24)
+        ingredientValue.font = UIFont(name: "Avenir-Light", size: 24)
         self.addSubview(ingredientValue)
     }
 
@@ -373,14 +373,14 @@ class IngredientsTableViewHeaderView: UIView {
         sectionTitle.textColor = UIColor.blackColor()
         sectionTitle.alpha = 1
         sectionTitle.textAlignment = .Left
-        sectionTitle.font = UIFont(name: "Colfax-Medium", size: 16)
+        sectionTitle.font = UIFont(name: "AvenirNext-Demibold", size: 16)
         self.addSubview(sectionTitle)
         
         sectionValue.frame = CGRect(x: 0, y: 0, width: frame.width-12, height: frame.height)
         sectionValue.textColor = UIColor.blackColor()
         sectionValue.alpha = 0.5
         sectionValue.textAlignment = .Right
-        sectionValue.font = UIFont(name: "Colfax-Medium", size: 16)
+        sectionValue.font = UIFont(name: "AvenirNext-Demibold", size: 16)
         self.addSubview(sectionValue)
     }
 

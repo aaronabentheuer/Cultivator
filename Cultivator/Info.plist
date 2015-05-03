@@ -22,21 +22,6 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>UIAppFonts</key>
-	<array>
-		<string>Colfax-Black.otf</string>
-		<string>Colfax-BlackItalic.otf</string>
-		<string>Colfax-Bold.otf</string>
-		<string>Colfax-BoldItalic.otf</string>
-		<string>Colfax-Light.otf</string>
-		<string>Colfax-LightItalic.otf</string>
-		<string>Colfax-Medium.otf</string>
-		<string>Colfax-MediumItalic.otf</string>
-		<string>Colfax-Regular.otf</string>
-		<string>Colfax-RegularItalic.otf</string>
-		<string>Colfax-Thin.otf</string>
-		<string>Colfax-ThinItalic.otf</string>
-	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
