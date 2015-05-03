@@ -14,6 +14,7 @@ Through these studies it became clear to us that (especially considering trends 
 
 
 ##Prototype
+To really get the message across we wanted to build a prototype 
 ###Software
 It became clear to us that to really get the message across the way we wanted to at the exhibition we had to get the best performance possible out of our prototype or it would ruin the illusion, that’s why we chose Swift. The entire software-part of the prototype was done in under a week but still very performant even on an old iPad.
 
