@@ -2,6 +2,8 @@
 Speculative design project about bioprinting of meat and how it could end up in the kitchen of tomorrow.
 An in-depth description about the project is available (in German) on the [HfG Schwäbisch Gmünd — IG Portfolio](http://ig.hfg-gmuend.de/Members/aaron_abentheuer/meine-projekte/cultivator).
 
+Cultivator has been featured on the [Next Nature Network](http://www.nextnature.net/2015/05/bioprinting-in-the-kitchen-of-the-future/), which has been a huge inspiration throughout the project and if you’re interested in Cultivator, you’re going to enjoy the projects and articles featured on there.
+
 ![cultivatorPerspective](https://github.com/aaronabentheuer/Cultivator/blob/master/Images/CultivatorPerspective.jpg)
 
 The general goal of the project was to build a prototype for an exhibition that stimulates a **discussion about the future of meat-consumption** and its implications in terms of energy-consumption and development of society. The aesthetics of food now and in the future was another topic that we wanted to tackle with our prototype.
